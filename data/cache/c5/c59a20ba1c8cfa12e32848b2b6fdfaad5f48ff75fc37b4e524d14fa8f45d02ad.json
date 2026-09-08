@@ -1,0 +1,244 @@
+{
+  "key": "c59a20ba1c8cfa12e32848b2b6fdfaad5f48ff75fc37b4e524d14fa8f45d02ad",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:19:12.413Z",
+  "value": [
+    {
+      "claim": "Delhivery's term loan was ₹199 crore as of Mar '23.",
+      "subject": "Delhivery",
+      "predicate": "term loan",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "199",
+        "number": 199,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "Term loan 199",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's term loan was ₹126 crore as of Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "term loan",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "126",
+        "number": 126,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "Term loan 199 126",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's debt (excludes CCPS) was ₹199 crore as of Mar '23.",
+      "subject": "Delhivery",
+      "predicate": "debt (excludes CCPS)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "199",
+        "number": 199,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "Debt (excludes CCPS) (A) 199",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's debt (excludes CCPS) was ₹126 crore as of Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "debt (excludes CCPS)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "126",
+        "number": 126,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "Debt (excludes CCPS) (A) 199 126",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's cash and cash equivalents were ₹5,508 crore as of Mar '23.",
+      "subject": "Delhivery",
+      "predicate": "cash and cash equivalents",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,508",
+        "number": 5508,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "Cash and cash equivalents (B) 5,508",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's cash and cash equivalents were ₹5,444 crore as of Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "cash and cash equivalents",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,444",
+        "number": 5444,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "Cash and cash equivalents (B) 5,508 5,444",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net debt was -₹5,309 crore as of Mar '23.",
+      "subject": "Delhivery",
+      "predicate": "net debt",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5,309)",
+        "number": -5309,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "Net debt (A-B) (5,309)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net debt was -₹5,318 crore as of Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "net debt",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5,318)",
+        "number": -5318,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "Net debt (A-B) (5,309) (5,318)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's networth was ₹9,177 crore as of Mar '23.",
+      "subject": "Delhivery",
+      "predicate": "networth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "9,177",
+        "number": 9177,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "Networth (C) 9,177",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's networth was ₹9,145 crore as of Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "networth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "9,145",
+        "number": 9145,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "Networth (C) 9,177 9,145",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Debt/Equity ratio was 0.02x as of Mar '23.",
+      "subject": "Delhivery",
+      "predicate": "Debt/Equity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.02x",
+        "number": 0.02,
+        "unit": "x",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "Debt/Equity (A/C) 0.02x",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Debt/Equity ratio was 0.01x as of Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "Debt/Equity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.01x",
+        "number": 0.01,
+        "unit": "x",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "Debt/Equity (A/C) 0.02x 0.01x",
+      "confidence": 1
+    },
+    {
+      "claim": "Accrued interest of ₹145 crore was excluded in Mar '24.",
+      "subject": "Delhivery",
+      "predicate": "accrued interest",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹145 Cr",
+        "number": 145,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Mar '24",
+      "basis": [
+        "excluded"
+      ],
+      "quote": "excludes ₹145 Cr of accrued interest In Mar ‘24",
+      "confidence": 1
+    }
+  ]
+}

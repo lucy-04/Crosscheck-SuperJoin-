@@ -1,0 +1,26 @@
+{
+  "key": "c62adfd0a672a133d7e87fd88e66056e4aef077869cfafd2b8c0364054d3ced3",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:23:51.577Z",
+  "value": [
+    {
+      "claim": "B Delhivery Limited's vision is ‘Building the Operating System for Commerce in India.’",
+      "subject": "B Delhivery Limited",
+      "predicate": "vision",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Building the Operating System for Commerce in India.",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Our vision is ‘Building the Operating System for Commerce in India.’",
+      "confidence": 1
+    }
+  ]
+}

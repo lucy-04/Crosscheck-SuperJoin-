@@ -1,0 +1,168 @@
+{
+  "key": "ae1c6d765d05d445dce81e99d45b14a2705c73456c06c4ce2e209404acfe6d65",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:54:20.308Z",
+  "value": [
+    {
+      "claim": "Delhivery's express parcel revenue was 201 ₹ Cr in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "express parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "201",
+        "number": 201,
+        "unit": "₹ Cr",
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:Express Parcel"
+      ],
+      "quote": "201",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel shipments were 176 Mn in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "176",
+        "number": 176,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:Express Parcel"
+      ],
+      "quote": "176",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel revenue YoY change was -2% in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "express parcel revenue yoy",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(2%)",
+        "number": -2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:Express Parcel"
+      ],
+      "quote": "(2%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel revenue QoQ change was -13% in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "express parcel revenue qoq",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(13%)",
+        "number": -13,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:Express Parcel"
+      ],
+      "quote": "(13%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue was 384 ₹ Cr in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "384",
+        "number": 384,
+        "unit": "₹ Cr",
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:PTL"
+      ],
+      "quote": "384",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage was 318 '000 Tons in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "318",
+        "number": 318,
+        "unit": "'000 Tons",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:PTL"
+      ],
+      "quote": "318",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue YoY change was 59% in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight revenue yoy",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "59%",
+        "number": 59,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:PTL"
+      ],
+      "quote": "59%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue QoQ change was 9% in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight revenue qoq",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "9%",
+        "number": 9,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:PTL"
+      ],
+      "quote": "9%",
+      "confidence": 1
+    }
+  ]
+}

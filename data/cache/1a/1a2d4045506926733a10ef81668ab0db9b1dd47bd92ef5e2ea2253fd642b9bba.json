@@ -1,0 +1,208 @@
+{
+  "key": "1a2d4045506926733a10ef81668ab0db9b1dd47bd92ef5e2ea2253fd642b9bba",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:31:35.262Z",
+  "value": [
+    {
+      "claim": "Mr. Sunil Kumar Bansal ceased to be associated with the Company",
+      "subject": "Mr. Sunil Kumar Bansal",
+      "predicate": "cessation of association",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "May 31, 2023",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "May 31, 2023",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Mr.  Sunil  Kumar  Bansal,  Company  Secretary  and Compliance Officer, ceased to be associated with the Company with effect from May 31, 2023, due to resignation.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Uday Sharma ceased to be associated with the Company",
+      "subject": "Mr. Uday Sharma",
+      "predicate": "cessation of association",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "January 09, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "January 09, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Mr. Uday Sharma, Head of Business Development of the Company, ceased to be associated with the Company with effect from January 09, 2024, due to resignation.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Varun Bakshi took over the new role of SVP - Business Development",
+      "subject": "Mr. Varun Bakshi",
+      "predicate": "role change effective date",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "January 09, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "January 09, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Mr. Varun Bakshi, who was already associated with your Company as Head of Treasury and Investor Relations took over the new role of SVP - Business Development with effect from January 09, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Ms. Pooja Gupta ceased to be associated with the Company",
+      "subject": "Ms. Pooja Gupta",
+      "predicate": "cessation of association",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "January 15, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "January 15, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Ms. Pooja Gupta, Chief People Officer of the Company, ceased to be associated with the Company with effect from January 15, 2024, due to resignation.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Suraj Saharan took over the new role of the Chief People Officer",
+      "subject": "Mr. Suraj Saharan",
+      "predicate": "role change effective date",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "January 15, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "January 15, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Mr. Suraj Saharan, who was already associated with the Company as Head of New Ventures took over the new role of the Chief People Officer of the Company with effect from January 15, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Vivek Kumar was appointed as the Company Secretary and Compliance Officer",
+      "subject": "Mr. Vivek Kumar",
+      "predicate": "appointment effective date",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "June 01, 2023",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "June 01, 2023",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Mr. Vivek Kumar, who was already associated with the Company as Deputy Company Secretary was appointed as the Company Secretary and Compliance Officer of the Company with effect from June 01, 2023.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Vivek Kumar ceased to be associated with the Company",
+      "subject": "Mr. Vivek Kumar",
+      "predicate": "cessation of association",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "March 27, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "March 27, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Further, Mr. Vivek Kumar ceased to be associated with the Company with effect from March 27, 2024, due to resignation.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Ms. Madhulika Rawat was appointed as the Company Secretary and Compliance Officer",
+      "subject": "Ms. Madhulika Rawat",
+      "predicate": "appointment effective date",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "May 17, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "May 17, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Post the completion of FY24, Ms. Madhulika Rawat was appointed as the Company Secretary and Compliance Officer of the Company with effect from May 17, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sandeep Kumar Barasia resigned from the office of Executive Director & Chief Business Officer",
+      "subject": "Mr. Sandeep Kumar Barasia",
+      "predicate": "resignation effective date",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "July 01, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "July 01, 2024",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Post the completion of FY24, Mr. Sandeep Kumar Barasia (DIN: 01432123) resigned from the office of Executive Director & Chief Business Officer, with effect from July 01, 2024, due to personal reasons.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Suvir Suren Sujan resigned from the Board",
+      "subject": "Mr. Suvir Suren Sujan",
+      "predicate": "resignation effective date",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "August 24, 2023",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "August 24, 2023",
+      "basis": [
+        "segment:Delhivery"
+      ],
+      "quote": "Mr. Suvir Suren Sujan, Non-Executive Director (DIN: 01173669), resigned from the Board with effect from August 24, 2023, on account of pre‐occupation and other commitments.",
+      "confidence": 0.95
+    }
+  ]
+}

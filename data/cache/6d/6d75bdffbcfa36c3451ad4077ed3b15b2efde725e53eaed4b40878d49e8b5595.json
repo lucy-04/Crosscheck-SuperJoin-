@@ -1,0 +1,208 @@
+{
+  "key": "6d75bdffbcfa36c3451ad4077ed3b15b2efde725e53eaed4b40878d49e8b5595",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:17:13.085Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from services for FY24 was ₹8,142 crore.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹8,142 Cr",
+        "number": 8142,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "FY24 revenue from services            ₹8,142 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA for FY24 was ₹127 crore.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹127Cr",
+        "number": 127,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "₹127Cr / 1.6%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin for FY24 was 1.6%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.6%",
+        "number": 1.6,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "1.6%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA for FY24 was ₹76 crore.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹76Cr",
+        "number": 76,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "₹76Cr / 0.9%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA margin for FY24 was 0.9%.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.9%",
+        "number": 0.9,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "0.9%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA for FY23 was ₹(452) crore.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹(452) Cr",
+        "number": -452,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "₹(452) Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin for FY23 was (6.3)%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(6.3%)",
+        "number": -6.3,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(6.3%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA for FY23 was ₹(404) crore.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹(404) Cr",
+        "number": -404,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "₹(404) Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA margin for FY23 was (5.6)%.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5.6%)",
+        "number": -5.6,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(5.6%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's year-over-year growth for FY24 was 12.7%.",
+      "subject": "Delhivery",
+      "predicate": "YoY",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12.7%",
+        "number": 12.7,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "revenue from services"
+      ],
+      "quote": "YoY: 12.7%",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery is India’s largest integrated logistics platform.",
+      "subject": "Delhivery",
+      "predicate": "description",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "India’s largest integrated logistics platform",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "India’s largest integrated logistics platform",
+      "confidence": 1
+    }
+  ]
+}

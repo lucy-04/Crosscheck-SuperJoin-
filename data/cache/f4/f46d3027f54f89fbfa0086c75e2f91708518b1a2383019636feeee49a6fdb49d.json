@@ -1,0 +1,226 @@
+{
+  "key": "f46d3027f54f89fbfa0086c75e2f91708518b1a2383019636feeee49a6fdb49d",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:11:05.923Z",
+  "value": [
+    {
+      "claim": "Spoton Logistics Private Limited special purpose consolidated financial statements start on page 373",
+      "subject": "Spoton Logistics Private Limited",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "373",
+        "number": 373,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "SPECIAL PURPOSE CONSOLIDED FINANCIAL STATEMENTS OF SPOTON LOGISTICS PRIVATE LIMITED373",
+      "confidence": 1
+    },
+    {
+      "claim": "Section I: GENERAL starts on page 1",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1",
+        "number": 1,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "SECTION I: GENERAL ........................................................................................................................................................... 1",
+      "confidence": 1
+    },
+    {
+      "claim": "Definitions and abbreviations start on page 1",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1",
+        "number": 1,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "DEFINITIONS AND ABBREVIATIONS ............................................................................................................................... 1",
+      "confidence": 1
+    },
+    {
+      "claim": "Certain conventions, presentation of financial, industry and market data start on page 14",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14",
+        "number": 14,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "CERTAIN CONVENTIONS, PRESENTATION OF FINANCIAL, INDUSTRY AND MARKET DATA ......................... 14",
+      "confidence": 1
+    },
+    {
+      "claim": "Forward-looking statements start on page 20",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "20",
+        "number": 20,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "FORWARD-LOOKING STATEMENTS .............................................................................................................................. 20",
+      "confidence": 1
+    },
+    {
+      "claim": "Summary of this prospectus starts on page 22",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "22",
+        "number": 22,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "SUMMARY OF THIS PROSPECTUS .................................................................................................................................. 22",
+      "confidence": 1
+    },
+    {
+      "claim": "Section II: risk factors starts on page 34",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "34",
+        "number": 34,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "SECTION II: RISK FACTORS .............................................................................................................................................. 34",
+      "confidence": 1
+    },
+    {
+      "claim": "Section III: introduction starts on page 88",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "88",
+        "number": 88,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "SECTION III: INTRODUCTION .......................................................................................................................................... 88",
+      "confidence": 1
+    },
+    {
+      "claim": "The offer starts on page 88",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "88",
+        "number": 88,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "THE OFFER ........................................................................................................................................................................... 88",
+      "confidence": 1
+    },
+    {
+      "claim": "Summary of financial statements starts on page 90",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "90",
+        "number": 90,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "SUMMARY OF FINANCIAL STATEMENTS .................................................................................................................... 90",
+      "confidence": 1
+    },
+    {
+      "claim": "General information starts on page 105",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "105",
+        "number": 105,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "GENERAL INFORMATION............................................................................................................................................... 105",
+      "confidence": 1
+    },
+    {
+      "claim": "Capital structure starts on page 117",
+      "subject": "Delhivery Prospectus 2022",
+      "predicate": "page number",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "117",
+        "number": 117,
+        "unit": "page",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "CAPITAL STRUCTURE ..................................................................................................................................................... 117",
+      "confidence": 1
+    }
+  ]
+}

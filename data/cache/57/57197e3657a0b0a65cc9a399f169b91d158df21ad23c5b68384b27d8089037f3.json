@@ -1,0 +1,92 @@
+{
+  "key": "57197e3657a0b0a65cc9a399f169b91d158df21ad23c5b68384b27d8089037f3",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:14:35.998Z",
+  "value": [
+    {
+      "claim": "Delhivery reported a restated loss before tax of (4,157.43) million INR for the nine months period ended December 31, 2021.",
+      "subject": "Delhivery",
+      "predicate": "restated loss before tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(4,157.43)",
+        "number": -4157.43,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "nine months period ended December 31, 2021",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Restated loss before tax            (4,157.43) (2,688.02) (17,833.04) (8,987.45) (2,974.92)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery reported a restated loss before tax of (2,688.02) million INR for the nine months period ended December 31, 2020.",
+      "subject": "Delhivery",
+      "predicate": "restated loss before tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(2,688.02)",
+        "number": -2688.02,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "nine months period ended December 31, 2020",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Restated loss before tax            (4,157.43) (2,688.02) (17,833.04) (8,987.45) (2,974.92)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery reported a restated loss before tax of (17,833.04) million INR for the year ended March 31, 2021.",
+      "subject": "Delhivery",
+      "predicate": "restated loss before tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(17,833.04)",
+        "number": -17833.04,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2021",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Restated loss before tax            (4,157.43) (2,688.02) (17,833.04) (8,987.45) (2,974.92)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery reported a restated loss before tax of (8,987.45) million INR for the year ended March 31, 2020.",
+      "subject": "Delhivery",
+      "predicate": "restated loss before tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(8,987.45)",
+        "number": -8987.45,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2020",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Restated loss before tax            (4,157.43) (2,688.02) (17,833.04) (8,987.45) (2,974.92)",
+      "confidence": 1
+    }
+  ]
+}

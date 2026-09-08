@@ -1,0 +1,46 @@
+{
+  "key": "bf3c21cedf28d60e9d229aa07cc926b62ff109d09d9fae4d5c5302490ed24553",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:17:57.539Z",
+  "value": [
+    {
+      "claim": "Delhivery's FY22 numbers are on a pro forma basis.",
+      "subject": "Delhivery",
+      "predicate": "numbers are on pro forma basis",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "pro forma basis",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [],
+      "quote": "FY22 numbers are on pro forma basis",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Revenue from Cross Border Services in FY22 included freight revenue of Rs 46 Cr from the shipment of Covid related traded goods.",
+      "subject": "Delhivery",
+      "predicate": "included freight revenue from the shipment of Covid related traded goods",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "46",
+        "number": 46,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "segment:Cross Border Services"
+      ],
+      "quote": "freight revenue of Rs 46 Cr",
+      "confidence": 1
+    }
+  ]
+}

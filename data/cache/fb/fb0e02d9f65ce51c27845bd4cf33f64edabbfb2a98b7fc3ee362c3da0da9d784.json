@@ -1,0 +1,88 @@
+{
+  "key": "fb0e02d9f65ce51c27845bd4cf33f64edabbfb2a98b7fc3ee362c3da0da9d784",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:02:04.284Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited increased its stake in Falcon Autotech Private Limited by 4.79%.",
+      "subject": "Delhivery Limited",
+      "predicate": "stake increase in Falcon Autotech Private Limited",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "4.79%",
+        "number": 4.79,
+        "unit": "%",
+        "scale": "percent",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Delhivery Limited"
+      ],
+      "quote": "We have increased our stake in Falcon Autotech Private Limited by 4.79%",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The consideration for the stake increase in Falcon Autotech Private Limited was ₹500.40 million.",
+      "subject": "Delhivery Limited",
+      "predicate": "consideration for stake increase in Falcon Autotech Private Limited",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "₹500.40 million",
+        "number": 500.4,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Delhivery Limited"
+      ],
+      "quote": "for a consideration of ₹500.40 million",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited's overall stake in Falcon Autotech Private Limited is 39.34% on a fully dilutive basis.",
+      "subject": "Delhivery Limited",
+      "predicate": "overall stake in Falcon Autotech Private Limited",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "39.34%",
+        "number": 39.34,
+        "unit": "%",
+        "scale": "percent",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Delhivery Limited"
+      ],
+      "quote": "thereby taking our overall stake in Falcon to 39.34% on a fully dilutive basis",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited's interest coverage ratio was 1.43.",
+      "subject": "Delhivery Limited",
+      "predicate": "interest coverage ratio",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "1.43",
+        "number": 1.43,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Interest coverage ratio             1.43",
+      "confidence": 0.9
+    }
+  ]
+}

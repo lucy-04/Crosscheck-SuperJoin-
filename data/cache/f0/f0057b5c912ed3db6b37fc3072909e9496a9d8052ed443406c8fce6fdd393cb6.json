@@ -1,0 +1,26 @@
+{
+  "key": "f0057b5c912ed3db6b37fc3072909e9496a9d8052ed443406c8fce6fdd393cb6",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:58:43.596Z",
+  "value": [
+    {
+      "claim": "Delhivery's email address for queries is ir@delhivery.com.",
+      "subject": "Delhivery",
+      "predicate": "email address",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "ir@delhivery.com",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "ir@delhivery.com",
+      "confidence": 1
+    }
+  ]
+}

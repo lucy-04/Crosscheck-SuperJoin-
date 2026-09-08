@@ -1,0 +1,206 @@
+{
+  "key": "d87ae1b4b8a8a4f5ad9106b8a213569c27d33c81f79f75a705ffa066b161f941",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:53:36.528Z",
+  "value": [
+    {
+      "claim": "Delhivery's pin-code reach was 18,793 in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "pin-code reach",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "18,793",
+        "number": 18793,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Pin-code reach(1) 18,793",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery served 220+ countries and territories in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "countries and territories served",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "220+",
+        "number": 220,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Countries and territories served(2) 220+",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 33,278 active customers in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "no. of active customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "33,278",
+        "number": 33278,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "No. of Active Customers(3) 33,278",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's infrastructure was 18.82 million sq ft in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "infrastructure",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "18.82",
+        "number": 18.82,
+        "unit": "sq ft.",
+        "scale": "million",
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Infrastructure (in million sq ft.) 18.82",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 111 gateways in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "gateways",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "111",
+        "number": 111,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Gateways 111",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery operated 29 automated sort centers in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "automated sort centers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "29",
+        "number": 29,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Automated sort centers 29",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 129 freight service centers in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "freight service centers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "129",
+        "number": 129,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Freight service centers 129",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery operated 3,506 express delivery centers in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "express delivery centers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "3,506",
+        "number": 3506,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Express delivery centers 3,506",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 939 partner centers (constellation/BAs) in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "partner centers (constellation/ba s)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "939",
+        "number": 939,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Partner centers (constellation/BAs) 939",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 160 processing centers in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "processing centers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "160",
+        "number": 160,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Processing centers 160",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's team size was 63,713 in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "team size",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "63,713",
+        "number": 63713,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Team size(4) 63,713",
+      "confidence": 1
+    }
+  ]
+}

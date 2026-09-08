@@ -1,0 +1,116 @@
+{
+  "key": "c17852b01060ee05a99751c6e3b50a8d98989bbedc20b7f53159ea7cd7214b15",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T19:15:41.135Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited had 834 active routes.",
+      "subject": "Delhivery Limited",
+      "predicate": "active routes",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "834",
+        "number": 834,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "834",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited had 40 mapped kitchens.",
+      "subject": "Delhivery Limited",
+      "predicate": "mapped kitchens",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "40",
+        "number": 40,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "40",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited served 1,200,000 daily meals.",
+      "subject": "Delhivery Limited",
+      "predicate": "daily meals served",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,200,000",
+        "number": 1200000,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "1,200,000",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited achieved annual GPS cost savings of ₹1,600,000.",
+      "subject": "Delhivery Limited",
+      "predicate": "annual gps cost savings",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹1,600,000",
+        "number": 1600000,
+        "unit": "INR",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "₹1,600,000",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited achieved an overall route reduction rate of 5%.",
+      "subject": "Delhivery Limited",
+      "predicate": "overall route reduction rate",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5%",
+        "number": 5,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "5%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited saved 1-2 manhours per route for approximately 100 routes.",
+      "subject": "Delhivery Limited",
+      "predicate": "manhours saved per route",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "1-2",
+        "number": null,
+        "unit": "manhours per route",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "1-2",
+      "confidence": 1
+    }
+  ]
+}

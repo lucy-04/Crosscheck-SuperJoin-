@@ -1,0 +1,242 @@
+{
+  "key": "e1b8a5744b5846f2e40711e5ebede65ec569875119c691ef74b68dcb3f6bb87b",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:56:59.326Z",
+  "value": [
+    {
+      "claim": "Delhivery's net cash from / (used in) operating activities was -30 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "net cash from / (used in) operating activities",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(30)",
+        "number": -30,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(30)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net cash from / (used in) operating activities was 472 ₹ crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "net cash from / (used in) operating activities",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "472",
+        "number": 472,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "472",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's cash generated from / (used in) operations was 42 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "cash generated from / (used in) operations",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "42",
+        "number": 42,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "42",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's cash generated from / (used in) operations was 510 ₹ crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "cash generated from / (used in) operations",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "510",
+        "number": 510,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "510",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's cash operating profit/ (loss) before working capital changes was -22 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "cash operating profit/ (loss) before working capital changes",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(22)",
+        "number": -22,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(22)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's cash operating profit/ (loss) before working capital changes was 495 ₹ crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "cash operating profit/ (loss) before working capital changes",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "495",
+        "number": 495,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "495",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's changes in net assets were 64 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "changes in net assets",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "64",
+        "number": 64,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "64",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's changes in net assets were 15 ₹ crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "changes in net assets",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "15",
+        "number": 15,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "15",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's direct taxes paid (net of refund) were -72 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "direct taxes paid (net of refund)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(72)",
+        "number": -72,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(72)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's direct taxes paid (net of refund) were -37 ₹ crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "direct taxes paid (net of refund)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(37)",
+        "number": -37,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "(37)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net cash from / (used in) investing activities was -3411 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "net cash from / (used in) investing activities",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(3,411)",
+        "number": -3411,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(3,411)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net cash from / (used in) investing activities was -99 ₹ crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "net cash from / (used in) investing activities",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(99)",
+        "number": -99,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "(99)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net cash from / (used in) investing into treasury instruments was -2782 ₹ crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "net cash from / (used in) investing into treasury instruments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(2,782)",
+        "number": -2782,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "(2,782)",
+      "confidence": 1
+    }
+  ]
+}

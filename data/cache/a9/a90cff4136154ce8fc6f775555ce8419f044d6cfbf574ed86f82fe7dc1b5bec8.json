@@ -1,0 +1,239 @@
+{
+  "key": "a90cff4136154ce8fc6f775555ce8419f044d6cfbf574ed86f82fe7dc1b5bec8",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:01:41.761Z",
+  "value": [
+    {
+      "claim": "EBITDA",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,266.41",
+        "number": 1266.41,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "EBITDA             1,266.41          (4,516.08)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(4,516.08)",
+        "number": 4516.08,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "EBITDA             1,266.41          (4,516.08)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Share-based payment expenses",
+      "subject": "Delhivery",
+      "predicate": "Share-based payment expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,260.37",
+        "number": 2260.37,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Add: Share-based payment expenses             2,260.37          2,891.41",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Share-based payment expenses",
+      "subject": "Delhivery",
+      "predicate": "Share-based payment expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,891.41",
+        "number": 2891.41,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Add: Share-based payment expenses             2,260.37          2,891.41",
+      "confidence": 0.95
+    },
+    {
+      "claim": "IPO expenses",
+      "subject": "Delhivery",
+      "predicate": "IPO expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "164.77",
+        "number": 164.77,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Add: IPO expenses             -           164.77",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Actual lease rent paid",
+      "subject": "Delhivery",
+      "predicate": "Actual lease rent paid",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,768.93",
+        "number": 2768.93,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Less: Actual lease rent paid             2,768.93          2,578.76",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Actual lease rent paid",
+      "subject": "Delhivery",
+      "predicate": "Actual lease rent paid",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,578.76",
+        "number": 2578.76,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Less: Actual lease rent paid             2,768.93          2,578.76",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Adjusted EBITDA",
+      "subject": "Delhivery",
+      "predicate": "Adjusted EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "757.86",
+        "number": 757.86,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Adjusted EBITDA             757.86          (4,038.66)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Adjusted EBITDA",
+      "subject": "Delhivery",
+      "predicate": "Adjusted EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(4,038.66)",
+        "number": 4038.66,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Adjusted EBITDA             757.86          (4,038.66)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Adjusted EBITDA margin",
+      "subject": "Delhivery",
+      "predicate": "Adjusted EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.93%",
+        "number": 0.93,
+        "unit": "%",
+        "scale": "percent",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Adjusted EBITDA margin             0.93%           (5.59%)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Adjusted EBITDA margin",
+      "subject": "Delhivery",
+      "predicate": "Adjusted EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5.59%)",
+        "number": 5.59,
+        "unit": "%",
+        "scale": "percent",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery"
+      ],
+      "quote": "Adjusted EBITDA margin             0.93%           (5.59%)",
+      "confidence": 0.95
+    }
+  ]
+}

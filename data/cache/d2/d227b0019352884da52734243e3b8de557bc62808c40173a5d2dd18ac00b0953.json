@@ -1,0 +1,80 @@
+{
+  "key": "d227b0019352884da52734243e3b8de557bc62808c40173a5d2dd18ac00b0953",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:23:53.879Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited had express parcel shipments of >2.8Bn as of March 31, 2024",
+      "subject": "Delhivery Limited",
+      "predicate": "express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": ">2.8Bn",
+        "number": 2.8,
+        "unit": null,
+        "scale": "billion",
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [],
+      "quote": ">2.8Bn",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited delivered part-truckload freight of >4.8Mn tonnes since inception as of March 31, 2024",
+      "subject": "Delhivery Limited",
+      "predicate": "part-truckload freight delivered since inception",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": ">4.8Mn tonnes",
+        "number": 4.8,
+        "unit": "tonnes",
+        "scale": "million",
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [],
+      "quote": ">4.8Mn tonnes",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited had a daily average fleet size of 15,065 as of March 31, 2024",
+      "subject": "Delhivery Limited",
+      "predicate": "daily average fleet size",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "15,065",
+        "number": 15065,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [],
+      "quote": "15,065",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited had a count of 46-ft tractors of 753 as of March 31, 2024",
+      "subject": "Delhivery Limited",
+      "predicate": "count of 46-ft tractors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "753",
+        "number": 753,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [],
+      "quote": "753",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "key": "a58ed9eb0b968371cb5f2b763322a2666ac69e7af94028c609e89de33fb3e03a",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:03:18.300Z",
+  "value": [
+    {
+      "claim": "Delhivery's TL revenue in FY24 was 8,142 crore rupees.",
+      "subject": "Delhivery",
+      "predicate": "TL revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "8,142",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue in FY24 was 782 crore rupees.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "782",
+        "number": 782,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "782",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's YoY growth for TL revenue in FY24 was 13%.",
+      "subject": "Delhivery",
+      "predicate": "YoY",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13%",
+        "number": 13,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "13%",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's YoY change for Supply Chain Services revenue in FY24 was -1%.",
+      "subject": "Delhivery",
+      "predicate": "YoY",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(1%)",
+        "number": -1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "(1%)",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue in FY24 was 296 crore rupees.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "296",
+        "number": 296,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "296",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue in FY23 was 153 crore rupees.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "153",
+        "number": 153,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "153",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's FY22 numbers are on a pro forma basis.",
+      "subject": "Delhivery",
+      "predicate": "basis",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "pro forma",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [],
+      "quote": "FY22 numbers are on pro forma basis",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's revenue from services excludes revenue from traded goods.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services excludes revenue from traded goods",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "excludes revenue from traded goods",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Revenue from services excludes revenue from traded goods",
+      "confidence": 0.99
+    }
+  ]
+}

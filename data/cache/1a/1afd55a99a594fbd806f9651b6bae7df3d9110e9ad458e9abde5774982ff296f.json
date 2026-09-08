@@ -1,0 +1,113 @@
+{
+  "key": "1afd55a99a594fbd806f9651b6bae7df3d9110e9ad458e9abde5774982ff296f",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:18:43.390Z",
+  "value": [
+    {
+      "claim": "Delhivery Corp Limited recorded share based payment of ₹597.58 million.",
+      "subject": "Delhivery Corp Limited",
+      "predicate": "share based payment",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹597.58 million",
+        "number": 597.58,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Share based payment amounting to ₹597.58 million (December 31, 2020: ₹131.87 million, March 31, 2021: ₹268.30 million, March 31, 2020: ₹142.60 million, March 31, 2019: ₹152.70 million)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Corp Limited recorded share based payment of ₹131.87 million as of December 31, 2020.",
+      "subject": "Delhivery Corp Limited",
+      "predicate": "share based payment",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹131.87 million",
+        "number": 131.87,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "December 31, 2020",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Share based payment amounting to ₹597.58 million (December 31, 2020: ₹131.87 million, March 31, 2021: ₹268.30 million, March 31, 2020: ₹142.60 million, March 31, 2019: ₹152.70 million)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Corp Limited recorded share based payment of ₹268.30 million as of March 31, 2021.",
+      "subject": "Delhivery Corp Limited",
+      "predicate": "share based payment",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹268.30 million",
+        "number": 268.3,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2021",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Share based payment amounting to ₹597.58 million (December 31, 2020: ₹131.87 million, March 31, 2021: ₹268.30 million, March 31, 2020: ₹142.60 million, March 31, 2019: ₹152.70 million)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Corp Limited recorded share based payment of ₹142.60 million as of March 31, 2020.",
+      "subject": "Delhivery Corp Limited",
+      "predicate": "share based payment",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹142.60 million",
+        "number": 142.6,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2020",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Share based payment amounting to ₹597.58 million (December 31, 2020: ₹131.87 million, March 31, 2021: ₹268.30 million, March 31, 2020: ₹142.60 million, March 31, 2019: ₹152.70 million)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Corp Limited recorded share based payment of ₹152.70 million as of March 31, 2019.",
+      "subject": "Delhivery Corp Limited",
+      "predicate": "share based payment",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹152.70 million",
+        "number": 152.7,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2019",
+      "basis": [
+        "restated",
+        "consolidated"
+      ],
+      "quote": "Share based payment amounting to ₹597.58 million (December 31, 2020: ₹131.87 million, March 31, 2021: ₹268.30 million, March 31, 2020: ₹142.60 million, March 31, 2019: ₹152.70 million)",
+      "confidence": 1
+    }
+  ]
+}

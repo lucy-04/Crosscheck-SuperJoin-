@@ -1,0 +1,26 @@
+{
+  "key": "29d8fd435c8f5f0ce64153639e844b3b59280f1404b777d6933606d54d8af5e8",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:53:27.144Z",
+  "value": [
+    {
+      "claim": "Delhivery reported EBITDA of 3 in FY24.",
+      "subject": "Delhivery",
+      "predicate": "ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "3",
+        "number": 3,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "3",
+      "confidence": 1
+    }
+  ]
+}

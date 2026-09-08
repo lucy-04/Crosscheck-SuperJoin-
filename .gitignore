@@ -1,0 +1,24 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# secrets — never commit
+.env
+.env.local
+.env*.local
+
+# os
+.DS_Store
+
+# Uploaded PDFs are the grader's own files, not ours.
+data/uploads/
+
+# NOTE what is deliberately NOT ignored:
+#   data/cache/       committed LLM response cache — lets anyone reproduce every
+#                     result in this repo with no API key at all
+#   data/knowledge.db committed pre-built demo database

@@ -1,0 +1,118 @@
+{
+  "key": "c91847b6d0c0baf0b08a021952115895e8831a7f5b05fb75064f84475aeeba85",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:52:47.969Z",
+  "value": [
+    {
+      "claim": "Delhivery's EBITDA for FY24 was Rs. 127 crore.",
+      "subject": "Delhivery",
+      "predicate": "ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "Rs. 127 Cr",
+        "number": 127,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "full year"
+      ],
+      "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA for FY23 was a loss of Rs. (452) crore.",
+      "subject": "Delhivery",
+      "predicate": "ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "Rs. (452 Cr)",
+        "number": -452,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's profit after tax (PAT) for FY23 was a loss of Rs. (1,008) crore.",
+      "subject": "Delhivery",
+      "predicate": "pat",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "Rs. (1,008 Cr)",
+        "number": -1008,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue grew 40% year-on-year in FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "40%",
+        "number": 40,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "40% YoY revenue growth",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net working capital days were 38 in FY23.",
+      "subject": "Delhivery",
+      "predicate": "nwc days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "38",
+        "number": 38,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Sharp YoY reduction in NWC days from 38 to 31 days",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net working capital days were 31 in FY24.",
+      "subject": "Delhivery",
+      "predicate": "nwc days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "31",
+        "number": 31,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Sharp YoY reduction in NWC days from 38 to 31 days",
+      "confidence": 1
+    }
+  ]
+}

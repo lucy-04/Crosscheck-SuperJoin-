@@ -1,0 +1,26 @@
+{
+  "key": "c8802dca01cf8359081063447b8f371e6867c1691c498a4c25d7da17e7fd17c7",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:21:01.050Z",
+  "value": [
+    {
+      "claim": "PTL achieved over 30% year-on-year growth.",
+      "subject": "PTL",
+      "predicate": "YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "30%+",
+        "number": 30,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 Fy24",
+      "basis": [],
+      "quote": "30%+ YoY growth",
+      "confidence": 0.9
+    }
+  ]
+}

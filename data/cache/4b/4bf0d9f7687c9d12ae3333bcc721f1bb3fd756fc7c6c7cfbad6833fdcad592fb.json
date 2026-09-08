@@ -1,0 +1,44 @@
+{
+  "key": "4bf0d9f7687c9d12ae3333bcc721f1bb3fd756fc7c6c7cfbad6833fdcad592fb",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:16:49.368Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited's corporate identity number is U63090DL2011PLC221234.",
+      "subject": "Delhivery Limited",
+      "predicate": "corporate identity number",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "U63090DL2011PLC221234",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "CORPORATE IDENTITY NUMBER: U63090DL2011PLC221234",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited's registered office address is Plot 5, Sector 44, Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037 Delhi, India.",
+      "subject": "Delhivery Limited",
+      "predicate": "registered office address",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Plot 5, Sector 44, Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037 Delhi, India",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Plot 5, Sector 44, Centre-II, Opposite Gate 6 Cargo Terminal, Indira Gandhi International Airport, New Delhi 110037 Delhi, India",
+      "confidence": 1
+    }
+  ]
+}

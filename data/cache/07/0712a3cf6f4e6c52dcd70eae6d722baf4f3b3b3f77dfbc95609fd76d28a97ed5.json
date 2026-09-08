@@ -1,0 +1,44 @@
+{
+  "key": "0712a3cf6f4e6c52dcd70eae6d722baf4f3b3b3f77dfbc95609fd76d28a97ed5",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:58:10.694Z",
+  "value": [
+    {
+      "claim": "Delhivery's capital work in progress at the end of FY24 was ₹29 Cr.",
+      "subject": "Delhivery",
+      "predicate": "capital work in progress",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹29 Cr",
+        "number": 29,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "The CWIP at the end of FY24 is ₹29 Cr",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Delhivery's capital expenditure of approximately Rs 100 Cr, which occurred in FY22, was planned for FY21 and is included in FY21 figures.",
+      "subject": "Delhivery",
+      "predicate": "capital expenditure",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "~Rs 100 Cr",
+        "number": 100,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "FY21",
+      "basis": [],
+      "quote": "~Rs 100 Cr of Capex, which happened in FY22, was planned for FY21; hence that amount has been included in FY21",
+      "confidence": 0.95
+    }
+  ]
+}

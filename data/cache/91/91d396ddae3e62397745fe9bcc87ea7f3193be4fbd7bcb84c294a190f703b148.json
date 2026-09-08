@@ -1,0 +1,473 @@
+{
+  "key": "91d396ddae3e62397745fe9bcc87ea7f3193be4fbd7bcb84c294a190f703b148",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:19:32.666Z",
+  "value": [
+    {
+      "claim": "Delhivery's Freight, Handling and Servicing Cost was 1,519 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "freight, handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,519",
+        "number": 1519,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "on reported basis",
+        "breakup as per notes to accounts"
+      ],
+      "quote": "Freight, Handling and Servicing Cost(1,2) 1,502 1,372 1,572 1,519",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Freight, Handling and Servicing Cost was 5,669 crore INR for FY23.",
+      "subject": "Delhivery",
+      "predicate": "freight, handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,669",
+        "number": 5669,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "on reported basis",
+        "breakup as per notes to accounts"
+      ],
+      "quote": "Freight, Handling and Servicing Cost(1,2) 1,502 1,372 1,572 1,519 5,669",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Freight, Handling and Servicing Cost was 5,971 crore INR for FY24.",
+      "subject": "Delhivery",
+      "predicate": "freight, handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,971",
+        "number": 5971,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "on reported basis",
+        "breakup as per notes to accounts"
+      ],
+      "quote": "Freight, Handling and Servicing Cost(1,2) 1,502 1,372 1,572 1,519 5,669 5,971",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Freight, Handling and Servicing Cost as a percentage of Revenue from services was 73.2% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "73.2%",
+        "number": 73.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "breakup as per notes to accounts"
+      ],
+      "quote": "% of Revenue from services(2) 72.5% 73.8% 71.6% 73.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Freight, Handling and Servicing Cost as a percentage of Revenue from services was 78.5% for FY23.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "78.5%",
+        "number": 78.5,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "breakup as per notes to accounts"
+      ],
+      "quote": "% of Revenue from services(2) 72.5% 73.8% 71.6% 73.2% 78.5%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Freight, Handling and Servicing Cost as a percentage of Revenue from services was 73.3% for FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "73.3%",
+        "number": 73.3,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "breakup as per notes to accounts"
+      ],
+      "quote": "% of Revenue from services(2) 72.5% 73.8% 71.6% 73.2% 78.5% 73.3%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Line haul expenses were 708 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "line haul expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "708",
+        "number": 708,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Line haul expenses 724 616 696 708",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Line haul expenses were 2,517 crore INR for FY23.",
+      "subject": "Delhivery",
+      "predicate": "line haul expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,517",
+        "number": 2517,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Line haul expenses 724 616 696 708 2,517",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Line haul expenses were 2,684 crore INR for FY24.",
+      "subject": "Delhivery",
+      "predicate": "line haul expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,684",
+        "number": 2684,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Line haul expenses 724 616 696 708 2,517 2,684",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Line haul expenses as a percentage of revenue was 34.1% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "34.1%",
+        "number": 34.1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "% of revenue 34.5% 33.1% 31.7% 34.1%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Line haul expenses as a percentage of revenue was 34.8% for FY23.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "34.8%",
+        "number": 34.8,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "% of revenue 34.5% 33.1% 31.7% 34.1% 34.8%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Line haul expenses as a percentage of revenue was 33.0% for FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "33.0%",
+        "number": 33,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "% of revenue 34.5% 33.1% 31.7% 34.1% 34.8% 33.0%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Vehicle rental expenses were 391 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "vehicle rental expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "391",
+        "number": 391,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Vehicle rental expenses 419 384 434 391",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Vehicle rental expenses were 1,523 crore INR for FY23.",
+      "subject": "Delhivery",
+      "predicate": "vehicle rental expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,523",
+        "number": 1523,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Vehicle rental expenses 419 384 434 391 1,523",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Vehicle rental expenses were 1,603 crore INR for FY24.",
+      "subject": "Delhivery",
+      "predicate": "vehicle rental expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,603",
+        "number": 1603,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Vehicle rental expenses 419 384 434 391 1,523 1,603",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Vehicle rental expenses as a percentage of revenue was 18.8% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "18.8%",
+        "number": 18.8,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "% of revenue 20.2% 20.6% 19.8% 18.8%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Vehicle rental expenses as a percentage of revenue was 21.1% for FY23.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "21.1%",
+        "number": 21.1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "% of revenue 20.2% 20.6% 19.8% 18.8% 21.1%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Vehicle rental expenses as a percentage of revenue was 19.7% for FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "19.7%",
+        "number": 19.7,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "% of revenue 20.2% 20.6% 19.8% 18.8% 21.1% 19.7%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Contractual manpower expenses were 254 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "contractual manpower expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "254",
+        "number": 254,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Contractual manpower expenses 222 206 268 254",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Contractual manpower expenses were 893 crore INR for FY23.",
+      "subject": "Delhivery",
+      "predicate": "contractual manpower expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "893",
+        "number": 893,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Contractual manpower expenses 222 206 268 254 893",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Contractual manpower expenses were 995 crore INR for FY24.",
+      "subject": "Delhivery",
+      "predicate": "contractual manpower expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "995",
+        "number": 995,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Contractual manpower expenses 222 206 268 254 893 995",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Contractual manpower expenses as a percentage of revenue was 12.2% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12.2%",
+        "number": 12.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "% of revenue 10.7% 11.1% 12.2% 12.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Contractual manpower expenses as a percentage of revenue was 12.4% for FY23.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12.4%",
+        "number": 12.4,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "% of revenue 10.7% 11.1% 12.2% 12.2% 12.4%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Contractual manpower expenses as a percentage of revenue was 12.2% for FY24.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12.2%",
+        "number": 12.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "% of revenue 10.7% 11.1% 12.2% 12.2% 12.4% 12.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Rent was 76 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "rent",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "76",
+        "number": 76,
+        "unit": "count",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Rent 47 65 66 76",
+      "confidence": 1
+    }
+  ]
+}

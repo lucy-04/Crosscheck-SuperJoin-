@@ -1,0 +1,26 @@
+{
+  "key": "36adf3d9e4943f796192d056131ed85b3491b3e3d2331171882e83b32633a4e0",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:07:12.748Z",
+  "value": [
+    {
+      "claim": "Delhivery revenue for services (A) was 1,860 ₹ Cr in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "revenue for services (a)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,860",
+        "number": 1860,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Revenue for services (A) 1,860",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "key": "e4fa5c10015ebf6d41d502db4ea5d8179e23371960b4fe2332aea7f640902c2c",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:18:10.032Z",
+  "value": [
+    {
+      "claim": "Delhivery's PTL freight revenue was 417 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "417",
+        "number": 417,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "417",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue was 379 crore INR for Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "379",
+        "number": 379,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "379",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue was 354 crore INR for Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "354",
+        "number": 354,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "354",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage was 384 thousand Tons for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "384",
+        "number": 384,
+        "unit": "Tons",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "384",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage was 328 thousand Tons for Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "328",
+        "number": 328,
+        "unit": "Tons",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "328",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage was 318 thousand Tons for Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "318",
+        "number": 318,
+        "unit": "Tons",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "318",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue YoY growth was 27% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue YoY",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "27%",
+        "number": 27,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "YoY: 27%",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight revenue QoQ growth was 10% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue QoQ",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "10%",
+        "number": 10,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "QoQ: 10%",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage YoY growth was 21% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage YoY",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "21%",
+        "number": 21,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "YoY: 21%",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage QoQ growth was 9% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage QoQ",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "9%",
+        "number": 9,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "QoQ: 9%",
+      "confidence": 0.9
+    }
+  ]
+}

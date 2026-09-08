@@ -1,0 +1,80 @@
+{
+  "key": "afecee50ff7c9ec456d28588f849437bdbabe783f20297fe7cb484a96b6db8d8",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:19:01.784Z",
+  "value": [
+    {
+      "claim": "Delhivery's CWIP at the end of FY24 was ₹29 Cr.",
+      "subject": "Delhivery",
+      "predicate": "CWIP",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹29 Cr",
+        "number": 29,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "at the end of FY24",
+      "basis": [],
+      "quote": "The CWIP at the end of FY24 is ₹29 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Approximately ₹100 Cr of Delhivery's Capex was planned for FY21.",
+      "subject": "Delhivery",
+      "predicate": "Capex planned for",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "~Rs 100 Cr",
+        "number": 100,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "FY21",
+      "basis": [],
+      "quote": "~Rs 100 Cr of Capex, which happened in FY22, was planned for FY21",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Approximately ₹100 Cr of Delhivery's Capex happened in FY22.",
+      "subject": "Delhivery",
+      "predicate": "Capex happened in",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "~Rs 100 Cr",
+        "number": 100,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [],
+      "quote": "~Rs 100 Cr of Capex, which happened in FY22, was planned for FY21",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's Capital Expenditure as % of reported revenues for FY22 was 21%.",
+      "subject": "Delhivery",
+      "predicate": "Capital Expenditure as % of reported revenues",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "21",
+        "number": 21,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [],
+      "quote": "As % of reported revenues for FY22            21",
+      "confidence": 1
+    }
+  ]
+}

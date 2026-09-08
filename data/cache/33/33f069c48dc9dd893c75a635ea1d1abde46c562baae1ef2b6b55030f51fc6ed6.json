@@ -1,0 +1,44 @@
+{
+  "key": "33f069c48dc9dd893c75a635ea1d1abde46c562baae1ef2b6b55030f51fc6ed6",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:52:48.459Z",
+  "value": [
+    {
+      "claim": "The presentation is dated May 17, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "date",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "May 17, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Date: May 17, 2024",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited's scrip code is 543529.",
+      "subject": "Delhivery Limited",
+      "predicate": "scrip code",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "543529",
+        "number": 543529,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Scrip Code: 543529",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "key": "c96040484581aa7e159f46c65cde746127d93d6cdc63f0e6a6757f0d44609756",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:18:14.879Z",
+  "value": [
+    {
+      "claim": "The Offer constitutes 14.84% of the post-Offer paid up Equity Share capital of the Company.",
+      "subject": "Delhivery",
+      "predicate": "offer",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14.84%",
+        "number": 14.84,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "14.84%",
+      "confidence": 1
+    },
+    {
+      "claim": "The Net Offer constitutes 14.78% of the post-Offer paid up Equity Share capital of the Company.",
+      "subject": "Delhivery",
+      "predicate": "net offer",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14.78%",
+        "number": 14.78,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "14.78%",
+      "confidence": 1
+    },
+    {
+      "claim": "Funding organic growth initiatives total estimated amount is 20,000 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "funding organic growth initiatives",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "20,000",
+        "number": 20000,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "20,000",
+      "confidence": 1
+    },
+    {
+      "claim": "The estimated amount for building scale in existing business lines and developing new adjacent business lines is 1,600 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "building scale in existing business lines and developing new adjacent business lines",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,600",
+        "number": 1600,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "1,600",
+      "confidence": 1
+    },
+    {
+      "claim": "The estimated amount for expanding our network infrastructure is 13,600 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "expanding our network infrastructure",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13,600",
+        "number": 13600,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "13,600",
+      "confidence": 1
+    },
+    {
+      "claim": "The estimated amount for upgrading and improving our proprietary logistics operating system is 4,800 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "upgrading and improving our proprietary logistics operating system",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4,800",
+        "number": 4800,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "4,800",
+      "confidence": 1
+    },
+    {
+      "claim": "Funding inorganic growth through acquisitions and other strategic initiatives is estimated at 10,000 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "funding inorganic growth through acquisitions and other strategic initiatives",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "10,000",
+        "number": 10000,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "10,000",
+      "confidence": 1
+    },
+    {
+      "claim": "General corporate purposes are estimated at 8,703 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "general corporate purposes",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,703",
+        "number": 8703,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "8,703",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Net Proceeds amount to 38,703 (₹ million).",
+      "subject": "Delhivery",
+      "predicate": "total net proceeds",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "38,703",
+        "number": 38703,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "38,703",
+      "confidence": 1
+    }
+  ]
+}

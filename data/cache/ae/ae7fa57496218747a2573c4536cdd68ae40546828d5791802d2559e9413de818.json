@@ -1,0 +1,152 @@
+{
+  "key": "ae7fa57496218747a2573c4536cdd68ae40546828d5791802d2559e9413de818",
+  "model": "openai/gpt-oss-20b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:49:54.018Z",
+  "value": [
+    {
+      "claim": "Mr. Anindya Ghose is Non-Executive Independent Director",
+      "subject": "Mr. Anindya Ghose",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Non-Executive Independent Director",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Anindya Ghose Non-Executive Independent Director",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Sahil Barua is Managing Director and Chief Executive Officer",
+      "subject": "Mr. Sahil Barua",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Managing Director and Chief Executive Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Sahil Barua Managing Director and Chief Executive Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Sandeep Kumar Barasia is Whole Time Director and Chief Business Officer",
+      "subject": "Mr. Sandeep Kumar Barasia",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Whole Time Director and Chief Business Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Sandeep Kumar Barasia Whole Time Director and Chief Business Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Kapil Bharati is Whole Time Director and Chief Technology Officer",
+      "subject": "Mr. Kapil Bharati",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Whole Time Director and Chief Technology Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Kapil Bharati Whole Time Director and Chief Technology Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Amit Agarwal is Chief Financial Officer",
+      "subject": "Mr. Amit Agarwal",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Chief Financial Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Amit Agarwal Chief Financial Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Suraj Saharan is Chief People Officer",
+      "subject": "Mr. Suraj Saharan",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Chief People Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Suraj Saharan Chief People Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Ajith Pai Mangalore is Chief Operating Officer",
+      "subject": "Mr. Ajith Pai Mangalore",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Chief Operating Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Ajith Pai Mangalore Chief Operating Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Mr. Varun Bakshi is SVP-Business Development",
+      "subject": "Mr. Varun Bakshi",
+      "predicate": "office held",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "SVP-Business Development",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Mr. Varun Bakshi SVP-Business Development",
+      "confidence": 1
+    }
+  ]
+}

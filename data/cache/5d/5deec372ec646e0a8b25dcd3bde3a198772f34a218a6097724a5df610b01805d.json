@@ -1,0 +1,224 @@
+{
+  "key": "5deec372ec646e0a8b25dcd3bde3a198772f34a218a6097724a5df610b01805d",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:11:55.422Z",
+  "value": [
+    {
+      "claim": "Anjali Bansal received fees to non-executive directors of 3.02 million INR.",
+      "subject": "Anjali Bansal",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "3.02",
+        "number": 3.02,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "3.02",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Deepak Kapoor received fees to non-executive directors of 5.13 million INR.",
+      "subject": "Deepak Kapoor",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5.13",
+        "number": 5.13,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "5.13",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Hanne Birgitte Breinbjerg Sorensen received fees to non-executive directors of 3.56 million INR.",
+      "subject": "Hanne Birgitte Breinbjerg Sorensen",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "3.56",
+        "number": 3.56,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "3.56",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Romesh Sobti received fees to non-executive directors of 1.63 million INR.",
+      "subject": "Romesh Sobti",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.63",
+        "number": 1.63,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "1.63",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Saugata Gupta received fees to non-executive directors of 1.63 million INR.",
+      "subject": "Saugata Gupta",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.63",
+        "number": 1.63,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "1.63",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Kalpana Morparia received fees to non-executive directors of 1.42 million INR.",
+      "subject": "Kalpana Morparia",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.42",
+        "number": 1.42,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "1.42",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Srivatsan Ranjan received fees to non-executive directors of 4.88 million INR.",
+      "subject": "Srivatsan Ranjan",
+      "predicate": "fees to non-executive directors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4.88",
+        "number": 4.88,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "4.88",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Sandeep Kumar Barasia received loan and advances to key management personnel of 28.00 million INR.",
+      "subject": "Sandeep Kumar Barasia",
+      "predicate": "loan and advances to key management personnel",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "28.00",
+        "number": 28,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "28.00",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Sandeep Kumar Barasia received loan and advances to key management personnel of 51.40 million INR.",
+      "subject": "Sandeep Kumar Barasia",
+      "predicate": "loan and advances to key management personnel",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "51.40",
+        "number": 51.4,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "51.40",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Sahil Barua received salary and benefits of 43.31 million INR.",
+      "subject": "Sahil Barua",
+      "predicate": "salary and benefits",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "43.31",
+        "number": 43.31,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "43.31",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Sahil Barua received salary and benefits of 22.79 million INR.",
+      "subject": "Sahil Barua",
+      "predicate": "salary and benefits",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "22.79",
+        "number": 22.79,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "22.79",
+      "confidence": 0.99
+    },
+    {
+      "claim": "Sahil Barua received salary and benefits of 8.00 million INR.",
+      "subject": "Sahil Barua",
+      "predicate": "salary and benefits",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8.00",
+        "number": 8,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "8.00",
+      "confidence": 0.99
+    }
+  ]
+}

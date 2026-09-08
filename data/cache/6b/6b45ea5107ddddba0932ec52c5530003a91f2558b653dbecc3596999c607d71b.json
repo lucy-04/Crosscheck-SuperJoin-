@@ -1,0 +1,26 @@
+{
+  "key": "6b45ea5107ddddba0932ec52c5530003a91f2558b653dbecc3596999c607d71b",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:17:56.078Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from services excludes revenue from traded goods.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services definition",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "excludes revenue from traded goods",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Revenue from services excludes revenue from traded goods",
+      "confidence": 0.9
+    }
+  ]
+}

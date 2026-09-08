@@ -1,0 +1,170 @@
+{
+  "key": "586e973e42408e379366115233c014c541b89ab0370b0123febe8c4f8e240cc1",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:52:51.131Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from services in Q4 FY24 was ₹2,076 Cr.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹2,076 Cr",
+        "number": 2076,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "₹2,076 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA in Q4 FY24 was ₹46Cr.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹46Cr",
+        "number": 46,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "₹46Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin in Q4 FY24 was 2.2%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2.2%",
+        "number": 2.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "2.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adj. EBITDA in Q4 FY24 was ₹21 Cr.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹21 Cr",
+        "number": 21,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "₹21 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adj. EBITDA margin in Q4 FY24 was 1.0%.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.0%",
+        "number": 1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "1.0%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from services YoY growth in Q4 FY24 was 11.6%.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services YoY",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "11.6%",
+        "number": 11.6,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "11.6%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from services QoQ change in Q4 FY24 was -5.4%.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services QoQ",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5.4%)",
+        "number": -5.4,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "(5.4%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA in Q4 FY23 was ₹13 Cr.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹13 Cr",
+        "number": 13,
+        "unit": null,
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "₹13 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin in Q4 FY23 was 0.7%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.7%",
+        "number": 0.7,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "0.7%",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "key": "a199e675b3a44185c071417b09123306a06a2a453043644174c4364cf7b45b36",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:28:59.627Z",
+  "value": [
+    {
+      "claim": "Delhivery's EBITDA increased by Rs. 578 Cr to Rs. 127 Cr in FY24 from Rs. (452 Cr) in FY23.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "127",
+        "number": 127,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "FY24 EBITDA increased by Rs. 578 Cr to Rs. 127 Cr from Rs. (452 Cr) in FY23",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23, with PAT profitable in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "PAT loss",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "759",
+        "number": 759,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "PAT loss reduced by Rs. 759 Cr from Rs. (1,008 Cr) in FY23",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express Parcel segment achieved 18%+ Service EBITDA profitability.",
+      "subject": "Delhivery",
+      "predicate": "Service EBITDA profitability",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "18%",
+        "number": 18,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "Express Parcel"
+      ],
+      "quote": "Express Parcel: 18%+ Service EBITDA profitability",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's SCS segment doubled service EBITDA profitability over FY23.",
+      "subject": "Delhivery",
+      "predicate": "service EBITDA profitability",
+      "factType": "quantity",
+      "value": {
+        "kind": "categorical",
+        "raw": "Doubled",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "SCS"
+      ],
+      "quote": "SCS: Doubled service EBITDA profitability over FY23",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL segment had 40% YoY revenue growth.",
+      "subject": "Delhivery",
+      "predicate": "revenue growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "40%",
+        "number": 40,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "YoY",
+      "basis": [
+        "TL"
+      ],
+      "quote": "TL: 40% YoY revenue growth",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery reduced NWC days from 38 to 31 days YoY.",
+      "subject": "Delhivery",
+      "predicate": "NWC days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "31",
+        "number": 31,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "YoY",
+      "basis": [],
+      "quote": "Sharp YoY reduction in NWC days from 38 to 31 days",
+      "confidence": 1
+    }
+  ]
+}

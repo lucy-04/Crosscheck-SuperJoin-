@@ -1,0 +1,529 @@
+{
+  "key": "53fe616bb916301e17f9f2b23b538d608c8f40a40de2d9e26e104718deabbf4d",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:29:59.386Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from services in FY24 was 8,142 crore.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "8,142",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL revenue in FY24 was 7,054 crore.",
+      "subject": "Delhivery",
+      "predicate": "TL revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,054",
+        "number": 7054,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "7,054",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue in FY24 was 776 crore.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "776",
+        "number": 776,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "776",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue in FY24 was 296 crore.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "296",
+        "number": 296,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "296",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from services in FY23 was 7,224 crore.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,224",
+        "number": 7224,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "7,224",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL revenue in FY23 was 7,224 crore.",
+      "subject": "Delhivery",
+      "predicate": "TL revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,224",
+        "number": 7224,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "7,224",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue in FY23 was 609 crore.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "609",
+        "number": 609,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "609",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue in FY23 was 153 crore.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "153",
+        "number": 153,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "153",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from services in FY22 was 782 crore.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "782",
+        "number": 782,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "782",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL revenue in FY22 was 782 crore.",
+      "subject": "Delhivery",
+      "predicate": "TL revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "782",
+        "number": 782,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "782",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue in FY22 was 551 crore.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "551",
+        "number": 551,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "551",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue in FY22 was 318 crore.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "318",
+        "number": 318,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "318",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from services YoY growth in FY24 was 13%.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13%",
+        "number": 13,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "YoY: 13%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL revenue YoY growth in FY24 was (1%).",
+      "subject": "Delhivery",
+      "predicate": "TL revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(1%)",
+        "number": -1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "YoY: (1%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue YoY growth in FY24 was 40%.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "40%",
+        "number": 40,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "YoY: 40%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue YoY growth in FY24 was (48%).",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(48%)",
+        "number": -48,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "YoY: (48%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL revenue YoY growth in FY23 was 10%.",
+      "subject": "Delhivery",
+      "predicate": "TL revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "10%",
+        "number": 10,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "10%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue YoY growth in FY23 was 7%.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7%",
+        "number": 7,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "7%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue YoY growth in FY23 was 62%.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "62%",
+        "number": 62,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "62%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's TL revenue YoY growth in FY22 was 8%.",
+      "subject": "Delhivery",
+      "predicate": "TL revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8%",
+        "number": 8,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "8%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Supply Chain Services revenue YoY growth in FY22 was 11%.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "11%",
+        "number": 11,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "11%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Cross Border Services revenue YoY growth in FY22 was 59%.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "59%",
+        "number": 59,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "59%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express Parcel revenue in FY24 was 287 crore.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "287",
+        "number": 287,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "287",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express Parcel revenue in FY23 was 24 crore.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "24",
+        "number": 24,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "24",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express Parcel revenue in FY22 was 19 crore.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "19",
+        "number": 19,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "19",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from Cross Border Services in FY22 included freight revenue of Rs 46 Cr from the shipment of Covid related traded goods.",
+      "subject": "Delhivery",
+      "predicate": "revenue from Cross Border Services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "46 Cr",
+        "number": 46,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma",
+        "freight revenue from the shipment of Covid related traded goods"
+      ],
+      "quote": "Revenue from Cross Border Services in FY22 included freight revenue of Rs 46 Cr from the shipment",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "key": "66c61cf51fc736084b28dce62175ccb95c8ce908f743c8350aa6d587e6114586",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:18:19.161Z",
+  "value": [
+    {
+      "claim": "Delhivery's Express Parcel revenue was 1,448 crore INR for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,448",
+        "number": 1448,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "1,448",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's Express Parcel revenue had a YoY growth of 12% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12%",
+        "number": 12,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "for Express Parcel revenue"
+      ],
+      "quote": "YoY: 12%",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's Express Parcel revenue had a QoQ growth of -16% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "QoQ growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(16%)",
+        "number": -16,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "for Express Parcel revenue"
+      ],
+      "quote": "QoQ: (16%)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's Express Parcel shipments were 201 million for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "201",
+        "number": 201,
+        "unit": null,
+        "scale": "million",
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "201",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's Express Parcel shipments had a YoY growth of -2% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(2%)",
+        "number": -2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "for Express Parcel shipments"
+      ],
+      "quote": "YoY: (2%)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's Express Parcel shipments had a QoQ growth of -13% for Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "QoQ growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(13%)",
+        "number": -13,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "for Express Parcel shipments"
+      ],
+      "quote": "QoQ: (13%)",
+      "confidence": 0.95
+    }
+  ]
+}

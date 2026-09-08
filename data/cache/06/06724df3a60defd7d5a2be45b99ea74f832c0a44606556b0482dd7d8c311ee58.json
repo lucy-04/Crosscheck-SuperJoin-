@@ -1,0 +1,26 @@
+{
+  "key": "06724df3a60defd7d5a2be45b99ea74f832c0a44606556b0482dd7d8c311ee58",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:16:54.363Z",
+  "value": [
+    {
+      "claim": "The presentation was prepared by Delhivery Limited.",
+      "subject": "Delhivery Limited",
+      "predicate": "prepared by",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Delhivery Limited",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "This Presentation is prepared by Delhivery Limited",
+      "confidence": 1
+    }
+  ]
+}

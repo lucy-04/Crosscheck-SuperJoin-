@@ -1,0 +1,152 @@
+{
+  "key": "3c648f28d064efbbf34d8f6debb61ae0526fb8081845b1c446be2ebe77389b5b",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:01:50.087Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 1,746 crore in Q1 FY23.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,746",
+        "number": 1746,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q1 FY23",
+      "basis": [],
+      "quote": "Revenue from customers      1,746",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 1,796 crore in Q2 FY23.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,796",
+        "number": 1796,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q2 FY23",
+      "basis": [],
+      "quote": "Revenue from customers      1,796",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 1,824 crore in Q3 FY23.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,824",
+        "number": 1824,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY23",
+      "basis": [],
+      "quote": "Revenue from customers      1,824",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 1,860 crore in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,860",
+        "number": 1860,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Revenue from customers      1,860",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 1,930 crore in Q1 FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,930",
+        "number": 1930,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q1 FY24",
+      "basis": [],
+      "quote": "Revenue from customers      1,930",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 1,942 crore in Q2 FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,942",
+        "number": 1942,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q2 FY24",
+      "basis": [],
+      "quote": "Revenue from customers      1,942",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 2,194 crore in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,194",
+        "number": 2194,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Revenue from customers      2,194",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from customers was ₹ 2,076 crore in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,076",
+        "number": 2076,
+        "unit": "₹",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Revenue from customers      2,076",
+      "confidence": 1
+    }
+  ]
+}

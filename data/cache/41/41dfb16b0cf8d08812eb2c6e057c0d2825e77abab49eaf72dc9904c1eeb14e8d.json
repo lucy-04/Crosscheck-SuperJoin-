@@ -1,0 +1,116 @@
+{
+  "key": "41dfb16b0cf8d08812eb2c6e057c0d2825e77abab49eaf72dc9904c1eeb14e8d",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:04:37.694Z",
+  "value": [
+    {
+      "claim": "Delhivery's total cash balance was ₹ 5,444 Cr as of Mar ’24.",
+      "subject": "Delhivery",
+      "predicate": "total cash balance",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹ 5,444 Cr",
+        "number": 5444,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Mar ’24",
+      "basis": [],
+      "quote": "Total cash balance: ₹ 5,444 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's total equity was 9,177 Cr as of Mar ’23.",
+      "subject": "Delhivery",
+      "predicate": "total equity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "9,177",
+        "number": 9177,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Mar ’23",
+      "basis": [],
+      "quote": "Total equity 9,177 9,145",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's total equity was 9,145 Cr as of Mar ’24.",
+      "subject": "Delhivery",
+      "predicate": "total equity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "9,145",
+        "number": 9145,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Mar ’24",
+      "basis": [],
+      "quote": "Total equity 9,177 9,145",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's non – current cash equivalents were 596 Cr as of Mar ’23.",
+      "subject": "Delhivery",
+      "predicate": "non – current cash equivalents",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "596",
+        "number": 596,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Mar ’23",
+      "basis": [],
+      "quote": "Non – current cash equivalents(1) 596 1,411",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's non – current cash equivalents were 1,411 Cr as of Mar ’24.",
+      "subject": "Delhivery",
+      "predicate": "non – current cash equivalents",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,411",
+        "number": 1411,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Mar ’24",
+      "basis": [],
+      "quote": "Non – current cash equivalents(1) 596 1,411",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's property, plant and equipment (incl cwip) were 817 Cr as of Mar ’23.",
+      "subject": "Delhivery",
+      "predicate": "property, plant and equipment (incl cwip)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "817",
+        "number": 817,
+        "unit": "INR",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Mar ’23",
+      "basis": [],
+      "quote": "Property, plant and equipment (Incl CWIP) 817 961",
+      "confidence": 1
+    }
+  ]
+}

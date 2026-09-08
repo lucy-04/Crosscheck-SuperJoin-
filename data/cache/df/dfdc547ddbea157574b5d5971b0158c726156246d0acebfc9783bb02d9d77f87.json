@@ -1,0 +1,116 @@
+{
+  "key": "dfdc547ddbea157574b5d5971b0158c726156246d0acebfc9783bb02d9d77f87",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:28:57.738Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited's investor presentation covers audited standalone and consolidated financial results for the quarter and financial year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "investor presentation covers financial results",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Audited Standalone and Consolidated Financial Results",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "quarter and financial year ended March 31, 2024",
+      "basis": [],
+      "quote": "Audited Standalone and Consolidated Financial Results of the Company for the quarter and financial year ended March 31, 2024",
+      "confidence": 1
+    },
+    {
+      "claim": "The Earnings Audio / Video (AV) Conference Call for Delhivery Limited is scheduled for May 17, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Earnings Audio / Video (AV) Conference Call date",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "May 17, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "scheduled to be held on May 17, 2024",
+      "confidence": 1
+    },
+    {
+      "claim": "The Earnings Audio / Video (AV) Conference Call for Delhivery Limited is scheduled for 06:00 P.M. (IST).",
+      "subject": "Delhivery Limited",
+      "predicate": "Earnings Audio / Video (AV) Conference Call time",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "06:00 P.M. (IST)",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "May 17, 2024",
+      "basis": [],
+      "quote": "scheduled to be held today, i.e., Friday, May 17, 2024, at 06:00 P.M. (IST)",
+      "confidence": 1
+    },
+    {
+      "claim": "Madhulika Rawat is the Company Secretary & Compliance Officer for Delhivery Limited.",
+      "subject": "Delhivery Limited",
+      "predicate": "Company Secretary & Compliance Officer",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Madhulika Rawat",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "For Delhivery Limited\n\nMadhulika Rawat\n\nCompany Secretary & Compliance Officer",
+      "confidence": 1
+    },
+    {
+      "claim": "Madhulika Rawat has Membership No: F8765.",
+      "subject": "Madhulika Rawat",
+      "predicate": "Membership No",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "F8765",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Membership No: F8765",
+      "confidence": 1
+    },
+    {
+      "claim": "The place associated with the filing is Goa.",
+      "subject": "Delhivery Limited",
+      "predicate": "Place",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Goa",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Place: Goa",
+      "confidence": 1
+    }
+  ]
+}

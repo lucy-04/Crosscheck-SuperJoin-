@@ -1,0 +1,26 @@
+{
+  "key": "bed4ea7aedec30ec3609e170e7e3f7c0460f4fefe4901059970b891ddd665574",
+  "model": "openai/gpt-oss-20b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T19:41:08.752Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited's application of merger was filed with National Company Law Tribunal on March 30, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "application of merger filed",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "March 30, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "the application of merger was filed with National Company Law Tribunal (“NCLT”) on March 30, 2024.",
+      "confidence": 1
+    }
+  ]
+}

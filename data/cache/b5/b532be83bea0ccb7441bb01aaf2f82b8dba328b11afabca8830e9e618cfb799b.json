@@ -1,0 +1,26 @@
+{
+  "key": "b532be83bea0ccb7441bb01aaf2f82b8dba328b11afabca8830e9e618cfb799b",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T19:15:14.364Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited annual report period is 2023-24",
+      "subject": "Delhivery Limited",
+      "predicate": "annual report period",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "2023-24",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Annual Report 2023-24",
+      "confidence": 1
+    }
+  ]
+}

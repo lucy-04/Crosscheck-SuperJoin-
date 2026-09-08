@@ -1,0 +1,268 @@
+{
+  "key": "9248438232366efaad033d9a897ba9c98ac19b4e8fbeb36c39d60db78ae68925",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T19:35:21.218Z",
+  "value": [
+    {
+      "claim": "Part-truckload tonnage grew by 30% in FY24",
+      "subject": "Delhivery",
+      "predicate": "part-truckload tonnage growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "30%",
+        "number": 30,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "Our part truckload tonnage grew by 30%",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Revenues from part truckload grew by 31% in FY24",
+      "subject": "Delhivery",
+      "predicate": "part-truckload revenue growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "31%",
+        "number": 31,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "revenues from part truckload grew by 31% in FY24",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Share of load carried through 46-ft tractor trailers crossed 70% by end of FY24",
+      "subject": "Delhivery",
+      "predicate": "share of load carried through 46-ft tractor trailers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "70%",
+        "number": 70,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "end of FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "The share of load carried through fuel-efficient 46-ft tractor trailers crossed 70% by the end of FY24.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "740 million express parcels shipped in FY24",
+      "subject": "Delhivery",
+      "predicate": "express parcels shipped",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "740Mn",
+        "number": 740,
+        "unit": "parcels",
+        "scale": "million",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:express"
+      ],
+      "quote": "740Mn Express parcels shipped",
+      "confidence": 0.95
+    },
+    {
+      "claim": "1,429 thousand tonnes of PTL freight delivered in FY24",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    },
+    {
+      "claim": "PTL freight delivered was 1,429K tonnes",
+      "subject": "Delhivery",
+      "predicate": "PTL freight delivered",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429K tonnes",
+        "number": 1429,
+        "unit": "tonnes",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:part-truckload"
+      ],
+      "quote": "1,429K tonnes PTL freight delivered",
+      "confidence": 0.95
+    }
+  ]
+}

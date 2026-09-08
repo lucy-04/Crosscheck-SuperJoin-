@@ -1,0 +1,244 @@
+{
+  "key": "c03cf400c9810a1e7e6853ba12880766012a31d6424d95923aa66fd260ae51c5",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:09:33.950Z",
+  "value": [
+    {
+      "claim": "Delhivery Freight Services Private Limited is a subsidiary of Delhivery",
+      "subject": "Delhivery Freight Services Private Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "India"
+      ],
+      "quote": "1.    Delhivery Freight Services Private Limited, India",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Orion Supply Chain Private Limited is a subsidiary of Delhivery",
+      "subject": "Orion Supply Chain Private Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "India"
+      ],
+      "quote": "2.    Orion Supply Chain Private Limited, India",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery HK Pte. Limited is a subsidiary of Delhivery",
+      "subject": "Delhivery HK Pte. Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "Hong Kong"
+      ],
+      "quote": "8.    Delhivery HK Pte. Limited, Hong Kong",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery USA, LLC is a subsidiary of Delhivery",
+      "subject": "Delhivery USA, LLC",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "USA"
+      ],
+      "quote": "9.    Delhivery USA, LLC",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Singapore Pte. Limited is a subsidiary of Delhivery",
+      "subject": "Delhivery Singapore Pte. Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "Singapore"
+      ],
+      "quote": "10.   Delhivery Singapore Pte. Limited, Singapore (“Delhivery\nSingapore”)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Robotics LLC is a subsidiary of Delhivery Singapore",
+      "subject": "Delhivery Robotics LLC",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "USA",
+        "subsidiary of Delhivery Singapore"
+      ],
+      "quote": "11.   Delhivery Robotics LLC, USA (Subsidiary of Delhivery   Singapore)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Bangladesh Logistics Private Limited is a subsidiary of Delhivery Singapore",
+      "subject": "Delhivery Bangladesh Logistics Private Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "Bangladesh",
+        "subsidiary of Delhivery Singapore"
+      ],
+      "quote": "12.  Delhivery  Bangladesh  Logistics  Private  Limited\n(Subsidiary of Delhivery Singapore)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Logistics (Shenzhen) Company Limited is a subsidiary of Delhivery Singapore",
+      "subject": "Delhivery Logistics (Shenzhen) Company Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "subsidiary",
+        "China",
+        "subsidiary of Delhivery Singapore"
+      ],
+      "quote": "13.  Delhivery Logistics (Shenzhen) Company Limited\n(Subsidiary of Delhivery Singapore)*",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Logistics (Shenzhen) Company Limited was statutorily incorporated during FY23",
+      "subject": "Delhivery Logistics (Shenzhen) Company Limited",
+      "predicate": "date of incorporation",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "FY23",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "subsidiary",
+        "China",
+        "subsidiary of Delhivery Singapore"
+      ],
+      "quote": "* This  company  was  statutorily  incorporated  during  FY23;  however,\nno  capital/fund  infusion  has  been  done  yet  and  the  company  is\nnon-operative as on date.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Logistics (Shenzhen) Company Limited is non-operative",
+      "subject": "Delhivery Logistics (Shenzhen) Company Limited",
+      "predicate": "operational status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "non-operative",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "as on date",
+      "basis": [
+        "subsidiary",
+        "China",
+        "subsidiary of Delhivery Singapore"
+      ],
+      "quote": "* This  company  was  statutorily  incorporated  during  FY23;  however,\nno  capital/fund  infusion  has  been  done  yet  and  the  company  is\nnon-operative as on date.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Corp Limited is a subsidiary of Delhivery",
+      "subject": "Delhivery Corp Limited",
+      "predicate": "subsidiary status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "subsidiary",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "subsidiary",
+        "United Kingdom"
+      ],
+      "quote": "Further, after closure of FY24, the Board approved to initiate\nliquidation of Delhivery Corp Limited, United Kingdom.",
+      "confidence": 0.9
+    }
+  ]
+}

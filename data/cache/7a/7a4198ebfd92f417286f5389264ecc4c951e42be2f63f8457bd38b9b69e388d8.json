@@ -1,0 +1,296 @@
+{
+  "key": "7a4198ebfd92f417286f5389264ecc4c951e42be2f63f8457bd38b9b69e388d8",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:29:57.827Z",
+  "value": [
+    {
+      "claim": "TL Service revenue was 2,194 crore in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "TL Service revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,194",
+        "number": 2194,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "2,194",
+      "confidence": 1
+    },
+    {
+      "claim": "Supply Chain Services revenue was 174 crore in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "174",
+        "number": 174,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "174",
+      "confidence": 1
+    },
+    {
+      "claim": "Cross Border Services revenue was 31 crore in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "31",
+        "number": 31,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "31",
+      "confidence": 1
+    },
+    {
+      "claim": "TL Service revenue YoY growth was 8%.",
+      "subject": "Delhivery",
+      "predicate": "TL Service revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8%",
+        "number": 0.08,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "8%",
+      "confidence": 1
+    },
+    {
+      "claim": "TL Service revenue QoQ growth was (5%).",
+      "subject": "Delhivery",
+      "predicate": "TL Service revenue QoQ growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5%)",
+        "number": -0.05,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "(5%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Supply Chain Services revenue YoY growth was 17%.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "17%",
+        "number": 0.17,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "17%",
+      "confidence": 1
+    },
+    {
+      "claim": "Supply Chain Services revenue QoQ growth was 36%.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue QoQ growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "36%",
+        "number": 0.36,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "36%",
+      "confidence": 1
+    },
+    {
+      "claim": "Cross Border Services revenue YoY growth was (46%).",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(46%)",
+        "number": -0.46,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "(46%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Cross Border Services revenue QoQ growth was (21%).",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue QoQ growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(21%)",
+        "number": -0.21,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "(21%)",
+      "confidence": 1
+    },
+    {
+      "claim": "TL Service revenue was 2,076 crore in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "TL Service revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,076",
+        "number": 2076,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "2,076",
+      "confidence": 1
+    },
+    {
+      "claim": "Supply Chain Services revenue was 153 crore in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "153",
+        "number": 153,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "153",
+      "confidence": 1
+    },
+    {
+      "claim": "Cross Border Services revenue was 39 crore in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "39",
+        "number": 39,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "39",
+      "confidence": 1
+    },
+    {
+      "claim": "TL Service revenue was 1,860 crore in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "TL Service revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,860",
+        "number": 1860,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "1,860",
+      "confidence": 1
+    },
+    {
+      "claim": "Supply Chain Services revenue was 109 crore in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "Supply Chain Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "109",
+        "number": 109,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "109",
+      "confidence": 1
+    },
+    {
+      "claim": "Cross Border Services revenue was 57 crore in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "Cross Border Services revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "57",
+        "number": 57,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "57",
+      "confidence": 1
+    },
+    {
+      "claim": "Revenue from services excludes revenue from traded goods.",
+      "subject": "Delhivery",
+      "predicate": "Revenue from services",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "excludes revenue from traded goods",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Revenue from services excludes revenue from traded goods",
+      "confidence": 1
+    }
+  ]
+}

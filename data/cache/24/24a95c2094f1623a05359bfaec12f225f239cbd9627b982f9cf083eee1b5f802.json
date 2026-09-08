@@ -1,0 +1,148 @@
+{
+  "key": "24a95c2094f1623a05359bfaec12f225f239cbd9627b982f9cf083eee1b5f802",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:59:31.278Z",
+  "value": [
+    {
+      "claim": "Cross border is defined as cross border ocean & air freight and express parcel services by the Company.",
+      "subject": "Delhivery",
+      "predicate": "cross border",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Cross border ocean & air freight and express parcel services by the Company",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "Cross Border Cross border ocean & air freight and express parcel services by the Company",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight is defined as Part truck load freight service by the Company.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Part truck load freight service by the Company",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "PTL freight Part truck load freight service by the Company",
+      "confidence": 1
+    },
+    {
+      "claim": "RedSeer report refers to the report titled “Logistics Market in India” dated April 21, 2022 prepared by RedSeer in connection with the public offer by the Company.",
+      "subject": "Delhivery",
+      "predicate": "redseer report",
+      "factType": "state",
+      "value": {
+        "kind": "entity",
+        "raw": "Report titled “Logistics Market in India” dated April 21, 2022 prepared by RedSeer in connection with the public offer by the Company",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "RedSeer report Report titled “Logistics Market in India” dated April 21, 2022 prepared by RedSeer in connection with the public offer by the Company",
+      "confidence": 1
+    },
+    {
+      "claim": "SCS is defined as supply chain services by the Company through which the Company provides integrated supply chain solutions (warehousing & transportation).",
+      "subject": "Delhivery",
+      "predicate": "scs",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Supply chain services by the Company through which the Company provides integrated supply chain solutions (warehousing & transportation)",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "SCS Supply chain services by the Company through which the Company provides integrated supply chain solutions (warehousing & transportation)",
+      "confidence": 1
+    },
+    {
+      "claim": "TL is defined as truck load freight service by the Company which connects shippers with fleet-owners and suppliers of truckload capacity across the country via a centralized bidding and matching engine.",
+      "subject": "Delhivery",
+      "predicate": "tl",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Truck load freight service by the Company which connects shippers with fleet-owners and suppliers of truckload capacity across the country via a centralized bidding and matching engine",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "TL Truck load freight service by the Company which connects shippers with fleet-owners and suppliers of truckload capacity across the country via a centralized bidding and matching engine",
+      "confidence": 1
+    },
+    {
+      "claim": "Pro forma financials statements are presented for the year ended March 31, 2022 as if the acquisition occurred on 1st April 2021.",
+      "subject": "Delhivery",
+      "predicate": "pro forma financials",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Pro forma financials statements for the year ended March 31, 2022 as if the acquisition occurred on 1st April 2021.",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "year ended March 31, 2022",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "Pro forma financials statements for the year ended March 31, 2022 as if the acquisition occurred on 1st April 2021.",
+      "confidence": 1
+    },
+    {
+      "claim": "The pro forma statements have not been reviewed or audited by auditors.",
+      "subject": "Delhivery",
+      "predicate": "audited",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "These have not been reviewed / audited by auditors",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "These have not been reviewed / audited by auditors",
+      "confidence": 1
+    }
+  ]
+}

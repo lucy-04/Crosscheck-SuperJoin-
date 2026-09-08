@@ -1,0 +1,278 @@
+{
+  "key": "a2467dca3fcc9d107d8719066f4c1a66678dc54e6e9040b9886f0985f5f36fe7",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:06:44.618Z",
+  "value": [
+    {
+      "claim": "Total Service EBITDA was 86 in Q1 FY23.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "86",
+        "number": 86,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q1 FY23",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 139 in Q2 FY23.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "139",
+        "number": 139,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q2 FY23",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 205 in Q3 FY23.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "205",
+        "number": 205,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q3 FY23",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139 205",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 196 in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "196",
+        "number": 196,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139 205 196",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 201 in Q1 FY24.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "201",
+        "number": 201,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q1 FY24",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139 205 196 201",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 306 in Q2 FY24.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "306",
+        "number": 306,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q2 FY24",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139 205 196 201 306",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 238 in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "238",
+        "number": 238,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139 205 196 201 306 238",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA was 422 in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "total service ebitda",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "422",
+        "number": 422,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Total Service EBITDA (6) 86 139 205 196 201 306 238 422",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was -0.3% in Q1 FY23.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(0.3%)",
+        "number": -0.3,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q1 FY23",
+      "basis": [],
+      "quote": "% margin (0.3%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was 4.8% in Q2 FY23.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4.8%",
+        "number": 4.8,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q2 FY23",
+      "basis": [],
+      "quote": "% margin 4.8%",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was 7.6% in Q3 FY23.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7.6%",
+        "number": 7.6,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q3 FY23",
+      "basis": [],
+      "quote": "% margin 7.6%",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was 11.0% in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "11.0%",
+        "number": 11,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "% margin 11.0%",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was 10.2% in Q1 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "10.2%",
+        "number": 10.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q1 FY24",
+      "basis": [],
+      "quote": "% margin 10.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was 10.4% in Q2 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "10.4%",
+        "number": 10.4,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q2 FY24",
+      "basis": [],
+      "quote": "% margin 10.4%",
+      "confidence": 1
+    },
+    {
+      "claim": "Total Service EBITDA margin was 14.0% in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "% margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14.0%",
+        "number": 14,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "% margin 14.0%",
+      "confidence": 1
+    }
+  ]
+}

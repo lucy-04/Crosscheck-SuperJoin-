@@ -1,0 +1,458 @@
+{
+  "key": "1c9b1dffe53a01c910f4ebb7a1408d029329afb4ddd4d02f4c6e852b4e7c0eec",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:19:38.522Z",
+  "value": [
+    {
+      "claim": "Delhivery's total revenue from customers was 1,860 crore INR in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,860",
+        "number": 1860,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Total revenue from customers 1,860",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's total revenue from customers was 2,194 crore INR in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,194",
+        "number": 2194,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Total revenue from customers 1,860 2,194",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's total revenue from customers was 2,076 crore INR in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,076",
+        "number": 2076,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Total revenue from customers 1,860 2,194 2,076",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's total revenue from customers was 7,225 crore INR in FY23.",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,225",
+        "number": 7225,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Total revenue from customers 1,860 2,194 2,076 7,225",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's total revenue from customers was 8,142 crore INR in FY24.",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Total revenue from customers 1,860 2,194 2,076 7,225 8,142",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's freight handling and servicing cost was 1,372 crore INR in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,372",
+        "number": 1372,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Freight handling and servicing cost 1,372",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's freight handling and servicing cost was 1,572 crore INR in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,572",
+        "number": 1572,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Freight handling and servicing cost 1,372 1,572",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's freight handling and servicing cost was 1,519 crore INR in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,519",
+        "number": 1519,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Freight handling and servicing cost 1,372 1,572 1,519",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's freight handling and servicing cost was 5,669 crore INR in FY23.",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,669",
+        "number": 5669,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Freight handling and servicing cost 1,372 1,572 1,519 5,669",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's freight handling and servicing cost was 5,971 crore INR in FY24.",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,971",
+        "number": 5971,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Freight handling and servicing cost 1,372 1,572 1,519 5,669 5,971",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's purchase & change in inventory of traded goods was 2 crore INR in FY23.",
+      "subject": "Delhivery",
+      "predicate": "purchase & change in inventory of traded goods",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2",
+        "number": 2,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "traded goods - - - 2",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's employee benefit expense was 357 crore INR in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "employee benefit expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "357",
+        "number": 357,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Employee benefit expense 357",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's employee benefit expense was 360 crore INR in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "employee benefit expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "360",
+        "number": 360,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Employee benefit expense 357 360",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's employee benefit expense was 357 crore INR in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "employee benefit expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "357",
+        "number": 357,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Employee benefit expense 357 360 357",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's employee benefit expense was 1,400 crore INR in FY23.",
+      "subject": "Delhivery",
+      "predicate": "employee benefit expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,400",
+        "number": 1400,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Employee benefit expense 357 360 357 1,400",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's employee benefit expense was 1,437 crore INR in FY24.",
+      "subject": "Delhivery",
+      "predicate": "employee benefit expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,437",
+        "number": 1437,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Employee benefit expense 357 360 357 1,400 1,437",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's other expenses were 117 crore INR in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "117",
+        "number": 117,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Other expenses 117",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's other expenses were 154 crore INR in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "154",
+        "number": 154,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Other expenses 117 154",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's other expenses were 154 crore INR in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "154",
+        "number": 154,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "Other expenses 117 154 154",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's other expenses were 605 crore INR in FY23.",
+      "subject": "Delhivery",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "605",
+        "number": 605,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Other expenses 117 154 154 605",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's other expenses were 607 crore INR in FY24.",
+      "subject": "Delhivery",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "607",
+        "number": 607,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Other expenses 117 154 154 605 607",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's fair value loss on investments at fair value through profit or loss was -17 crore INR in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "fair value loss on investments at fair value through profit or loss",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(17)",
+        "number": -17,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Add: Fair value loss on investments at fair (17)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's fair value loss on investments at fair value through profit or loss was -2 crore INR in FY23.",
+      "subject": "Delhivery",
+      "predicate": "fair value loss on investments at fair value through profit or loss",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(2)",
+        "number": -2,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Add: Fair value loss on investments at fair (17) - - (2)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's reported EBITDA was 13 crore INR in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "reported EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13",
+        "number": 13,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Reported EBITDA 13",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's reported EBITDA was 109 crore INR in Q3 FY24.",
+      "subject": "Delhivery",
+      "predicate": "reported EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "109",
+        "number": 109,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Reported EBITDA 13 109",
+      "confidence": 1
+    }
+  ]
+}

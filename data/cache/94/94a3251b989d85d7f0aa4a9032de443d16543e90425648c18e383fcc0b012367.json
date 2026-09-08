@@ -1,0 +1,119 @@
+{
+  "key": "94a3251b989d85d7f0aa4a9032de443d16543e90425648c18e383fcc0b012367",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:21:04.775Z",
+  "value": [
+    {
+      "claim": "Delhivery's scrip code is 543529.",
+      "subject": "Delhivery",
+      "predicate": "scrip code",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "543529",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Scrip Code: 543529",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's symbol is DELHIVERY.",
+      "subject": "Delhivery",
+      "predicate": "symbol",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "DELHIVERY",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Symbol: DELHIVERY",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's Investor Presentation is for the quarter and financial year ended March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "financial results period",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "March 31, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "quarter and financial year ended March 31, 2024",
+      "basis": [
+        "audited standalone",
+        "consolidated"
+      ],
+      "quote": "Audited Standalone and Consolidated Financial Results of the Company for the quarter and financial year ended March 31, 2024",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's Earnings Audio / Video (AV) Conference Call is scheduled for Friday, May 17, 2024.",
+      "subject": "Delhivery",
+      "predicate": "Earnings Audio / Video (AV) Conference Call date",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "Friday, May 17, 2024",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "scheduled to be held today, i.e., Friday, May 17, 2024",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's Earnings Audio / Video (AV) Conference Call is scheduled for 06:00 P.M. (IST).",
+      "subject": "Delhivery",
+      "predicate": "Earnings Audio / Video (AV) Conference Call time",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "06:00 P.M. (IST)",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "at 06:00 P.M. (IST)",
+      "confidence": 0.9
+    },
+    {
+      "claim": "Delhivery's website is www.delhivery.com.",
+      "subject": "Delhivery",
+      "predicate": "website",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "www.delhivery.com",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Company’s website at www.delhivery.com",
+      "confidence": 0.9
+    }
+  ]
+}

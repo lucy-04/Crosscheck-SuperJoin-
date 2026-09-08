@@ -1,0 +1,188 @@
+{
+  "key": "3912eb74e1fff82fd7725987e90cf4dbf744fa90aa359246ccce80aef571d023",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:58:56.431Z",
+  "value": [
+    {
+      "claim": "The cost of performance-based options for FY24 is 132 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of performance-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "132",
+        "number": 132,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY24 132 94",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of time-based options for FY24 is 94 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of time-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "94",
+        "number": 94,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY24 132 94",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of performance-based options for FY25 is 90 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of performance-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "90",
+        "number": 90,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY25 90 40",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of time-based options for FY25 is 40 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of time-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "40",
+        "number": 40,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY25 90 40",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of performance-based options for FY26 is 38 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of performance-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "38",
+        "number": 38,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY26 38 12",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of time-based options for FY26 is 12 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of time-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12",
+        "number": 12,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY26 38 12",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of performance-based options for FY27 is 6 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of performance-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "6",
+        "number": 6,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY27 6 2",
+      "confidence": 1
+    },
+    {
+      "claim": "The cost of time-based options for FY27 is 2 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of time-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2",
+        "number": 2,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "FY27 6 2",
+      "confidence": 1
+    },
+    {
+      "claim": "The total cost of performance-based options is 266 ₹ Cr as of March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "cost of performance-based options",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "266",
+        "number": 266,
+        "unit": "INR",
+        "scale": "₹ Cr",
+        "currency": "INR"
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "estimated"
+      ],
+      "quote": "Total 266 147",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "key": "b7811d9dda1e4315991f6de01d883ec7707904e0815fd1df39f66aaa2bd5013b",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:28:55.445Z",
+  "value": [
+    {
+      "claim": "Revenue from contracts with customers was 81,415.38 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Revenue from contracts with customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "81,415.38",
+        "number": 81415.38,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Revenue from contracts with customers             21          81,415.38         72,253.01",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Other income was 4,526.96 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Other income",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4,526.96",
+        "number": 4526.96,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Other income             22           4,526.96          3,049.48",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Total Income was 85,942.34 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Total Income",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "85,942.34",
+        "number": 85942.34,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Total Income (I)             85,942.34        75,302.49",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Freight, handling and servicing costs were 59,707.49 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Freight, handling and servicing costs",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "59,707.49",
+        "number": 59707.49,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Freight, handling and servicing costs             23          59,707.49         56,694.80",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Employee benefits expense was 14,367.70 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Employee benefits expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14,367.70",
+        "number": 14367.7,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Employee benefits expense             25          14,367.70         14,000.34",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Finance costs were 885.20 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Finance costs",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "885.20",
+        "number": 885.2,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Finance costs             28            885.20           888.30",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Depreciation and amortisation expense was 7,215.50 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Depreciation and amortisation expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,215.50",
+        "number": 7215.5,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Depreciation and amortisation expense             27           7,215.50          8,311.44",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Other expenses were 6,073.78 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "6,073.78",
+        "number": 6073.78,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Other expenses             26           6,073.78          6,058.19",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Total Expenses were 88,249.67 million INR for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "Total Expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "88,249.67",
+        "number": 88249.67,
+        "unit": "INR million",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Total Expenses (II)             88,249.67        85,968.83",
+      "confidence": 0.95
+    }
+  ]
+}

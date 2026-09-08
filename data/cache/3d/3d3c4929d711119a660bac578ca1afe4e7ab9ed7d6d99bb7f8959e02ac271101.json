@@ -1,0 +1,98 @@
+{
+  "key": "3d3c4929d711119a660bac578ca1afe4e7ab9ed7d6d99bb7f8959e02ac271101",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:55:29.807Z",
+  "value": [
+    {
+      "claim": "Delhivery's net working capital days were 73 in Mar '20",
+      "subject": "Delhivery",
+      "predicate": "net working capital days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "73",
+        "number": 73,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '20",
+      "basis": [],
+      "quote": "73",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net working capital days were 47 in Mar '21",
+      "subject": "Delhivery",
+      "predicate": "net working capital days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "47",
+        "number": 47,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '21",
+      "basis": [],
+      "quote": "47",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net working capital days were 37 in Mar '22",
+      "subject": "Delhivery",
+      "predicate": "net working capital days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "37",
+        "number": 37,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '22",
+      "basis": [],
+      "quote": "37",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net working capital days were 38 in Mar '23",
+      "subject": "Delhivery",
+      "predicate": "net working capital days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "38",
+        "number": 38,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '23",
+      "basis": [],
+      "quote": "38",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's net working capital days were 31 in Mar '24",
+      "subject": "Delhivery",
+      "predicate": "net working capital days",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "31",
+        "number": 31,
+        "unit": "days",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Mar '24",
+      "basis": [],
+      "quote": "31",
+      "confidence": 1
+    }
+  ]
+}

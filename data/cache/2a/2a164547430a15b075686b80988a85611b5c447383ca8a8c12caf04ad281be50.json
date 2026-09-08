@@ -1,0 +1,98 @@
+{
+  "key": "2a164547430a15b075686b80988a85611b5c447383ca8a8c12caf04ad281be50",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:11:03.635Z",
+  "value": [
+    {
+      "claim": "Delhivery had an income tax contingent liability of 344.92 million rupees as of December 31, 2021.",
+      "subject": "Delhivery",
+      "predicate": "income tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "344.92",
+        "number": 344.92,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "As of December 31, 2021",
+      "basis": [],
+      "quote": "344.92",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had a service tax contingent liability of 622.58 million rupees as of December 31, 2021.",
+      "subject": "Delhivery",
+      "predicate": "service tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "622.58",
+        "number": 622.58,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "As of December 31, 2021",
+      "basis": [],
+      "quote": "622.58",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had other contingent liabilities amounting to 1.12 million rupees as of December 31, 2021.",
+      "subject": "Delhivery",
+      "predicate": "others",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.12",
+        "number": 1.12,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "As of December 31, 2021",
+      "basis": [],
+      "quote": "1.12",
+      "confidence": 1
+    },
+    {
+      "claim": "Consumer cases filed against Delhivery amounted to ₹2.05 million.",
+      "subject": "Delhivery",
+      "predicate": "consumer cases amount",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹2.05 million",
+        "number": 2.05,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "₹2.05 million",
+      "confidence": 1
+    },
+    {
+      "claim": "Promoters of Delhivery had material civil amount of 1,625.57 million rupees as of December 31, 2021.",
+      "subject": "Promoters (Delhivery)",
+      "predicate": "material civil amount",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,625.57",
+        "number": 1625.57,
+        "unit": "₹",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "As of December 31, 2021",
+      "basis": [],
+      "quote": "1,625.57",
+      "confidence": 1
+    }
+  ]
+}

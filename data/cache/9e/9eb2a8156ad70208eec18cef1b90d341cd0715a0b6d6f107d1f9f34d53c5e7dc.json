@@ -1,0 +1,62 @@
+{
+  "key": "9eb2a8156ad70208eec18cef1b90d341cd0715a0b6d6f107d1f9f34d53c5e7dc",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:24:19.347Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited transformed its hub in Moga, Punjab into an all-women-run hub.",
+      "subject": "Delhivery Limited",
+      "predicate": "all-women-run hub",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "all-women-run hub",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "We transformed one of our vital hubs in Moga, Punjab, into an all-women-run hub.",
+      "confidence": 1
+    },
+    {
+      "claim": "The hub's end-to-end operations are orchestrated by an all-women workforce.",
+      "subject": "Delhivery Limited",
+      "predicate": "all-women workforce",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "all-women workforce",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "orchestrated by an all-women workforce.",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited was the principal sponsor of Royal Challengers Bengaluru for the 2024 season of the Indian Premier League.",
+      "subject": "Delhivery Limited",
+      "predicate": "principal sponsor",
+      "factType": "state",
+      "value": {
+        "kind": "entity",
+        "raw": "Royal Challengers Bengaluru",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "2024 season of the Indian Premier League",
+      "basis": [],
+      "quote": "Delhivery was Principal Sponsor of the Royal Challengers Bengaluru for the 2024 season of the Indian Premier League.",
+      "confidence": 1
+    }
+  ]
+}

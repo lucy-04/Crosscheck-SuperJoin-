@@ -1,0 +1,80 @@
+{
+  "key": "f9cf9dd57089f6402cfcbf0e3a4f11796c8a7c8658657d654587d7d5fb369f85",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:57:36.258Z",
+  "value": [
+    {
+      "claim": "Delhivery total revenue from customers was 8,142 crore INR in FY24",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Total revenue from customers 8,142",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery total revenue from customers was 7,225 crore INR in FY23",
+      "subject": "Delhivery",
+      "predicate": "total revenue from customers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,225",
+        "number": 7225,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Total revenue from customers 7,225",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery freight handling and servicing cost was 5,971 crore INR in FY24",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,971",
+        "number": 5971,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "Less: Freight handling and servicing cost 5,971",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery freight handling and servicing cost was 5,669 crore INR in FY23",
+      "subject": "Delhivery",
+      "predicate": "freight handling and servicing cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,669",
+        "number": 5669,
+        "unit": null,
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "Less: Freight handling and servicing cost 5,669",
+      "confidence": 1
+    }
+  ]
+}

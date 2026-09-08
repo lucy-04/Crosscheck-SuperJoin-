@@ -1,0 +1,26 @@
+{
+  "key": "5a7a70789ead8826620b04938ef26c7cfa8c2d8e1f23d5c2861a6124182c3d77",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:28:52.554Z",
+  "value": [
+    {
+      "claim": "Delhivery's EBITDA was profitable in FY24.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "profitable",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "profitable",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "key": "05bfb870713ad9a27d473683030cc22e788a1e4241af4666cf23b701b481107c",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:03:42.700Z",
+  "value": [
+    {
+      "claim": "Delhivery's freight, handling and servicing cost in Q4 FY24 was ₹1,519 crore.",
+      "subject": "Delhivery",
+      "predicate": "freight, handling and servicing cost(1,2)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,519",
+        "number": 1519,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "1,519",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's % of revenue from services in Q4 FY24 was 73.2%.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue from services(2)",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "73.2%",
+        "number": 73.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "73.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's line haul expenses in Q4 FY24 were ₹708 crore.",
+      "subject": "Delhivery",
+      "predicate": "line haul expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "708",
+        "number": 708,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "708",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's % of revenue for line haul expenses in Q4 FY24 was 34.1%.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "34.1%",
+        "number": 34.1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "34.1%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's vehicle rental expenses in Q4 FY24 were ₹391 crore.",
+      "subject": "Delhivery",
+      "predicate": "vehicle rental expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "391",
+        "number": 391,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "391",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's % of revenue for vehicle rental expenses in Q4 FY24 was 18.8%.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "18.8%",
+        "number": 18.8,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "18.8%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's contractual manpower expenses in Q4 FY24 were ₹254 crore.",
+      "subject": "Delhivery",
+      "predicate": "contractual manpower expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "254",
+        "number": 254,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "254",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's % of revenue for contractual manpower expenses in Q4 FY24 was 12.2%.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12.2%",
+        "number": 12.2,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "12.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's rent in Q4 FY24 was ₹76 crore.",
+      "subject": "Delhivery",
+      "predicate": "rent",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "76",
+        "number": 76,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "76",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's % of revenue for rent in Q4 FY24 was 3.6%.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "3.6%",
+        "number": 3.6,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "3.6%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's security expenses in Q4 FY24 were ₹21 crore.",
+      "subject": "Delhivery",
+      "predicate": "security expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "21",
+        "number": 21,
+        "unit": "INR",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "21",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's % of revenue for security expenses in Q4 FY24 was 1.0%.",
+      "subject": "Delhivery",
+      "predicate": "% of revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.0%",
+        "number": 1,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "1.0%",
+      "confidence": 1
+    }
+  ]
+}

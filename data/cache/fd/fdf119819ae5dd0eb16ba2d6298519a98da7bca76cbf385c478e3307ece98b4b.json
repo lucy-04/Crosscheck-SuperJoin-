@@ -1,0 +1,224 @@
+{
+  "key": "fdf119819ae5dd0eb16ba2d6298519a98da7bca76cbf385c478e3307ece98b4b",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:19:15.088Z",
+  "value": [
+    {
+      "claim": "Delhivery had 40,424,975 ESOPs ungranted as of March 31, 2024, on a fully diluted and estimated basis.",
+      "subject": "Delhivery",
+      "predicate": "ESOPs ungranted",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "40,424,975",
+        "number": 40424975,
+        "unit": "count",
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "fully diluted basis",
+        "estimated"
+      ],
+      "quote": "ESOPs ungranted, of which 40,424,975",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 5.03% ESOPs ungranted as of March 31, 2024, on a fully diluted and estimated basis.",
+      "subject": "Delhivery",
+      "predicate": "ESOPs ungranted",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5.03%",
+        "number": 5.03,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "fully diluted basis",
+        "estimated"
+      ],
+      "quote": "5.03%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 25,364,975 time-based ESOPs as of March 31, 2024, on a fully diluted and estimated basis.",
+      "subject": "Delhivery",
+      "predicate": "Time-based ESOPs",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "25,364,975",
+        "number": 25364975,
+        "unit": "count",
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "fully diluted basis",
+        "estimated"
+      ],
+      "quote": "Time-based ESOPs            25,364,975",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 3.16% time-based ESOPs as of March 31, 2024, on a fully diluted and estimated basis.",
+      "subject": "Delhivery",
+      "predicate": "Time-based ESOPs",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "3.16%",
+        "number": 3.16,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "fully diluted basis",
+        "estimated"
+      ],
+      "quote": "3.16%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 15,060,000 performance-based ESOPs as of March 31, 2024, on a fully diluted and estimated basis.",
+      "subject": "Delhivery",
+      "predicate": "Performance-based ESOPs",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "15,060,000",
+        "number": 15060000,
+        "unit": "count",
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "fully diluted basis",
+        "estimated"
+      ],
+      "quote": "Performance-based ESOPs            15,060,000",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery had 1.87% performance-based ESOPs as of March 31, 2024, on a fully diluted and estimated basis.",
+      "subject": "Delhivery",
+      "predicate": "Performance-based ESOPs",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.87%",
+        "number": 1.87,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "As of March 31, 2024",
+      "basis": [
+        "fully diluted basis",
+        "estimated"
+      ],
+      "quote": "1.87%",
+      "confidence": 1
+    },
+    {
+      "claim": "The vesting period for time-based ESOPs ranges from 3 to 4 years.",
+      "subject": "Time-based ESOPs",
+      "predicate": "vesting period ranges from",
+      "factType": "quantity",
+      "value": {
+        "kind": "categorical",
+        "raw": "3 to 4 years",
+        "number": null,
+        "unit": "years",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Vesting period ranges from 3 to 4 years",
+      "confidence": 1
+    },
+    {
+      "claim": "Performance-based ESOPs are to be unlocked upon achieving a share price of ₹800.",
+      "subject": "Performance-based ESOPs",
+      "predicate": "share price for unlocking",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹800",
+        "number": 800,
+        "unit": null,
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "share prices of ₹800",
+      "confidence": 1
+    },
+    {
+      "claim": "Performance-based ESOPs are to be unlocked upon achieving a share price of ₹1,000.",
+      "subject": "Performance-based ESOPs",
+      "predicate": "share price for unlocking",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹1,000",
+        "number": 1000,
+        "unit": null,
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "₹1,000",
+      "confidence": 1
+    },
+    {
+      "claim": "Performance-based ESOPs are to be unlocked upon achieving a share price of ₹1,200.",
+      "subject": "Performance-based ESOPs",
+      "predicate": "share price for unlocking",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "₹1,200",
+        "number": 1200,
+        "unit": null,
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [],
+      "quote": "and ₹1,200",
+      "confidence": 1
+    },
+    {
+      "claim": "Performance-based ESOPs vest equally over 2 years after being unlocked.",
+      "subject": "Performance-based ESOPs",
+      "predicate": "vest equally over",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2 years",
+        "number": 2,
+        "unit": "years",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "vest equally over 2 years",
+      "confidence": 1
+    }
+  ]
+}

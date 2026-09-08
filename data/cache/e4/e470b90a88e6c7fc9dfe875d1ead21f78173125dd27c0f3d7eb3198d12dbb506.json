@@ -1,0 +1,358 @@
+{
+  "key": "e470b90a88e6c7fc9dfe875d1ead21f78173125dd27c0f3d7eb3198d12dbb506",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:29:58.889Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from services in Q4 FY24 was ₹2,076 crore.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,076",
+        "number": 2076,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "₹2,076 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA in Q4 FY24 was ₹46 crore.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "46",
+        "number": 46,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "₹46Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin in Q4 FY24 was 2.2%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2.2%",
+        "number": 0.022,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "2.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA in Q4 FY24 was ₹21 crore.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "21",
+        "number": 21,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "₹21 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA margin in Q4 FY24 was 1.0%.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.0%",
+        "number": 0.01,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "1.0%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express parcel shipments in Q4 FY24 were 176 million.",
+      "subject": "Delhivery",
+      "predicate": "Express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "176 Mn",
+        "number": 176000000,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "176 Mn",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage in Q4 FY24 was 384K tons.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "384K Tons",
+        "number": 384000,
+        "unit": "Tons",
+        "scale": "K",
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [],
+      "quote": "384K Tons",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA in Q4 FY23 was ₹13 crore.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13",
+        "number": 13,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Q4 FY23: ₹13 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin in Q4 FY23 was 0.7%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.7%",
+        "number": 0.007,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "0.7%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA in Q4 FY23 was ₹6 crore.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "6",
+        "number": 6,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "Q4 FY23: ₹6 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA margin in Q4 FY23 was 0.3%.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "0.3%",
+        "number": 0.003,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "0.3%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA in Q3 FY24 was ₹109 crore.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "109",
+        "number": 109,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Q3 FY24: ₹109 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin in Q3 FY24 was 5.0%.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5.0%",
+        "number": 0.05,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "5.0%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA in Q3 FY24 was ₹92 crore.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "92",
+        "number": 92,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "Q3 FY24: ₹92 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Adjusted EBITDA margin in Q3 FY24 was 4.2%.",
+      "subject": "Delhivery",
+      "predicate": "Adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4.2%",
+        "number": 0.042,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q3 FY24",
+      "basis": [],
+      "quote": "4.2%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express parcel shipments in Q4 FY24 decreased by 2.2% year-over-year.",
+      "subject": "Delhivery",
+      "predicate": "Express parcel shipments YoY change",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(2.2%)",
+        "number": -0.022,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "YoY"
+      ],
+      "quote": "YoY: (2.2%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's Express parcel shipments in Q4 FY24 decreased by 12.8% quarter-over-quarter.",
+      "subject": "Delhivery",
+      "predicate": "Express parcel shipments QoQ change",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(12.8%)",
+        "number": -0.128,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "QoQ"
+      ],
+      "quote": "QoQ: (12.8%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage in Q4 FY24 increased by 20.8% year-over-year.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage YoY change",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "20.8%",
+        "number": 0.208,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "YoY"
+      ],
+      "quote": "YoY: 20.8%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage in Q4 FY24 increased by 8.6% quarter-over-quarter.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage QoQ change",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8.6%",
+        "number": 0.086,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "QoQ"
+      ],
+      "quote": "QoQ: 8.6%",
+      "confidence": 1
+    }
+  ]
+}

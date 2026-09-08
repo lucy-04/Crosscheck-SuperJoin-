@@ -1,0 +1,196 @@
+{
+  "key": "e8a2faa8b46be1e43bd37439821feee9f01422d259e12d59b63866d8664688d1",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:02:05.245Z",
+  "value": [
+    {
+      "claim": "Delhivery's revenue from services was ₹8,142 crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "FY24 revenue from services            ₹8,142 Cr",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA was -₹452 crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(452)",
+        "number": -452,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "FY23: ₹(452) Cr / (6.3%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's EBITDA margin was -6.3% in FY23.",
+      "subject": "Delhivery",
+      "predicate": "EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(6.3%)",
+        "number": -6.3,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "FY23: ₹(452) Cr / (6.3%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's adjusted EBITDA was -₹404 crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "adj. EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(404)",
+        "number": -404,
+        "unit": null,
+        "scale": "cr",
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "FY23: ₹(404) Cr / (5.6%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's adjusted EBITDA margin was -5.6% in FY23.",
+      "subject": "Delhivery",
+      "predicate": "adj. EBITDA margin",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(5.6%)",
+        "number": -5.6,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [],
+      "quote": "FY23: ₹(404) Cr / (5.6%)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue grew 12.7% YoY in FY24.",
+      "subject": "Delhivery",
+      "predicate": "revenue growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12.7%",
+        "number": 12.7,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [],
+      "quote": "YoY: 12.7%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery shipped 740 million express parcels in FY24.",
+      "subject": "Delhivery",
+      "predicate": "express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "740 Mn",
+        "number": 740,
+        "unit": null,
+        "scale": "mn",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Express parcel"
+      ],
+      "quote": "740 Mn            1.4 Mn Tons",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage was 1.4 million tons in FY24.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.4 Mn Tons",
+        "number": 1.4,
+        "unit": "tons",
+        "scale": "mn",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:PTL freight"
+      ],
+      "quote": "740 Mn            1.4 Mn Tons",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel shipments grew 11.5% YoY in FY24.",
+      "subject": "Delhivery",
+      "predicate": "express parcel shipments growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "11.5%",
+        "number": 11.5,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Express parcel"
+      ],
+      "quote": "YoY: 11.5%",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's PTL freight tonnage grew 29.8% YoY in FY24.",
+      "subject": "Delhivery",
+      "predicate": "ptl freight tonnage growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "29.8%",
+        "number": 29.8,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:PTL freight"
+      ],
+      "quote": "YoY: 29.8%",
+      "confidence": 1
+    }
+  ]
+}

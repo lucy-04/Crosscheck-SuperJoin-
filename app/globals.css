@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+/*
+ * A small, deliberately flat palette. The UI's job is to make evidence and
+ * reasoning legible, so colour is reserved for verdicts — everything else stays
+ * neutral so the verdicts carry meaning rather than decoration.
+ */
+@theme {
+  --color-ink: #16181d;
+  --color-muted: #6b7280;
+  --color-line: #e5e7eb;
+  --color-surface: #ffffff;
+  --color-canvas: #f7f7f8;
+
+  --color-corroborates: #0f7b53;
+  --color-corroborates-bg: #e7f5ee;
+  --color-contradicts: #b3261e;
+  --color-contradicts-bg: #fdeceb;
+  --color-reconciled: #8a5a00;
+  --color-reconciled-bg: #fdf3e2;
+  --color-superseded: #4b4fa6;
+  --color-superseded-bg: #eeeefb;
+}
+
+html,
+body {
+  background: var(--color-canvas);
+  color: var(--color-ink);
+}
+
+body {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* Evidence is shown as extracted, so it must keep its column spacing. */
+.evidence {
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+  font-size: 12px;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+mark {
+  background: #fff3a3;
+  color: inherit;
+  padding: 0 1px;
+  border-radius: 2px;
+}

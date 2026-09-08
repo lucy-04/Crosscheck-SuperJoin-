@@ -1,0 +1,148 @@
+{
+  "key": "25e4184045fa656f60c2041769b1f86b99ff0d871b826fc34574e91b2c9a979e",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:06:28.859Z",
+  "value": [
+    {
+      "claim": "Delhivery's express parcel revenue for FY24 was 8,142 ₹ Cr (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "express parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "8,142",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel revenue for FY23 was 5,077 ₹ Cr (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "express parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,077",
+        "number": 5077,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "5,077",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel revenue for FY22 was 4,552 ₹ Cr (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "express parcel revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4,552",
+        "number": 4552,
+        "unit": null,
+        "scale": "cr",
+        "currency": "₹"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "4,552",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel shipments for FY24 were 740 Mn (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "740",
+        "number": 740,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "740",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel shipments for FY23 were 4,191 Mn (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4,191",
+        "number": 4191,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "4,191",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's express parcel shipments for FY22 were 663 Mn (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "express parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "663",
+        "number": 663,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "663",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's revenue from services grew 13% year‑on‑year in FY24 (pro forma).",
+      "subject": "Delhivery",
+      "predicate": "revenue from services yoy",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13%",
+        "number": 13,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "13%",
+      "confidence": 1
+    }
+  ]
+}

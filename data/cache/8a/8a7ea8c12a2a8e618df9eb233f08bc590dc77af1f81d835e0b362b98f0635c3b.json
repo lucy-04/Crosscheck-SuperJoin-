@@ -1,0 +1,28 @@
+{
+  "key": "8a7ea8c12a2a8e618df9eb233f08bc590dc77af1f81d835e0b362b98f0635c3b",
+  "model": "gemini-2.5-flash",
+  "promptVersion": "v1",
+  "createdAt": "2026-09-08T16:16:54.095Z",
+  "value": [
+    {
+      "claim": "Delhivery's PTL segment experienced over 30% year-over-year growth in Q4 FY24.",
+      "subject": "Delhivery",
+      "predicate": "YoY growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "30%+",
+        "number": 30,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "segment:PTL"
+      ],
+      "quote": "30%+ YoY growth",
+      "confidence": 0.9
+    }
+  ]
+}

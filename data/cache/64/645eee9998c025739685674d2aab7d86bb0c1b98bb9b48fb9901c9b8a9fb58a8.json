@@ -1,0 +1,208 @@
+{
+  "key": "645eee9998c025739685674d2aab7d86bb0c1b98bb9b48fb9901c9b8a9fb58a8",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:16:07.497Z",
+  "value": [
+    {
+      "claim": "Corporate Identity Number (CIN) of the Listed Entity is L63090DL2011PLC221234",
+      "subject": "Delhivery Limited",
+      "predicate": "Corporate Identity Number (CIN)",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "L63090DL2011PLC221234",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Corporate Identity Number (CIN) of the Listed Entity          L63090DL2011PLC221234",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Year of incorporation is June 22, 2011",
+      "subject": "Delhivery Limited",
+      "predicate": "Year of incorporation",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "June 22, 2011",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Year of incorporation             June 22, 2011",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Registered office address is N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, New Delhi 110037",
+      "subject": "Delhivery Limited",
+      "predicate": "Registered office address",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "N24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6 Cargo Terminal, IGI Airport, New Delhi 110037",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Registered office address \nN24-N34, S24-S34, Air Cargo Logistics Centre-II, Opposite Gate 6\nCargo Terminal, IGI Airport, New Delhi 110037",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Corporate address is Plot No. 5, Sector 44, Gurugram, Haryana 122001",
+      "subject": "Delhivery Limited",
+      "predicate": "Corporate address",
+      "factType": "identity",
+      "value": {
+        "kind": "categorical",
+        "raw": "Plot No. 5, Sector 44, Gurugram, Haryana 122001",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Corporate address             Plot No. 5, Sector 44, Gurugram, Haryana 122001",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Paid-up Capital is ₹736,785,255 as on March 31, 2024",
+      "subject": "Delhivery Limited",
+      "predicate": "Paid-up Capital",
+      "factType": "identity",
+      "value": {
+        "kind": "number",
+        "raw": "₹736,785,255",
+        "number": 736785255,
+        "unit": null,
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "as on March 31, 2024",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Paid-up Capital             ₹736,785,255 (as on March 31, 2024)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Contribution of exports as a percentage of total turnover is 0.18%",
+      "subject": "Delhivery Limited",
+      "predicate": "contribution of exports as a percentage of the total turnover",
+      "factType": "identity",
+      "value": {
+        "kind": "number",
+        "raw": "0.18%",
+        "number": 0.18,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "What is the contribution of exports as a percentage of the total turnover of the entity?\n0.18%",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Number of active customers is over 33,250",
+      "subject": "Delhivery Limited",
+      "predicate": "number of active customers",
+      "factType": "identity",
+      "value": {
+        "kind": "number",
+        "raw": "over 33,250",
+        "number": 33250,
+        "unit": "customers",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "We provide transportation, warehousing and other supply chain services to a diverse base of over 33,250 active customers",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Total number of permanent employees is 18,604",
+      "subject": "Delhivery Limited",
+      "predicate": "Total employees (Permanent)",
+      "factType": "identity",
+      "value": {
+        "kind": "number",
+        "raw": "18,604",
+        "number": 18604,
+        "unit": "employees",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "3.     Total employees (D + E)             18,604",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Total number of workers is 45,186",
+      "subject": "Delhivery Limited",
+      "predicate": "Total workers",
+      "factType": "identity",
+      "value": {
+        "kind": "number",
+        "raw": "45,186",
+        "number": 45186,
+        "unit": "workers",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "6.     Total workers (F + G)             45,186",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Total number of differently abled employees is 7",
+      "subject": "Delhivery Limited",
+      "predicate": "Total differently abled employees",
+      "factType": "identity",
+      "value": {
+        "kind": "number",
+        "raw": "7",
+        "number": 7,
+        "unit": "employees",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY 2023-24 (FY24)",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "3.     Total differently abled employees (D + E)             7",
+      "confidence": 0.95
+    }
+  ]
+}

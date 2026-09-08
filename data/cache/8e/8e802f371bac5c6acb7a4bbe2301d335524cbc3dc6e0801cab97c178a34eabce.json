@@ -1,0 +1,517 @@
+{
+  "key": "8e802f371bac5c6acb7a4bbe2301d335524cbc3dc6e0801cab97c178a34eabce",
+  "model": "gemini-2.5-flash-lite",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T16:29:05.808Z",
+  "value": [
+    {
+      "claim": "Express Parcel revenue from services was ₹8,142 crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142",
+        "number": 8142,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "8,142",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments were 740 million in FY24.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "740",
+        "number": 740,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "740",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue was ₹1,705 crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,705",
+        "number": 1705,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "1,705",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight tonnage was 1,517 thousand tons in FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,517",
+        "number": 1517,
+        "unit": "Tons",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "1,517",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel revenue from services was ₹7,224 crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,224",
+        "number": 7224,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "7,224",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments were 663 million in FY23.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "663",
+        "number": 663,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "663",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue was ₹1,579 crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,579",
+        "number": 1579,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "1,579",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight tonnage was 1,157 thousand tons in FY23.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,157",
+        "number": 1157,
+        "unit": "Tons",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "1,157",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel revenue from services was ₹7,054 crore in FY22.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,054",
+        "number": 7054,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "7,054",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments were 582 million in FY22.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "582",
+        "number": 582,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "582",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue was ₹1,429 crore in FY22.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429",
+        "number": 1429,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "1,429",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight tonnage was 1,101 thousand tons in FY22.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,101",
+        "number": 1101,
+        "unit": "Tons",
+        "scale": "thousand",
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "1,101",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel revenue from services grew 13% YoY.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "13%",
+        "number": 13,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "13%",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments grew 12% YoY.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "12%",
+        "number": 12,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "12%",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue grew 31% YoY.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "31%",
+        "number": 31,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "31%",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight tonnage grew 30% YoY.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight tonnage growth",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "30%",
+        "number": 30,
+        "unit": "%",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma"
+      ],
+      "quote": "30%",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel revenue from services was ₹5,077 crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "5,077",
+        "number": 5077,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma",
+        "segment:Express Parcel"
+      ],
+      "quote": "5,077",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel revenue from services was ₹4,191 crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4,191",
+        "number": 4191,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma",
+        "segment:Express Parcel"
+      ],
+      "quote": "4,191",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel revenue from services was ₹4,552 crore in FY22.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4,552",
+        "number": 4552,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma",
+        "segment:Express Parcel"
+      ],
+      "quote": "4,552",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments were 740 million in FY24.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "740",
+        "number": 740,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma",
+        "segment:Express Parcel"
+      ],
+      "quote": "740",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments were 663 million in FY23.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "663",
+        "number": 663,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma",
+        "segment:Express Parcel"
+      ],
+      "quote": "663",
+      "confidence": 1
+    },
+    {
+      "claim": "Express Parcel shipments were 582 million in FY22.",
+      "subject": "Delhivery",
+      "predicate": "Express Parcel shipments",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "582",
+        "number": 582,
+        "unit": "Mn",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma",
+        "segment:Express Parcel"
+      ],
+      "quote": "582",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue was ₹1,517 crore in FY24.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,517",
+        "number": 1517,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "pro forma",
+        "segment:PTL"
+      ],
+      "quote": "1,517",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue was ₹1,157 crore in FY23.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,157",
+        "number": 1157,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY23",
+      "basis": [
+        "pro forma",
+        "segment:PTL"
+      ],
+      "quote": "1,157",
+      "confidence": 1
+    },
+    {
+      "claim": "PTL freight revenue was ₹1,429 crore in FY22.",
+      "subject": "Delhivery",
+      "predicate": "PTL freight revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,429",
+        "number": 1429,
+        "unit": "Cr",
+        "scale": null,
+        "currency": "INR"
+      },
+      "period": "FY22",
+      "basis": [
+        "pro forma",
+        "segment:PTL"
+      ],
+      "quote": "1,429",
+      "confidence": 1
+    }
+  ]
+}

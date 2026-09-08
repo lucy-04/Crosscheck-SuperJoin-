@@ -1,0 +1,26 @@
+{
+  "key": "b5ac55d105359d698baf38f1e6ada028615abecd24d627a824eba5a38ee07306",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:02:41.958Z",
+  "value": [
+    {
+      "claim": "Delhivery's TL service revenue was 2,194 ₹ Cr in Q4 FY23.",
+      "subject": "Delhivery",
+      "predicate": "tl service revenue",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,194",
+        "number": 2194,
+        "unit": "₹",
+        "scale": "Cr",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [],
+      "quote": "2,194",
+      "confidence": 1
+    }
+  ]
+}

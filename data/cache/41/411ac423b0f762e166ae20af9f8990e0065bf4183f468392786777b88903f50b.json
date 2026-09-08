@@ -1,0 +1,88 @@
+{
+  "key": "411ac423b0f762e166ae20af9f8990e0065bf4183f468392786777b88903f50b",
+  "model": "openai/gpt-oss-20b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T19:12:14.834Z",
+  "value": [
+    {
+      "claim": "Employee benefits expense was 14,367.70 million INR.",
+      "subject": "Delhivery Limited",
+      "predicate": "employee benefits expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14,367.70",
+        "number": 14367.7,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "14,367.70",
+      "confidence": 1
+    },
+    {
+      "claim": "Employee benefits expense was 14,000.34 million INR.",
+      "subject": "Delhivery Limited",
+      "predicate": "employee benefits expense",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "14,000.34",
+        "number": 14000.34,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "14,000.34",
+      "confidence": 1
+    },
+    {
+      "claim": "Other expenses was 6,073.78 million INR.",
+      "subject": "Delhivery Limited",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "6,073.78",
+        "number": 6073.78,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "6,073.78",
+      "confidence": 1
+    },
+    {
+      "claim": "Other expenses was 6,058.19 million INR.",
+      "subject": "Delhivery Limited",
+      "predicate": "other expenses",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "6,058.19",
+        "number": 6058.19,
+        "unit": "INR",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "6,058.19",
+      "confidence": 1
+    }
+  ]
+}

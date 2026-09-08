@@ -1,0 +1,228 @@
+{
+  "key": "a6a0f55109a9002d5325582e81699bb67efd322714efb38bcd18b45c620b7b29",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T19:37:17.180Z",
+  "value": [
+    {
+      "claim": "Delhivery generated 2,937,331 kWh of solar power in FY24.",
+      "subject": "Delhivery",
+      "predicate": "solar power generated",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,937,331 kWh",
+        "number": 2937331,
+        "unit": "kWh",
+        "scale": "kWh",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "scale: kWh",
+        "period: FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "generate 2,937,331 kWh units of solar power in FY24",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's installed solar power capacity was 4.6 MW at the end of FY24.",
+      "subject": "Delhivery",
+      "predicate": "installed solar power capacity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "4.6 MW",
+        "number": 4.6,
+        "unit": "MW",
+        "scale": "MW",
+        "currency": null
+      },
+      "period": "end of FY24",
+      "basis": [
+        "scale: MW",
+        "period: end of FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "installed solar power capacity to 4.6 MW at the end of FY24",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's installed solar power capacity was 1.5 MW at the end of FY23.",
+      "subject": "Delhivery",
+      "predicate": "installed solar power capacity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1.5 MW",
+        "number": 1.5,
+        "unit": "MW",
+        "scale": "MW",
+        "currency": null
+      },
+      "period": "end of FY23",
+      "basis": [
+        "scale: MW",
+        "period: end of FY23",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "from 1.5 MW at the end of FY23",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's total sanctioned solar power capacity is 8 MW.",
+      "subject": "Delhivery",
+      "predicate": "total sanctioned solar power capacity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8 MW",
+        "number": 8,
+        "unit": "MW",
+        "scale": "MW",
+        "currency": null
+      },
+      "period": "end of FY24",
+      "basis": [
+        "scale: MW",
+        "period: end of FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "total sanctioned capacity of 8 MW",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery had a combined fleet of 1,634 vehicles running on CNG or EVs at the end of FY24.",
+      "subject": "Delhivery",
+      "predicate": "combined fleet of CNG or EV vehicles",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,634",
+        "number": 1634,
+        "unit": "vehicles",
+        "scale": "count",
+        "currency": null
+      },
+      "period": "end of FY24",
+      "basis": [
+        "scale: count",
+        "period: end of FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "combined fleet of 1,634 vehicles that ran on CNG or EVs",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's total count of tractors was 753 at the end of FY24.",
+      "subject": "Delhivery",
+      "predicate": "total count of tractors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "753",
+        "number": 753,
+        "unit": "tractors",
+        "scale": "count",
+        "currency": null
+      },
+      "period": "end of FY24",
+      "basis": [
+        "scale: count",
+        "period: end of FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "total count to 753 at the end of FY24",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's total count of tractors was 562 at the end of FY23.",
+      "subject": "Delhivery",
+      "predicate": "total count of tractors",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "562",
+        "number": 562,
+        "unit": "tractors",
+        "scale": "count",
+        "currency": null
+      },
+      "period": "end of FY23",
+      "basis": [
+        "scale: count",
+        "period: end of FY23",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "from 562 at the end of FY23",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The share of mid-mile load carried by 46-ft tractor-trailers crossed 70% by the end of FY24.",
+      "subject": "Delhivery",
+      "predicate": "share of mid-mile load carried by 46-ft tractor-trailers",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "70%",
+        "number": 70,
+        "unit": "%",
+        "scale": "percentage",
+        "currency": null
+      },
+      "period": "end of FY24",
+      "basis": [
+        "scale: percentage",
+        "period: end of FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "share of our mid-mile load carried by the 46-ft tractor-trailers crossed 70% by the end of FY24",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's logistics intensity was 229.1 gCO2e/tonne-kilometre in FY23.",
+      "subject": "Delhivery",
+      "predicate": "logistics intensity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "229.1 gCO 2 e/tonne- kilometre",
+        "number": 229.1,
+        "unit": "gCO2e/tonne-kilometre",
+        "scale": "gCO2e/tonne-kilometre",
+        "currency": null
+      },
+      "period": "FY23",
+      "basis": [
+        "scale: gCO2e/tonne-kilometre",
+        "period: FY23",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "229.1 gCO 2 e/tonne- kilometre in FY23",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery's logistics intensity was 184 gCO2e/tonne-kilometre in FY24.",
+      "subject": "Delhivery",
+      "predicate": "logistics intensity",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "184 gCO 2e/tonne- kilometre",
+        "number": 184,
+        "unit": "gCO2e/tonne-kilometre",
+        "scale": "gCO2e/tonne-kilometre",
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "scale: gCO2e/tonne-kilometre",
+        "period: FY24",
+        "source: Delhivery Annual Report FY24"
+      ],
+      "quote": "184 gCO 2e/tonne- kilometre in FY24",
+      "confidence": 0.95
+    }
+  ]
+}

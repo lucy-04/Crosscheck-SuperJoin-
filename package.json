@@ -1,0 +1,41 @@
+{
+  "name": "crosscheck",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A fact knowledge layer that grounds facts in evidence and explains its disagreements.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ingest": "tsx scripts/ingest.ts",
+    "reconcile": "tsx scripts/reconcile.ts",
+    "demo": "tsx scripts/demo.ts",
+    "reset": "tsx scripts/reset.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.0",
+    "@ai-sdk/google": "^2.0.96",
+    "@ai-sdk/groq": "^2.0.52",
+    "ai": "^5.0.0",
+    "better-sqlite3": "^12.2.0",
+    "next": "^15.5.0",
+    "pdfjs-dist": "^4.10.38",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.0",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "postcss": "^8.5.0",
+    "tailwindcss": "^4.1.0",
+    "tsx": "^4.20.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0"
+  }
+}

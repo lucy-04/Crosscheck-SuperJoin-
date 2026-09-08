@@ -1,0 +1,98 @@
+{
+  "key": "2441d9719f7b746008eb246fc1f1f11d1b2e5fb2911ca72ebf5ef2048cc2259f",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T17:13:02.373Z",
+  "value": [
+    {
+      "claim": "Delhivery does not propose any pre-IPO placement of its Equity Shares.",
+      "subject": "Delhivery",
+      "predicate": "pre-ipo placement proposal",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "does not propose",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Our Company does not propose to undertake any pre-IPO placement of its Equity Shares.",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery has not issued any equity or preference shares for consideration other than cash or by way of bonus issue in the last one year.",
+      "subject": "Delhivery",
+      "predicate": "issuance for consideration other than cash",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "has not issued",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "last one year",
+      "basis": [],
+      "quote": "Except as disclosed below, our Company has not issued any equity shares or preference shares for consideration other than cash or by way of bonus issue in the last one year:",
+      "confidence": 1
+    },
+    {
+      "claim": "The date of allotment for the bonus issue was September 29, 2021.",
+      "subject": "Delhivery",
+      "predicate": "date of allotment",
+      "factType": "date",
+      "value": {
+        "kind": "date",
+        "raw": "September 29, 2021",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "September 29, 2021",
+      "confidence": 1
+    },
+    {
+      "claim": "The allotment was a bonus issue in the ratio of nine equity shares for one equity share.",
+      "subject": "Delhivery",
+      "predicate": "reason for allotment",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Bonus issue in the ratio of nine equity shares for one equity share (1)",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Bonus issue in the ratio of nine equity shares for one equity share (1)",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery allotted 16,846,803 equity shares.",
+      "subject": "Delhivery",
+      "predicate": "number of equity shares allotted",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "16,846,803",
+        "number": 16846803,
+        "unit": "count",
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "16,846,803",
+      "confidence": 1
+    }
+  ]
+}
