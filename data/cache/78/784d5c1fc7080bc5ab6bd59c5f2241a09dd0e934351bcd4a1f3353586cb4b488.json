@@ -1,0 +1,11 @@
+{
+  "key": "784d5c1fc7080bc5ab6bd59c5f2241a09dd0e934351bcd4a1f3353586cb4b488",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:11:11.290Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "a_broader_than_b",
+    "reason": "Adjusted EBITDA margin is a specific version of EBITDA margin"
+  }
+}

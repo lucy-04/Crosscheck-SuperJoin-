@@ -1,0 +1,11 @@
+{
+  "key": "371ea75d637fdc85ea81545cfa6939ce85d173df50584709a26506dffaca267a",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:12.939Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "EBITDA margin is a percentage ratio of EBITDA to revenue, not the same as the EBITDA amount"
+  }
+}

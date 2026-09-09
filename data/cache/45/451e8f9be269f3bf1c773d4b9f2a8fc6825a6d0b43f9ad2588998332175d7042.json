@@ -1,0 +1,44 @@
+{
+  "key": "451e8f9be269f3bf1c773d4b9f2a8fc6825a6d0b43f9ad2588998332175d7042",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T02:51:45.396Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited answered No to the question of using an external agency.",
+      "subject": "Delhivery Limited",
+      "predicate": "external agency",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "No",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "No",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery Limited indicated that the reasons for not covering all principles are Not Applicable.",
+      "subject": "Delhivery Limited",
+      "predicate": "reasons to be stated",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "Not Applicable",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [],
+      "quote": "Not Applicable",
+      "confidence": 1
+    }
+  ]
+}

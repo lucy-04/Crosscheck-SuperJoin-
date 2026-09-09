@@ -1,0 +1,11 @@
+{
+  "key": "10d2d01a353c3cce2ee7c2840a4fddc34cfa8377b83c814b01f40da6c0369071",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:13.949Z",
+  "value": {
+    "matchIndex": 1,
+    "relation": "b_broader_than_a",
+    "reason": "Freight service centers cover a broader range of services than express delivery centers."
+  }
+}

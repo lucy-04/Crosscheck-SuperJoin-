@@ -35,11 +35,10 @@ GROQ_API_KEY=gsk_...        # or ANTHROPIC_API_KEY=..., or GEMINI_API_KEY=...
 ```
 
 The provider is chosen from whichever key is present. Full options, scripts and
-API reference: [`setup.md`](setup.md). Design of record: [`plan.md`](plan.md).
-Build log, measurements and every bug found on the way: [`progress.md`](progress.md).
+API reference: [`setup.md`](setup.md).
 
 ```bash
-npm test            # 63 unit tests over the deterministic core
+npm test            # 76 unit tests over the deterministic core
 npm run ingest -- --all --force    # re-ingest the starter corpus
 npm run reconcile -- --fresh       # rebuild the relation graph (no LLM calls)
 ```
@@ -126,6 +125,7 @@ Then an ordered rule table:
 | Rule | Condition | Verdict |
 |---|---|---|
 | R1 | every axis aligned, values agree | **CORROBORATES** |
+| R1b | values agree; one period is an instant on the other's closing date | **CORROBORATES** *(reduced confidence)* |
 | R4 | values differ **and an axis explains it** | **RECONCILED** *(names the axis)* |
 | R5 | one figure explicitly marked restated | **SUPERSEDED** |
 | R6 | mutually exclusive states, different vintages | **SUPERSEDED** *(state changed)* |
@@ -258,16 +258,94 @@ metered spend in the system is extraction.
 
 ---
 
+## The four required cases
+
+Full output with evidence and axis-by-axis reasoning: [`docs/cases.md`](docs/cases.md).
+Regenerate with `npm run demo` — **verified to run with no API key at all**.
+
+Selected by the engine from its own output, never hardcoded: the demo asks for
+the highest-confidence example of each verdict, preferring cross-document pairs.
+If the engine stops producing one it prints an absence rather than a fixture.
+
+The knowledge layer holds **226 facts** and reports **6 relations** — 3 of them
+cross-document. That ratio is deliberate and is discussed under *Precision over
+volume* below.
+
+**1 · Corroborated across documents, expressed differently.**
+
+```
+A  (4,516.08) million   [March 31, 2023]   annual report p37
+B  Rs. (452 Cr)         [FY23]             earnings deck p5
+   → CORROBORATES  (R1b, confidence 0.74)
+```
+
+−4,516.08 million normalises to −₹451.61 crore, matching −₹452 crore. Two
+documents, two scales, and two different period conventions — one naming the year,
+the other labelling it by its closing date — recognised as a single fact.
+
+**2 · A genuine or likely contradiction.** `revenue growth` for FY24 stated as
+`40%` on page 5 and `12.7%` on page 6 of the same deck, with every axis aligned.
+**This is a false positive and is reported as one**: page 5 is the Part-Truckload
+segment and page 6 the company total, but the extractor dropped the segment from
+the predicate. The engine reasoned correctly from information already lost
+upstream. See *Limitations*.
+
+**3 · An apparent contradiction explained by context.** Four of these, e.g.
+
+```
+A  ebitda  Rs. (452 Cr)  [FY23]       B  EBITDA  ₹13 Cr  [Q4 FY23]
+   → RECONCILED, axis = period, confidence 0.85
+   "Q4 FY23 sits inside FY23 (3 of 12 months) — these measure different windows"
+```
+
+Both would be called "FY23 EBITDA" in conversation, which is what makes the
+conflict *apparent*; the containment is what dissolves it.
+
+**4 · An extraction failure and how it is handled.** 86 of 312 extractions were
+refused by grounding and quarantined:
+
+| Reason | Count | What it means |
+|---|---|---|
+| `quote_lacks_context` | 47 | The span holds the value but no word saying what it measures — `"834"` alone proves nothing |
+| `quote_not_found` | 28 | The cited quote is not on the page it names |
+| `value_not_in_quote` | 11 | Real quote, but the claimed value is not inside it |
+
+Rejected claims are stored and counted rather than dropped, browsable at
+`/quarantine`. That turns "LLMs hallucinate" from a disclaimer into a measured
+**72% grounding rate**.
+
+### Precision over volume
+
+An earlier version of the engine reported **151** relations. Nearly all were
+noise, and removing it was the most valuable work in the project:
+
+| Problem | Cause | Fix |
+|---|---|---|
+| 36 of 37 "corroborations" were one value | The same figure extracted 9 times from one page produces C(9,2)=36 self-confirming pairs | Deduplicate identical claims at ingest — corroboration requires *independent* assertions |
+| 92 of 113 "reconciliations" were Q1 vs Q2 | R4 fired on any value difference plus any scope difference | A reconciliation must resolve an **apparent** conflict: the periods must be confusable (nested, overlapping, boundary), not disjoint siblings |
+| 4 compared different people | The extractor put the subject into `basis` as `member:…`, so two directors blocked together | A `key:value` qualifier names *which entity*; when two differ, the facts are unrelated, not reconcilable |
+
+6 defensible relations beat 151 that a reader has to sift. A knowledge layer that
+cries contradiction at every pair of quarters is worse than useless — it trains
+you to ignore it.
+
+---
+
 ## Limitations and next steps
 
 Honest list of what does not work yet.
 
 **Extraction quality is the weakest link, and it is measured.** The grounding rate
-on the earnings deck is 66% — one in three extractions is refused. Most rejections
-are correct (the model offering a bare `"34.1%"` as its own evidence), but the
-rate is a real ceiling on recall, and a stronger extraction model raises it
-immediately. Side-by-side on the same document: Gemini 2.5 Flash produced 148
-facts with 2 rejections; `gpt-oss-120b` produced 174 with 60.
+is **73%** — better than one in four extractions is refused. Most rejections are
+correct (the model offering a bare `"34.1%"` as its own evidence), but the rate is
+a real ceiling on recall, and a stronger extraction model raises it immediately.
+Side-by-side on the same document: Gemini 2.5 Flash produced 148 facts with 2
+rejections; `gpt-oss-120b` produced 174 with 60.
+
+**Cross-document coverage is thin: 1 corroboration and 5 reconciliations.** Not an
+architectural limit — a corpus one. Only two documents are fully loaded, and both
+are Delhivery, so the reachable overlap is small. Every additional document
+multiplies the comparable pairs.
 
 **Predicates are sometimes under-specified.** A table of `% of revenue` broken
 down by row gets each row extracted with the same generic predicate, losing the
@@ -290,11 +368,14 @@ skipped. A scanned filing would currently yield nothing.
 figures are never compared. Doing it properly needs dated FX rates and an
 explicit provenance trail for the conversion.
 
-**Corpus coverage.** Free-tier token budgets across three providers were the
-binding constraint on how much of the starter set could be ingested within the
-deadline; see `progress.md` for what completed. The architecture is unaffected —
-`npm run ingest -- --all` with any funded key completes the rest, and the cache
-makes every partial run permanent progress.
+**Corpus coverage: 2 of 6 documents.** The earnings deck and the FY24 annual
+report are loaded (234 facts); the 2022 prospectus is partial and the three
+India-macroeconomy reports are not ingested. Free-tier daily token budgets across
+three providers were the binding constraint, not the architecture —
+`npm run ingest -- --all` with any funded key completes the rest, and because the
+cache is committed, every partial run is permanent progress rather than wasted
+spend. This is a volume gap, not a capability gap: the pipeline treats an unseen
+PDF identically.
 
 ### What I would build next, in order
 

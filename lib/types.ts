@@ -150,6 +150,8 @@ export interface Fact extends Omit<ScopedClaim, "evidence"> {
 /** How two time scopes relate. The vocabulary the explanations are written in. */
 export type PeriodRelation =
   | "EQUAL"
+  /** One side is an instant falling exactly on the other's closing date. */
+  | "BOUNDARY"
   | "A_CONTAINS_B"
   | "B_CONTAINS_A"
   | "OVERLAP"

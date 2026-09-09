@@ -1,0 +1,11 @@
+{
+  "key": "a23f00397f7b3dd0b4fb4fad7f81a3865fb41185a0465ff881abf179a78eb6e9",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:03:34.984Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "same",
+    "reason": "B Delhivery Limited is the legal corporate name for the company commonly known as Delhivery."
+  }
+}

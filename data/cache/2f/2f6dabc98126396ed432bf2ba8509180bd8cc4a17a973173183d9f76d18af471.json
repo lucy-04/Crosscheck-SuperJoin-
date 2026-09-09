@@ -1,0 +1,11 @@
+{
+  "key": "2f6dabc98126396ed432bf2ba8509180bd8cc4a17a973173183d9f76d18af471",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:54:43.395Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Total equity and total cash balance measure distinct financial concepts"
+  }
+}

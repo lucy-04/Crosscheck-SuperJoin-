@@ -245,3 +245,54 @@ describe("R7b — a breakdown is not a disagreement", () => {
     expect(decide(a, b, differs).verdict).toBe("CONTRADICTS");
   });
 });
+
+describe("R4 — a reconciliation must resolve an APPARENT conflict", () => {
+  const q1 = fact({
+    scope: { period: parsePeriod("Q1 FY23"), assertedAsOf: "2024-05-17", basis: [] },
+    normalizedNumber: 1.746e10,
+  });
+  const q2 = fact({
+    documentId: "d2",
+    scope: { period: parsePeriod("Q2 FY23"), assertedAsOf: "2024-05-17", basis: [] },
+    normalizedNumber: 1.796e10,
+  });
+
+  it("does not call two different quarters a reconciliation", () => {
+    // Q1 revenue and Q2 revenue are sibling periods. Nobody would read one as the
+    // other, so there is no apparent contradiction to explain — and reporting one
+    // buries the handful of genuine reconciliations in noise.
+    const r = decide(q1, q2, differs);
+    expect(r.verdict).toBe("UNRELATED");
+    expect(r.ruleId).toBe("R4-different-times");
+    expect(r.explanation).toContain("two different facts");
+  });
+
+  it("still reconciles a quarter against the year that contains it", () => {
+    // This one IS confusable: both get called "FY24 revenue" in conversation, and
+    // the containment is precisely what explains the gap.
+    const year = fact({ scope: { period: parsePeriod("FY24"), assertedAsOf: "x", basis: [] } });
+    const quarter = fact({
+      documentId: "d2",
+      scope: { period: parsePeriod("Q4 FY24"), assertedAsOf: "x", basis: [] },
+    });
+    const r = decide(year, quarter, differs);
+    expect(r.verdict).toBe("RECONCILED");
+    expect(r.axis).toBe("period");
+  });
+
+  it("still reconciles same-period figures that differ on another axis", () => {
+    const consolidated = fact({ scope: { period: parsePeriod("FY24"), assertedAsOf: "x", basis: ["consolidated"] } });
+    const standalone = fact({
+      documentId: "d2",
+      scope: { period: parsePeriod("FY24"), assertedAsOf: "x", basis: ["standalone"] },
+    });
+    const r = decide(consolidated, standalone, differs);
+    expect(r.verdict).toBe("RECONCILED");
+    expect(r.axis).toBe("entityScope");
+  });
+
+  it("reports nothing when a claim has no period to compare", () => {
+    const unscoped = fact({ documentId: "d2", scope: { period: null, assertedAsOf: "x", basis: [] } });
+    expect(decide(fact(), unscoped, differs).verdict).toBe("UNRELATED");
+  });
+});

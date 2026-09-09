@@ -1,0 +1,11 @@
+{
+  "key": "acaa41047b25bf0dc4493abb27cc8067f5917018836b637c0ace6418c53a4251",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:19.393Z",
+  "value": {
+    "matchIndex": 2,
+    "relation": "b_broader_than_a",
+    "reason": "Express parcel revenue YoY is a subset of overall services revenue YoY"
+  }
+}

@@ -125,7 +125,30 @@ Extract every well-scoped fact in the excerpt, up to 25. If the excerpt contains
 function toFactValue(v: RawClaim["value"]): FactValue {
   switch (v.kind) {
     case "number": {
-      const parsed = v.number ?? parseNumericLiteral(v.raw);
+      // The PRINTED literal is the authority on sign.
+      //
+      // Financial statements write negatives as accounting parentheses, and
+      // models routinely return raw "(4,516.08)" alongside number 4516.08 —
+      // correct magnitude, lost sign. Trusting `number` flips a loss into a
+      // profit, which then reads as a disagreement against the same figure
+      // stated elsewhere. Observed suppressing a real cross-document match:
+      // "(4,516.08) million" against "Rs. (452 Cr)" are the same value.
+      const fromRaw = parseNumericLiteral(v.raw);
+      let parsed = v.number ?? fromRaw;
+
+      if (parsed !== null && fromRaw !== null) {
+        const rawIsNegative = fromRaw < 0;
+        const magnitudesAgree =
+          Math.abs(Math.abs(parsed) - Math.abs(fromRaw)) <=
+          Math.max(Math.abs(fromRaw), 1) * 1e-9;
+        // Only correct when both refer to the same magnitude; a genuine
+        // disagreement between the two fields is left alone rather than papered
+        // over, and the grounding check will catch it.
+        if (magnitudesAgree && rawIsNegative !== parsed < 0) {
+          parsed = rawIsNegative ? -Math.abs(parsed) : Math.abs(parsed);
+        }
+      }
+
       return {
         kind: "number",
         raw: v.raw,

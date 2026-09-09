@@ -16,6 +16,7 @@
 
 import type { DimensionDelta, Fact, PeriodRelation } from "@/lib/types";
 import { comparePeriods, periodLabel, periodMonths } from "@/lib/normalize/period";
+import { normalizeSubject } from "@/lib/normalize/text";
 import { findRelation } from "@/lib/registry/store";
 
 /**
@@ -26,10 +27,51 @@ import { findRelation } from "@/lib/registry/store";
  */
 const ENTITY_SCOPE = new Set(["consolidated", "standalone", "unconsolidated", "combined"]);
 
+/**
+ * A qualifier that names WHICH THING a fact is about, written "key:value" —
+ * "segment:express parcel", "member:mr kapil bharati", "committee:audit".
+ *
+ * Distinct from consolidated/standalone, which describe the same entity measured
+ * two ways. A narrowing names a DIFFERENT entity, and two facts with different
+ * narrowings are not a reconcilable basis difference — they are unrelated.
+ */
+const isNarrowing = (b: string) => /^[a-z][\w ]*:/.test(b);
 const isSegment = (b: string) => b.startsWith("segment:");
 
-function entityScopeOf(basis: string[]): string[] {
-  return basis.filter((b) => ENTITY_SCOPE.has(b) || isSegment(b)).sort();
+/**
+ * Entity-scope qualifiers on a fact, dropping any that restrict nothing.
+ *
+ * A segment marker naming the SUBJECT ITSELF is a no-op: "segment:delhivery" on a
+ * fact about Delhivery narrows nothing, and extractors emit these routinely when a
+ * segment table repeats the parent name as a row. Left in, it makes the entity
+ * scope look narrower than the figure really is, and the axis then blocks
+ * comparison against the same figure stated without qualification elsewhere —
+ * which suppressed a real cross-document match between the annual report and the
+ * earnings deck.
+ *
+ * Genuine segments ("segment:express parcel") are kept, because those DO narrow.
+ */
+function entityScopeOf(fact: Fact): string[] {
+  const subject = normalizeSubject(fact.subject);
+  return fact.scope.basis
+    .filter((b) => {
+      if (ENTITY_SCOPE.has(b)) return true;
+      if (!isNarrowing(b)) return false;
+      return normalizeSubject(b.slice(b.indexOf(":") + 1)) !== subject;
+    })
+    .sort();
+}
+
+/**
+ * Narrowing qualifiers on a fact, minus any that name the subject itself.
+ * Used to detect pairs that describe different entities rather than one entity
+ * measured differently.
+ */
+export function narrowingsOf(fact: Fact): string[] {
+  const subject = normalizeSubject(fact.subject);
+  return fact.scope.basis
+    .filter((b) => isNarrowing(b) && normalizeSubject(b.slice(b.indexOf(":") + 1)) !== subject)
+    .sort();
 }
 
 function otherBasisOf(basis: string[]): string[] {
@@ -51,6 +93,8 @@ function describePeriod(rel: PeriodRelation, a: Fact, b: Fact): string {
   switch (rel) {
     case "EQUAL":
       return `Both cover ${al}`;
+    case "BOUNDARY":
+      return `${al} and ${bl} — one is stated as an instant falling exactly on the other's closing date, which is how filings often head an annual column`;
     case "A_CONTAINS_B": {
       const am = a.scope.period ? periodMonths(a.scope.period) : 0;
       const bm = b.scope.period ? periodMonths(b.scope.period) : 0;
@@ -106,19 +150,35 @@ export function computeDeltas(a: Fact, b: Fact): AlgebraResult {
   });
 
   // ---- entity scope -------------------------------------------------------
-  const aScope = entityScopeOf(a.scope.basis);
-  const bScope = entityScopeOf(b.scope.basis);
-  const scopeAligned = aScope.join("|") === bScope.join("|");
+  const aScope = entityScopeOf(a);
+  const bScope = entityScopeOf(b);
+  const identical = aScope.join("|") === bScope.join("|");
+
+  // An UNSTATED entity scope is treated as compatible with a stated one, because
+  // most figures in a filing are consolidated and simply do not repeat it on
+  // every line. Requiring both sides to say so would stop almost every
+  // cross-document pair from ever corroborating, since one source states the
+  // basis in a statement heading and the other never mentions it.
+  //
+  // The exception is a SEGMENT, which is genuinely narrower than an unqualified
+  // figure. "Express Parcel revenue" and "revenue" are different quantities, and
+  // silently aligning them would manufacture agreement.
+  const oneSideSilent = (!aScope.length || !bScope.length) && !identical;
+  const eitherIsSegment = [...aScope, ...bScope].some(isNarrowing);
+  const scopeAligned = identical || (oneSideSilent && !eitherIsSegment);
+
   deltas.push({
     dimension: "entityScope",
     aligned: scopeAligned,
     a: aScope.join(", ") || null,
     b: bScope.join(", ") || null,
-    note: scopeAligned
+    note: identical
       ? aScope.length
         ? `Both are ${aScope.join(", ")}`
         : "Neither declares an entity scope"
-      : `Different entity scope: ${aScope.join(", ") || "unstated"} vs ${bScope.join(", ") || "unstated"} — these cover different sets of entities`,
+      : scopeAligned
+        ? `Only one side declares an entity scope (${[...aScope, ...bScope].join(", ")}); the other is unqualified, so they are treated as compatible`
+        : `Different entity scope: ${aScope.join(", ") || "unstated"} vs ${bScope.join(", ") || "unstated"} — these cover different sets of entities`,
   });
 
   // ---- other basis qualifiers --------------------------------------------

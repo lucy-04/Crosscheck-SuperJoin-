@@ -1,0 +1,11 @@
+{
+  "key": "ce1518de17acd10d5ea06a3e46d167f767687757f280c734008a2a56f1433302",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:12.419Z",
+  "value": {
+    "matchIndex": 2,
+    "relation": "b_broader_than_a",
+    "reason": "QoQ revenue from services is a specific type of revenue growth"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "key": "fa59d191e4ad15512e502a52411d9c9a4415ecf4caea97495efa8cee95b604c7",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:06:19.979Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "The global economy refers to the aggregate economic activity of the entire world, whereas the global logistics market is a specific industry sector within that economy. They are not the same entity."
+  }
+}

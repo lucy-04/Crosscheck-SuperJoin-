@@ -1,0 +1,11 @@
+{
+  "key": "e05f3a8047c688892aa12133f57f9cf83715bd755c3415011a0898ec67edd0dc",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T03:46:05.895Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "a_broader_than_b",
+    "reason": "Revenue from operations aggregates revenue from services, so it is broader"
+  }
+}

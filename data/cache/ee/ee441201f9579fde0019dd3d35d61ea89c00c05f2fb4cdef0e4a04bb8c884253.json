@@ -1,0 +1,11 @@
+{
+  "key": "ee441201f9579fde0019dd3d35d61ea89c00c05f2fb4cdef0e4a04bb8c884253",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:14.994Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "a_broader_than_b",
+    "reason": "Processing centers is a broader term that includes automated sort centers"
+  }
+}

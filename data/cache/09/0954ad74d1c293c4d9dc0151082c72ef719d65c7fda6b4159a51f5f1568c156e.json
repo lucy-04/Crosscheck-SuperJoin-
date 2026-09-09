@@ -1,0 +1,11 @@
+{
+  "key": "0954ad74d1c293c4d9dc0151082c72ef719d65c7fda6b4159a51f5f1568c156e",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:11.355Z",
+  "value": {
+    "matchIndex": 1,
+    "relation": "b_broader_than_a",
+    "reason": "Revenue from services YoY is a specific instance of revenue growth, making the generic revenue growth label broader"
+  }
+}

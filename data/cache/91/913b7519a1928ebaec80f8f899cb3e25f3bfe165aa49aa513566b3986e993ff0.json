@@ -1,0 +1,11 @@
+{
+  "key": "913b7519a1928ebaec80f8f899cb3e25f3bfe165aa49aa513566b3986e993ff0",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:03:34.538Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "different"
+  }
+}

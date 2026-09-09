@@ -1,0 +1,11 @@
+{
+  "key": "e866d84b4db732f65f8dfd947823c313138b48fc9f4bd22486dccb455b359999",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:22.740Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "QoQ revenue differs from YoY revenue and other candidates measure shipments or services"
+  }
+}

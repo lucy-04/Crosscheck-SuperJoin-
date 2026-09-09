@@ -1,0 +1,11 @@
+{
+  "key": "d83c2819f667e3269431fe0f6920a6a478edf995942584c5481cc325bcca8593",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:03:33.829Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "same",
+    "reason": "The candidate 'B Delhivery Limited' appears to be a typo or data entry error for 'Delhivery Limited', referring to the same entity."
+  }
+}

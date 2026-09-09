@@ -1,0 +1,68 @@
+{
+  "key": "150fc807f1c21b60c8671dc4e83002caa75246d20ca8c9c971217a8bb060e7f4",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T03:06:46.078Z",
+  "value": [
+    {
+      "claim": "Delhivery's opening defined benefit obligation was INR 544.73 million as at March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "opening defined benefit obligation",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "544.73",
+        "number": 544.73,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Opening defined benefit obligation             544.73",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's opening defined benefit obligation was INR 402.60 million as at March 31, 2023.",
+      "subject": "Delhivery",
+      "predicate": "opening defined benefit obligation",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "402.60",
+        "number": 402.6,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2023",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Opening defined benefit obligation             402.60",
+      "confidence": 1
+    },
+    {
+      "claim": "Delhivery's past service cost was INR 25.69 million as at March 31, 2024.",
+      "subject": "Delhivery",
+      "predicate": "past service cost",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "25.69",
+        "number": 25.69,
+        "unit": null,
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": "March 31, 2024",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Past service cost             25.69",
+      "confidence": 1
+    }
+  ]
+}

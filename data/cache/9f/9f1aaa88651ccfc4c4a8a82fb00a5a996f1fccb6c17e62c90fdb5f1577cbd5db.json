@@ -1,0 +1,11 @@
+{
+  "key": "9f1aaa88651ccfc4c4a8a82fb00a5a996f1fccb6c17e62c90fdb5f1577cbd5db",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:07.290Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Revenue from services is a revenue component, while revenue growth measures change over time"
+  }
+}

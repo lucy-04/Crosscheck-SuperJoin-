@@ -1,0 +1,194 @@
+{
+  "key": "e9caca13e6b9482723a003f3f158b82930c84b62d1bd1bdadb29f98da5f6d7f3",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T03:45:50.634Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited reported revenue from operations of 8,141.7 for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "revenue from operations",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,141.7",
+        "number": 8141.7,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "scale:crore",
+        "currency:INR"
+      ],
+      "quote": "Revenue  from  operations             8,141.7",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported other income of 249.2 for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "other income",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "249.2",
+        "number": 249.2,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "scale:crore",
+        "currency:INR"
+      ],
+      "quote": "Other  income             249.2",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported EBITDA of 127.0 for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "127.0",
+        "number": 127,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "scale:crore",
+        "currency:INR"
+      ],
+      "quote": "EBITDA             127.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported a profit after tax of (249.1) for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "profit after tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(249.1)",
+        "number": 249.1,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "scale:crore",
+        "currency:INR"
+      ],
+      "quote": "Profit  after  tax             (249.1)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported revenue from operations of 7,225.3 for the year ended March 31, 2023.",
+      "subject": "Delhivery Limited",
+      "predicate": "revenue from operations",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,225.3",
+        "number": 7225.3,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2023",
+      "basis": [
+        "consolidated",
+        "scale:crore",
+        "currency:INR"
+      ],
+      "quote": "Revenue  from  operations             7,225.3",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported EBITDA of (452.0) for the year ended March 31, 2023.",
+      "subject": "Delhivery Limited",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(452.0)",
+        "number": 452,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2023",
+      "basis": [
+        "consolidated",
+        "scale:crore",
+        "currency:INR"
+      ],
+      "quote": "EBITDA             (452.0)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The registered office of Delhivery Limited is Plot 5, Sector 44, Gurgaon 122003, Haryana.",
+      "subject": "Delhivery Limited",
+      "predicate": "registered office",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Plot 5, Sector 44, Gurgaon 122003, Haryana",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "12 August 2024",
+      "basis": [],
+      "quote": "Registered  office:  Plot 5,  Sector 44,  Gurgaon 122003,  Haryana",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sahil Barua serves as Managing Director and Chief Executive Officer of Delhivery Limited.",
+      "subject": "Mr. Sahil Barua",
+      "predicate": "role",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Managing Director and Chief Executive Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "12 August 2024",
+      "basis": [],
+      "quote": "Mr.  Sahil  Barua  serves  as  Managing  Director  and  Chief  Executive  Officer.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Kapil Bharati serves as Executive Director and Chief Technology Officer of Delhivery Limited.",
+      "subject": "Mr. Kapil Bharati",
+      "predicate": "role",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Executive Director and Chief Technology Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "12 August 2024",
+      "basis": [],
+      "quote": "Mr.  Kapil  Bharati  serves  as  Executive  Director  and  Chief  Technology  Officer.",
+      "confidence": 0.95
+    }
+  ]
+}

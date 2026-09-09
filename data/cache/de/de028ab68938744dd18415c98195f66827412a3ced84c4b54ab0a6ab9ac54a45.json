@@ -1,0 +1,48 @@
+{
+  "key": "de028ab68938744dd18415c98195f66827412a3ced84c4b54ab0a6ab9ac54a45",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T03:02:15.449Z",
+  "value": [
+    {
+      "claim": "Delhivery's corporate identification number is L63090DL2011PLC221234.",
+      "subject": "Delhivery",
+      "predicate": "corporate identification number",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "L63090DL2011PLC221234",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "CIN: L63090DL2011PLC221234",
+      "confidence": 1
+    },
+    {
+      "claim": "All amounts are presented in Indian Rupees in million.",
+      "subject": "Delhivery",
+      "predicate": "amounts in indian rupees",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "million",
+        "number": null,
+        "unit": "Indian Rupees",
+        "scale": "million",
+        "currency": "INR"
+      },
+      "period": null,
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "All amounts in Indian Rupees in million, unless otherwise stated",
+      "confidence": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "key": "2ae17c29fba96c597cfd88705c297f05357bd8d16fffe45e3d78eb3af10e1e7e",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:10.023Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Growth of PTL freight tonnage is not the same as the tonnage itself nor comparable to express parcel shipments growth"
+  }
+}

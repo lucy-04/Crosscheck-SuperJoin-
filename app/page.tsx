@@ -14,6 +14,8 @@ interface Stats {
   unitsSkipped?: number;
   claims?: number;
   facts?: number;
+  /** Identical re-extractions of one printed value, stored once. */
+  duplicates?: number;
   quarantined?: number;
   cacheHits?: number;
   cacheMisses?: number;
@@ -40,7 +42,11 @@ export default function DocumentsPage() {
           value={facts}
           hint={grounded ? `${Math.round((facts / grounded) * 100)}% of extractions survived grounding` : undefined}
         />
-        <Stat label="Relations" value={totalRelations} hint="cross-document and intra-document" />
+        <Stat
+          label="Relations"
+          value={totalRelations}
+          hint="only pairs that actually relate — see below"
+        />
         <Stat label="Vocabulary" value={Object.values(registry).reduce((a, b) => a + b, 0)} hint="subjects · predicates · values" />
         <Stat label="Quarantined" value={totalQuarantined} hint="rejected by the grounding check" />
       </section>
@@ -72,6 +78,7 @@ export default function DocumentsPage() {
                   <th className="px-3 py-2 text-right font-medium">Pages</th>
                   <th className="px-3 py-2 text-right font-medium">Units</th>
                   <th className="px-3 py-2 text-right font-medium">Facts</th>
+                  <th className="px-3 py-2 text-right font-medium">Duplicates</th>
                   <th className="px-3 py-2 text-right font-medium">Quarantined</th>
                   <th className="px-3 py-2 text-right font-medium">Cache</th>
                   <th className="px-3 py-2 font-medium">Status</th>
@@ -98,6 +105,12 @@ export default function DocumentsPage() {
                         ) : null}
                       </td>
                       <td className="px-3 py-2 text-right tabular-nums">{s.facts ?? "—"}</td>
+                      <td
+                        className="px-3 py-2 text-right tabular-nums text-[var(--color-muted)]"
+                        title="Identical re-extractions of one printed value, stored once. Corroboration requires independent assertions."
+                      >
+                        {s.duplicates ?? "—"}
+                      </td>
                       <td className="px-3 py-2 text-right tabular-nums text-[var(--color-muted)]">
                         {s.quarantined ?? "—"}
                       </td>
@@ -138,6 +151,14 @@ export default function DocumentsPage() {
           disagreement is only reported as a{" "}
           <strong className="text-[var(--color-ink)]">contradiction</strong> when no reconciling
           context can be found — see <Link href="/relations" className="underline">Relations</Link>.
+        </p>
+        <p className="mt-2 text-[var(--color-muted)]">
+          <strong className="text-[var(--color-ink)]">Few relations is the goal, not a gap.</strong>{" "}
+          An earlier build reported 151 of them and nearly all were noise: one figure read nine
+          times off a page &ldquo;corroborating&rdquo; itself, and every pair of adjacent quarters
+          filed as a reconciliation. Reporting a relation now requires that the pair would
+          genuinely be read as the same claim — a reconciliation must resolve an{" "}
+          <em>apparent</em> conflict, not merely note that two facts differ.
         </p>
       </section>
     </div>

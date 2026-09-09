@@ -1,0 +1,11 @@
+{
+  "key": "1efcc96ee0999e127968b93558f98a65a64515af4df91506f6ccedc3417628c6",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:08.791Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Express parcel shipments growth is a growth metric of shipments, not the same as shipments volume nor revenue growth"
+  }
+}

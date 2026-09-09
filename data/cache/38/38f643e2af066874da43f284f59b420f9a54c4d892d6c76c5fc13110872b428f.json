@@ -1,0 +1,11 @@
+{
+  "key": "38f643e2af066874da43f284f59b420f9a54c4d892d6c76c5fc13110872b428f",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:15:38.319Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "b_broader_than_a",
+    "reason": "Total Expenses aggregates vehicle rental expenses"
+  }
+}

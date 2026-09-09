@@ -1,0 +1,11 @@
+{
+  "key": "d49767513d64abbb9d9b63fcc09a83d14abee3508867c58fe3bd3783e2473c94",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:17.331Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "a_broader_than_b",
+    "reason": "YoY is a generic year‑over‑year change, while the candidate is a specific YoY of revenue from services"
+  }
+}

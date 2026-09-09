@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {
+  countFacts,
   getDocument,
   getFact,
   getPage,
@@ -119,14 +120,27 @@ export default async function RelationsPage({
   const { verdict } = await searchParams;
   const counts = relationCounts();
   const relations = listRelations({ verdict, limit: 60 });
+  const total = Object.values(counts).reduce((a, b) => a + b, 0);
+  const facts = countFacts();
 
   return (
     <div className="space-y-4">
       <div>
         <h1 className="text-[16px] font-semibold">Relations</h1>
-        <p className="text-[13px] text-[var(--color-muted)]">
+        <p className="max-w-4xl text-[13px] text-[var(--color-muted)]">
           Every pair the engine judged, with the reasoning that produced the verdict. A contradiction
           here means a reconciling context was searched for and not found.
+        </p>
+        <p className="mt-2 max-w-4xl text-[13px] text-[var(--color-muted)]">
+          <strong className="text-[var(--color-ink)]">
+            {total} relations from {facts} facts is deliberate.
+          </strong>{" "}
+          Pairs are only reported when they genuinely relate. A reconciliation must resolve an{" "}
+          <em>apparent</em> conflict — the two claims have to be confusable in the first place, so
+          a quarter against the year containing it qualifies while Q1 against Q2 does not.
+          Corroboration requires <em>independent</em> assertions, so one figure read repeatedly off
+          a single page counts once. An earlier build without those tests reported 151 relations,
+          of which roughly nine in ten were noise.
         </p>
       </div>
 
@@ -139,7 +153,7 @@ export default async function RelationsPage({
               : "border-[var(--color-line)] text-[var(--color-muted)]"
           }`}
         >
-          All ({Object.values(counts).reduce((a, b) => a + b, 0)})
+          All ({total})
         </Link>
         {VERDICT_ORDER.filter((v) => counts[v]).map((v) => (
           <Link

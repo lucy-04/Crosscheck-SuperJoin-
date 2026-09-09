@@ -92,13 +92,27 @@ export function modelChain(): string[] {
   return live.length ? live : chain.slice(-1);
 }
 
-/** Every model that may hold a cached answer, regardless of current quota. */
+/**
+ * Every model that might hold a cached answer.
+ *
+ * Deliberately NOT limited to the active provider. Two different questions were
+ * once conflated here: "which model should I call?" legitimately depends on which
+ * key is present, but "which models could have produced a cached answer?" does
+ * not — the cache may hold entries from any model ever used against this corpus.
+ *
+ * Tying the second question to the first broke the project's central promise:
+ * with no key the provider resolves to "none", the list came back empty, and a
+ * fully cached document reported 0% cached because the lookup checked nothing.
+ *
+ * Ordered so the preferred model is probed first, then everything else.
+ */
 export function allModels(): string[] {
   loadEnv();
   const explicit = process.env.CROSSCHECK_MODEL;
   const provider = activeProvider();
-  const chain = provider === "none" ? [] : MODEL_CHAIN[provider];
-  return explicit ? [explicit, ...chain.filter((m) => m !== explicit)] : chain;
+  const preferred = provider === "none" ? [] : MODEL_CHAIN[provider];
+  const everyKnown = Object.values(MODEL_CHAIN).flat();
+  return [...new Set([...(explicit ? [explicit] : []), ...preferred, ...everyKnown])];
 }
 
 /** Model id in use, for cache keys and for reporting. */

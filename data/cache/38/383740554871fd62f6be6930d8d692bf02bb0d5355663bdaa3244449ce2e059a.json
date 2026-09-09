@@ -1,0 +1,11 @@
+{
+  "key": "383740554871fd62f6be6930d8d692bf02bb0d5355663bdaa3244449ce2e059a",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T20:53:18.495Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "same",
+    "reason": "Both refer to revenue generated from services, excluding traded goods"
+  }
+}

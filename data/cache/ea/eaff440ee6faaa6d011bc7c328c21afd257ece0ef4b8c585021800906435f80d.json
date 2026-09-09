@@ -1,0 +1,11 @@
+{
+  "key": "eaff440ee6faaa6d011bc7c328c21afd257ece0ef4b8c585021800906435f80d",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:12:03.235Z",
+  "value": {
+    "matchIndex": 2,
+    "relation": "b_broader_than_a",
+    "reason": "Freight service centers are a broader category that includes express delivery centers."
+  }
+}

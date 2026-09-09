@@ -1,0 +1,11 @@
+{
+  "key": "00cc14c7c2466d250d7bc4309f07d7fe8446e1d1658742bbe33fa275e1fca059",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T03:46:06.868Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Profit after tax is a net earnings measure, not comparable to revenue metrics"
+  }
+}

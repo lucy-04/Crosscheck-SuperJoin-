@@ -1,0 +1,11 @@
+{
+  "key": "14dc62b7eee9eb76ab3b1a70878e5001419849a93b4f2e709e12cd5e1ed165c8",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:04:53.629Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "The names refer to two different individuals. 'Sandeep Kumar Barasia' and 'Sunil Kumar Bansal' have different first names and different surnames, indicating they are distinct people."
+  }
+}

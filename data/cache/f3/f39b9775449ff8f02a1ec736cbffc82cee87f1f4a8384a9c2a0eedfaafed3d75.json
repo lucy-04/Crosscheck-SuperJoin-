@@ -1,0 +1,11 @@
+{
+  "key": "f39b9775449ff8f02a1ec736cbffc82cee87f1f4a8384a9c2a0eedfaafed3d75",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:11:11.914Z",
+  "value": {
+    "matchIndex": 0,
+    "relation": "same",
+    "reason": "Both refer to the same count of active customers, just expressed differently"
+  }
+}

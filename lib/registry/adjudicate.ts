@@ -27,7 +27,7 @@
 import { generateObject } from "ai";
 import { z } from "zod";
 import { config, loadEnv } from "@/lib/env";
-import { languageModel } from "@/lib/model";
+import { isExhausted, languageModel, markExhausted, modelChain } from "@/lib/model";
 import { estimateTokens, getRateLimiter } from "@/lib/rate-limit";
 import { cacheKey, readCache, writeCache } from "@/lib/extract/cache";
 import type { Namespace } from "./store";
@@ -147,10 +147,23 @@ export async function adjudicateAgainst(
     };
   }
 
+  // A key that exists but has no budget left is worse than no key at all: every
+  // call still waits for a rate-limit slot before being rejected, so hundreds of
+  // doomed adjudications turn a seconds-long reconcile into a many-minute one.
+  // Extraction already discovers and records which models are spent; reuse that.
+  if (modelChain().every(isExhausted)) {
+    return {
+      matchIndex: null,
+      relation: "different",
+      reason: "Daily quota exhausted on every configured model; not adjudicated",
+      fallback: true,
+    };
+  }
+
   try {
     await getRateLimiter(config.limits).acquire(estimateTokens(PROMPTS[namespace] + list, 200));
     const { object } = await generateObject({
-      model: languageModel(),
+      model: languageModel(model),
       schema: schemaFor(namespace),
       system: PROMPTS[namespace],
       prompt: `LABEL: ${label}\n\nCANDIDATES:\n${list}`,
@@ -167,7 +180,12 @@ export async function adjudicateAgainst(
 
     writeCache(key, result, { model, promptVersion: ADJUDICATE_VERSION });
     return result;
-  } catch {
+  } catch (err) {
+    const message = err instanceof Error ? err.message : String(err);
+    // Record a spent daily budget so the next few hundred labels skip the wait.
+    if (/tokens per day|TPD|per day \(|requests per day|RPD|free_tier_requests/i.test(message)) {
+      markExhausted(model);
+    }
     return { matchIndex: null, relation: "different", reason: "Adjudication failed", fallback: true };
   }
 }

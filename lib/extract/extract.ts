@@ -190,16 +190,34 @@ export async function extractUnits(
   let next = 0;
   let done = 0;
 
+  // A unit that needs the network with no key available is a per-unit failure,
+  // not a fatal one. A document that is 95% cached should yield its 95% rather
+  // than abort entirely — partial knowledge is the whole point of a committed
+  // cache. Only a document with NOTHING cached is a hard error worth raising.
+  let missingKey = 0;
+
   async function worker(): Promise<void> {
     for (;;) {
       const i = next++;
       if (i >= salient.length) return;
-      results[i] = await extractUnit(salient[i], opts, stats);
+      try {
+        results[i] = await extractUnit(salient[i], opts, stats);
+      } catch (err) {
+        if (err instanceof MissingApiKeyError) {
+          missingKey++;
+          results[i] = { unit: salient[i], claims: [], error: err.message.split("\n")[0] };
+        } else {
+          throw err;
+        }
+      }
       done++;
       opts.onProgress?.(done, salient.length, stats);
     }
   }
 
   await Promise.all(Array.from({ length: Math.min(limit, salient.length) }, worker));
+
+  if (salient.length && missingKey === salient.length) throw new MissingApiKeyError();
+
   return { results, stats };
 }

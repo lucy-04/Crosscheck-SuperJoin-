@@ -1,0 +1,11 @@
+{
+  "key": "c7bd8d9c79fd96861ee80b0800081de6f5e782bb235bf6a88eb1e6fb05d47b2f",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-08T21:11:13.070Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Freight service centers are locations, while the candidate is a cost measure"
+  }
+}

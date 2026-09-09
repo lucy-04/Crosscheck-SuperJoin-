@@ -21,7 +21,7 @@
 
 import type { DimensionDelta, Fact, Relation, Verdict } from "@/lib/types";
 import type { ValueComparison } from "./compare";
-import { computeDeltas, laterSide, provisionalSide, restatementSide } from "./algebra";
+import { computeDeltas, laterSide, narrowingsOf, provisionalSide, restatementSide } from "./algebra";
 
 export interface VerdictResult {
   verdict: Verdict;
@@ -53,7 +53,7 @@ function confidenceFor(a: Fact, b: Fact, base: number): number {
 }
 
 export function decide(a: Fact, b: Fact, value: ValueComparison): VerdictResult {
-  const { deltas } = computeDeltas(a, b);
+  const { deltas, periodRelation } = computeDeltas(a, b);
   const misaligned = coreMisaligned(deltas);
   const aligned = misaligned.length === 0;
 
@@ -77,12 +77,43 @@ export function decide(a: Fact, b: Fact, value: ValueComparison): VerdictResult 
     deltas,
   });
 
+  // ---- R-entity: the two claims are about different things ----------------
+  //
+  // A "key:value" qualifier names WHICH entity a fact concerns. When both sides
+  // name one and they differ, the pair describes two different subjects that the
+  // extractor happened to file under one — a committee member who "ceased to be a
+  // member" against a different member who "became" one is not a disagreement
+  // awaiting reconciliation, and neither is Express Parcel revenue against
+  // Part-Truckload revenue. Reporting these as reconciliations buried the real
+  // findings, exactly as unrelated quarters did.
+  const aNarrow = narrowingsOf(a);
+  const bNarrow = narrowingsOf(b);
+  if (aNarrow.length && bNarrow.length && aNarrow.join("|") !== bNarrow.join("|")) {
+    return mk(
+      "UNRELATED",
+      "R-different-entities",
+      "entityScope",
+      0.2,
+      `These describe different things, not the same thing measured differently: ` +
+        `${aNarrow.join(", ")} versus ${bNarrow.join(", ")}. No verdict is claimed.`,
+    );
+  }
+
   // ---- R0: the values were never comparable -------------------------------
   if (value.relation === "UNKNOWN") {
     // A units mismatch is a real, nameable reason two figures cannot be set
     // against each other — worth surfacing rather than discarding.
+    // A units mismatch is only a real explanation when BOTH sides actually
+    // carry a magnitude. If one value never parsed — a table cell reading "NA" —
+    // there is nothing to compare and nothing to reconcile.
+    const bothNumeric =
+      a.normalizedNumber !== null &&
+      b.normalizedNumber !== null &&
+      Number.isFinite(a.normalizedNumber) &&
+      Number.isFinite(b.normalizedNumber);
+
     const unitDelta = deltas.find((d) => d.dimension === "unit");
-    if (unitDelta && !unitDelta.aligned) {
+    if (bothNumeric && unitDelta && !unitDelta.aligned) {
       return mk(
         "RECONCILED",
         "R0-units",
@@ -103,6 +134,34 @@ export function decide(a: Fact, b: Fact, value: ValueComparison): VerdictResult 
       0.95,
       `Both sources state the same value for the same scope. ${value.detail}. ` +
         `${deltas.find((d) => d.dimension === "period")!.note}, and every other axis agrees.`,
+    );
+  }
+
+  // ---- R1b: same value, and the only gap is a boundary-dated period -------
+  //
+  // Filings head an annual column with its closing date ("March 31, 2023")
+  // instead of naming the year, so the same figure is an instant in one document
+  // and a fiscal year in another. Whether an instant means a stock "as at" that
+  // date or the flow for the year ending on it cannot be told from the string.
+  //
+  // Blocking resolves the ambiguity in practice: facts are only compared within
+  // one canonical measure, and a stock and a flow are never the same measure. So
+  // matching values on the same measure, one dated at the other's boundary, are
+  // overwhelmingly one fact stated two ways. Reported as corroboration, but at
+  // lower confidence and with the ambiguity named rather than hidden.
+  if (
+    value.relation === "SAME" &&
+    periodRelation === "BOUNDARY" &&
+    misaligned.every((d) => d.dimension === "period")
+  ) {
+    return mk(
+      "CORROBORATES",
+      "R1b-boundary-period",
+      "period",
+      0.75,
+      `Both sources state the same value for the same measure. ${value.detail}. ` +
+        `${deltas.find((d) => d.dimension === "period")!.note}. Treated as the same fact ` +
+        `stated two ways; the period labelling is ambiguous, so confidence is reduced.`,
     );
   }
 
@@ -133,8 +192,43 @@ export function decide(a: Fact, b: Fact, value: ValueComparison): VerdictResult 
   // From here the values genuinely differ or are mutually exclusive.
   const differing = value.relation === "DIFFERENT" || value.relation === "EXCLUSIVE";
 
-  // ---- R4: a scope difference explains the gap ----------------------------
+  // ---- R4: a scope difference explains an APPARENT conflict ---------------
+  //
+  // The word that does the work is "apparent". A reconciliation is only
+  // interesting if the pair would first be READ as a conflict — otherwise the
+  // engine is just announcing that two unrelated facts are unrelated, at volume.
+  //
+  // The test is confusability. Q1 FY23 revenue against Q2 FY23 revenue is not an
+  // apparent contradiction: the periods are disjoint siblings and no reader would
+  // take one for the other. But FY24 against Q4 FY24 IS — both get called "FY24
+  // revenue" in conversation, and the containment is exactly what explains the
+  // gap. Likewise two figures for the SAME period differing only in basis or
+  // unit look like a conflict until the axis is named.
+  //
+  // Without this test the engine reported 92 "reconciliations" that were merely
+  // pairs of different quarters, burying the handful of real ones.
   if (differing && !aligned) {
+    const periodConfusable =
+      periodRelation === "EQUAL" ||
+      periodRelation === "BOUNDARY" ||
+      periodRelation === "A_CONTAINS_B" ||
+      periodRelation === "B_CONTAINS_A" ||
+      periodRelation === "OVERLAP";
+
+    if (!periodConfusable) {
+      const periodDelta = deltas.find((d) => d.dimension === "period")!;
+      return mk(
+        "UNRELATED",
+        periodRelation === "MISSING" ? "R4-unscoped" : "R4-different-times",
+        "period",
+        0.2,
+        periodRelation === "MISSING"
+          ? `At least one claim carries no period, so there is nothing to reconcile against. ${periodDelta.note}.`
+          : `Not a disagreement and not a reconciliation — simply two different facts. ` +
+            `${periodDelta.note}, so neither would be read as the other.`,
+      );
+    }
+
     const axis = misaligned[0];
     return mk(
       "RECONCILED",

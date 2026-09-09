@@ -231,6 +231,22 @@ function parseInstant(s: string): string | null {
 export function comparePeriods(a: Period | null, b: Period | null): PeriodRelation {
   if (!a || !b) return "MISSING";
   if (a.start === b.start && a.end === b.end) return "EQUAL";
+
+  // An instant sitting exactly on the other period's closing date.
+  //
+  // Financial statements routinely head an annual column with its closing date
+  // ("March 31, 2024") rather than naming the year, so the same figure appears
+  // as an instant in one document and as a fiscal year in another. Which is
+  // meant — a stock "as at" that date, or the flow for the year ending on it —
+  // cannot be told from the string alone, so this is reported as its own
+  // relation for the caller to weigh rather than silently resolved either way.
+  const aInstant = a.start === a.end;
+  const bInstant = b.start === b.end;
+  if (aInstant !== bInstant) {
+    const instant = aInstant ? a : b;
+    const span = aInstant ? b : a;
+    if (instant.start === span.end) return "BOUNDARY";
+  }
   const aContainsB = a.start <= b.start && a.end >= b.end;
   if (aContainsB) return "A_CONTAINS_B";
   const bContainsA = b.start <= a.start && b.end >= a.end;

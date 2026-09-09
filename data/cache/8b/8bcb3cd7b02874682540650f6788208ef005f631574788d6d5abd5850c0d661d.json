@@ -1,0 +1,245 @@
+{
+  "key": "8bcb3cd7b02874682540650f6788208ef005f631574788d6d5abd5850c0d661d",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T02:57:28.841Z",
+  "value": [
+    {
+      "claim": "The CSR & Sustainability Committee comprises 1 independent Director and 2 Executive Directors.",
+      "subject": "Delhivery Limited",
+      "predicate": "committee composition",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "1 independent Director and 2 Executive Directors",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee"
+      ],
+      "quote": "comprises of 1 independent Director and 2 Executive Directors.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "One meeting of the CSR & Sustainability Committee was held during FY24.",
+      "subject": "Delhivery Limited",
+      "predicate": "number of meetings held",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "1 (one)",
+        "number": 1,
+        "unit": "meeting",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee"
+      ],
+      "quote": "During FY24, 1 (one) meeting of the Committee was held",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The CSR & Sustainability Committee meeting was held on August 04, 2023.",
+      "subject": "Delhivery Limited",
+      "predicate": "date of meeting",
+      "factType": "state",
+      "value": {
+        "kind": "date",
+        "raw": "August 04, 2023",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee"
+      ],
+      "quote": "i.e., on August 04, 2023",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Aruna Sundararajan attended 1 out of 1 meeting of the CSR & Sustainability Committee during FY24.",
+      "subject": "Delhivery Limited",
+      "predicate": "meetings attended",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "1",
+        "number": 1,
+        "unit": "meeting",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee",
+        "member:Mr. Aruna Sundararajan"
+      ],
+      "quote": "Ms. Aruna Sundararajan     Independent Director            1          1",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sahil Barua attended 1 out of 1 meeting of the CSR & Sustainability Committee during FY24.",
+      "subject": "Delhivery Limited",
+      "predicate": "meetings attended",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "1",
+        "number": 1,
+        "unit": "meeting",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee",
+        "member:Mr. Sahil Barua"
+      ],
+      "quote": "Mr. Sahil Barua    Executive Director            1          1",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sandeep Kumar Barasia attended 1 out of 1 meeting of the CSR & Sustainability Committee during FY24.",
+      "subject": "Delhivery Limited",
+      "predicate": "meetings attended",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "1",
+        "number": 1,
+        "unit": "meeting",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee",
+        "member:Mr. Sandeep Kumar Barasia"
+      ],
+      "quote": "Mr. Sandeep      Executive Director            1          1",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Kapil Bharati did not attend any meetings of the CSR & Sustainability Committee during FY24.",
+      "subject": "Delhivery Limited",
+      "predicate": "meetings attended",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "NA",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee",
+        "member:Mr. Kapil Bharati"
+      ],
+      "quote": "Mr. Kapil         Executive Director         NA       NA",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sandeep Kumar Barasia ceased to be a member of the CSR & Sustainability Committee with effect from July 01, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "committee membership status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "ceased to be a member",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "July 01, 2024",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee",
+        "member:Mr. Sandeep Kumar Barasia"
+      ],
+      "quote": "1 Mr. Sandeep Kumar Barasia ceased to be a member of the Committee",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Kapil Bharati became a member of the CSR & Sustainability Committee with effect from July 01, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "committee membership status",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "became a member",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "July 01, 2024",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:CSR & Sustainability Committee",
+        "member:Mr. Kapil Bharati"
+      ],
+      "quote": "and Mr. Kapil Bharati became a member of the Committee in his place with effect from July 01, 2024.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "The M&A Committee was composed of 2 Independent Directors, 1 Non-Executive Director and the Managing Director & CEO.",
+      "subject": "Delhivery Limited",
+      "predicate": "committee composition",
+      "factType": "state",
+      "value": {
+        "kind": "categorical",
+        "raw": "2 Independent Directors, 1 Non-Executive Director and the Managing Director & CEO",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:M&A Committee"
+      ],
+      "quote": "The M&A Committee was composed of 2 Independent Directors, 1 Non-Executive Director and the Managing Director & CEO.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "No meetings of the M&A Committee were held during FY24.",
+      "subject": "Delhivery Limited",
+      "predicate": "number of meetings held",
+      "factType": "state",
+      "value": {
+        "kind": "number",
+        "raw": "No meetings",
+        "number": 0,
+        "unit": "meeting",
+        "scale": null,
+        "currency": null
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Corporate Governance",
+        "committee:M&A Committee"
+      ],
+      "quote": "No meetings of the M&A Committee were held during FY24.",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -37,6 +37,8 @@ export interface IngestStats {
   extractionErrors: number;
   claims: number;
   facts: number;
+  /** Identical re-extractions of one printed value, stored once. */
+  duplicates: number;
   quarantined: number;
   quarantineByReason: Record<string, number>;
   cacheHits: number;
@@ -54,8 +56,12 @@ export interface IngestOptions extends ExtractOptions {
  * Filings rarely set a PDF title, so fall back to the filename. Better a
  * readable "Delhivery Annual Report Fy24" than a null the model cannot use for
  * context — the document title is part of what tells it who a fact is about.
+ *
+ * Exported because the title is embedded in the extraction prompt and therefore
+ * in the cache key. Anything that reconstructs a cache key MUST call this rather
+ * than reimplement it: a near-identical second copy silently misses every entry.
  */
-function titleFromFilename(filename: string): string {
+export function titleFromFilename(filename: string): string {
   return path
     .basename(filename, path.extname(filename))
     .replace(/^\d+[-_]/, "")
@@ -123,8 +129,31 @@ export async function ingestPdf(
   let claims = 0;
   let facts = 0;
   let quarantined = 0;
+  let duplicates = 0;
   let extractionErrors = 0;
   const quarantineByReason: Record<string, number> = {};
+
+  /**
+   * Identical claims already stored for this document.
+   *
+   * Page-sized units overlap in what they see, and a figure printed once is often
+   * returned several times — one page yielded the same tonnage nine times. Stored
+   * as nine facts they generate C(9,2) = 36 pairs that all "corroborate" each
+   * other, drowning the one real cross-document corroboration in noise.
+   *
+   * Corroboration means INDEPENDENT assertions. The same value, same scope, same
+   * page is one assertion read repeatedly, so it is stored once.
+   */
+  const seen = new Set<string>();
+  const identityOf = (c: ScopedClaim) =>
+    [
+      c.subject.toLowerCase().trim(),
+      c.predicate.toLowerCase().trim(),
+      "raw" in c.value ? c.value.raw.trim() : "",
+      c.scope.period?.raw ?? "",
+      [...c.scope.basis].sort().join(","),
+      c.evidence.pageNumber,
+    ].join("|");
 
   for (const result of results) {
     if (!result) continue;
@@ -166,6 +195,13 @@ export async function ingestPdf(
         continue;
       }
 
+      const identity = identityOf(claim);
+      if (seen.has(identity)) {
+        duplicates++;
+        continue;
+      }
+      seen.add(identity);
+
       const normalized = claim.value.kind === "number" ? normalizeNumber(claim.value) : null;
 
       insertFact({
@@ -196,6 +232,7 @@ export async function ingestPdf(
     extractionErrors,
     claims,
     facts,
+    duplicates,
     quarantined,
     quarantineByReason,
     cacheHits: cacheStats.hits,

@@ -14,10 +14,10 @@
  * stops producing one, this prints nothing for that case rather than pretending.
  */
 
-import { readdirSync, statSync } from "node:fs";
+import { readdirSync, readFileSync, statSync } from "node:fs";
 import path from "node:path";
 import { loadEnv, config } from "@/lib/env";
-import { ingestPdf } from "@/lib/ingest/ingest";
+import { ingestPdf, titleFromFilename } from "@/lib/ingest/ingest";
 import { reconcile } from "@/lib/reason/reconcile";
 import {
   countFacts,
@@ -32,9 +32,54 @@ import {
 } from "@/lib/db/repo";
 import { registryCounts } from "@/lib/registry/store";
 import { closeDb } from "@/lib/db/client";
+import { parsePdf } from "@/lib/ingest/parse";
+import { segmentDocument, renderUnitForPrompt } from "@/lib/ingest/segment";
+import { cacheKey, readCache } from "@/lib/extract/cache";
+import { PROMPT_VERSION } from "@/lib/extract/schema";
+import { allModels } from "@/lib/model";
 import type { Fact, Relation } from "@/lib/types";
 
 const BAR = "─".repeat(78);
+
+/**
+ * A document must be at least this cached to be worth replaying.
+ *
+ * Not 100%: a partially cached document still contributes every page it has, and
+ * cross-document relations need at least two documents loaded. Set low enough to
+ * admit a document whose ingest was cut short by a daily token budget, high
+ * enough that a document with a handful of stray pages is skipped rather than
+ * quietly misrepresenting itself.
+ */
+const MIN_COVERAGE = 0.5;
+
+const skipped: string[] = [];
+
+/**
+ * What fraction of a document's extraction units already have a cached response?
+ *
+ * Parsing and segmenting are free and deterministic, so this can be answered
+ * exactly — without calling anything — by rebuilding the prompts and probing the
+ * cache under every model in the chain.
+ */
+async function cacheCoverage(file: string): Promise<{ fraction: number; total: number }> {
+  const doc = await parsePdf(new Uint8Array(readFileSync(file)));
+  // MUST match how ingestPdf builds the title, or the prompts differ and every
+  // cache lookup misses. Same function, not an equivalent one.
+  const title = doc.title ?? titleFromFilename(path.basename(file));
+  const { units } = segmentDocument(doc.pages, title);
+  const salient = units.filter((u) => u.salient);
+  if (!salient.length) return { fraction: 1, total: 0 };
+
+  let hits = 0;
+  for (const unit of salient) {
+    const prompt = renderUnitForPrompt(unit);
+    const found = allModels().some((m) =>
+      readCache(cacheKey({ model: m, promptVersion: PROMPT_VERSION, kind: "extract", payload: prompt })),
+    );
+    if (found) hits++;
+  }
+  return { fraction: hits / salient.length, total: salient.length };
+}
 
 function pdfs(dir: string): string[] {
   const out: string[] = [];
@@ -140,7 +185,10 @@ async function main() {
       continue;
     }
 
-    process.stdout.write(`  + ${path.basename(file)} … `);
+    const partial = coverage.fraction < 0.99
+      ? ` (${Math.round(coverage.fraction * 100)}% cached — the rest needs a key)`
+      : "";
+    process.stdout.write(`  + ${path.basename(file)}${partial} … `);
     try {
       const { stats } = await ingestPdf(file, { force: true });
       console.log(`${stats.facts} facts, ${stats.quarantined} quarantined, ${stats.seconds}s`);
