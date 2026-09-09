@@ -22,3 +22,6 @@ data/uploads/
 #   data/cache/       committed LLM response cache — lets anyone reproduce every
 #                     result in this repo with no API key at all
 #   data/knowledge.db committed pre-built demo database
+
+progress.md
+
