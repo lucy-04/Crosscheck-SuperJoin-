@@ -1,0 +1,11 @@
+{
+  "key": "deb0fef9923e75eff88c2f8c14fa83978c6a9e2dfc13e873a51674f68fb659d2",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T04:43:48.140Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "The titles refer to different senior positions and functions, not the same or broader/narrower role"
+  }
+}

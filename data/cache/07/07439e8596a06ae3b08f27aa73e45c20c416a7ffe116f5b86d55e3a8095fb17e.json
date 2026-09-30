@@ -1,0 +1,11 @@
+{
+  "key": "07439e8596a06ae3b08f27aa73e45c20c416a7ffe116f5b86d55e3a8095fb17e",
+  "model": "openai/gpt-oss-120b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T04:43:49.639Z",
+  "value": {
+    "matchIndex": null,
+    "relation": "different",
+    "reason": "Neither candidate matches the exact combination of Executive Director and Chief Business Officer"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "key": "490f234b7f57d4808fd89cea46b40eb4ab79e9fefc822ee7fac40dc320e95a49",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T05:03:15.067Z",
+  "value": [
+    {
+      "claim": "EBITDA",
+      "subject": "Company",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "934.0",
+        "number": 934,
+        "unit": "INR crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Express Parcel"
+      ],
+      "quote": "Express  Parcel  EBITDA,  FY24             934.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA",
+      "subject": "Company",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(46.0)",
+        "number": 46,
+        "unit": "INR crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Part Truckload"
+      ],
+      "quote": "Part  Truckload  EBITDA,  FY24             (46.0)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA",
+      "subject": "Company",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "53.0",
+        "number": 53,
+        "unit": "INR crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Supply Chain Services"
+      ],
+      "quote": "Supply  Chain  Services  EBITDA,  FY24             53.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sahil Barua is Managing Director and Chief Executive Officer of the Company.",
+      "subject": "Mr. Sahil Barua",
+      "predicate": "role",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Managing Director and Chief Executive Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "Mr.  Sahil  Barua  is  Managing  Director  and  Chief  Executive\nOfficer  of  the  Company.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Kapil Bharati is Executive Director and Chief Technology Officer.",
+      "subject": "Mr. Kapil Bharati",
+      "predicate": "role",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Executive Director and Chief Technology Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "Mr.  Kapil  Bharati  is  Executive  Director  and  Chief  Technology\nOfficer.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Mr. Sandeep Kumar Barasia serves as Executive Director and Chief Business Officer.",
+      "subject": "Mr. Sandeep Kumar Barasia",
+      "predicate": "role",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Executive Director and Chief Business Officer",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "Mr.  Sandeep  Kumar  Barasia  serves  as  Executive  Director  and\nChief  Business  Officer.",
+      "confidence": 0.95
+    }
+  ]
+}

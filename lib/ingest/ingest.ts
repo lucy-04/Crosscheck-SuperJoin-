@@ -64,6 +64,12 @@ export interface IngestOptions extends ExtractOptions {
 export function titleFromFilename(filename: string): string {
   return path
     .basename(filename, path.extname(filename))
+    // Uploads are stored as "up_<random id>_original-name.pdf" so two files of
+    // the same name cannot collide on disk. That id must NOT reach the title:
+    // the title goes into the extraction prompt and therefore into the cache
+    // key, so leaving it in means the same PDF uploaded twice never hits its own
+    // cache, re-pays for extraction, and returns different facts each time.
+    .replace(/^up_[a-z0-9]+_/i, "")
     .replace(/^\d+[-_]/, "")
     .replace(/[-_]+/g, " ")
     .replace(/\b\w/g, (c) => c.toUpperCase())

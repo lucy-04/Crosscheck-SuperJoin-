@@ -115,6 +115,25 @@ export function allModels(): string[] {
   return [...new Set([...(explicit ? [explicit] : []), ...preferred, ...everyKnown])];
 }
 
+/**
+ * Per-model ceiling on generated tokens.
+ *
+ * Providers meter OUTPUT separately from total throughput, and the limits differ
+ * sharply between models on the same key: Groq allows 1,000 output tokens per
+ * minute on `qwen3.8-27b` but far more on the gpt-oss models. Sending one global
+ * cap means every request to the strictest model is rejected as "too large"
+ * before it runs — a whole model in the fallback chain rendered useless by a
+ * constant chosen for a different one.
+ */
+const OUTPUT_CAP: Record<string, number> = {
+  "qwen/qwen3.8-27b": 900,
+  "qwen/qwen3.6-27b": 900,
+};
+
+export function maxOutputTokensFor(model: string): number {
+  return OUTPUT_CAP[model] ?? 1800;
+}
+
 /** Model id in use, for cache keys and for reporting. */
 export function modelId(): string {
   return modelChain()[0] ?? "none";

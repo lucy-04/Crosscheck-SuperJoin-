@@ -1,11 +1,7 @@
 # Setup
 
-How to install and run Crosscheck. For the design see [`plan.md`](plan.md); for
-current build state see [`progress.md`](progress.md).
-
-> ⚠️ **This document describes the finished system.** The build is in progress,
-> and some scripts and routes listed below do not exist yet. `progress.md` has
-> the authoritative list of what runs today.
+How to install and run Crosscheck. For the design and its trade-offs see
+[`approach.md`](approach.md).
 
 ## Requirements
 
@@ -39,10 +35,13 @@ Create `.env.local` in the project root:
 ```bash
 # Required only to ingest NEW documents. Every result already in this repo
 # replays from the committed cache without it — see "Running with no API key".
-ANTHROPIC_API_KEY=sk-ant-...
+# Set any ONE of these; the provider is chosen from whichever key is present.
+GROQ_API_KEY=gsk_...              # default model: openai/gpt-oss-120b
+ANTHROPIC_API_KEY=sk-ant-...      # default model: claude-haiku-4-5-20251001
+GEMINI_API_KEY=...                # default model: gemini-2.5-flash
 
 # Optional overrides
-CROSSCHECK_MODEL=claude-haiku-4-5-20251001   # extraction model
+CROSSCHECK_MODEL=openai/gpt-oss-120b         # extraction model
 CROSSCHECK_CONCURRENCY=8                     # parallel extraction calls
 CROSSCHECK_DB=./data/knowledge.db            # database location
 CROSSCHECK_EMBED=ollama                      # 'ollama' | 'off'
@@ -73,8 +72,9 @@ no key and no cost:
 npm run demo
 ```
 
-This ingests all six starter PDFs, rebuilds the knowledge layer, and prints the
-four required cases. If a key *is* present, cache hits still short-circuit — you
+This replays every starter PDF the cache covers (currently the FY24 annual report
+and the Q4 FY24 earnings deck; documents less than half cached are skipped and
+listed), rebuilds the knowledge layer, and prints the four required cases. If a key *is* present, cache hits still short-circuit — you
 only pay for documents the cache has never seen.
 
 ## The app
@@ -83,9 +83,10 @@ only pay for documents the cache has never seen.
 npm run dev          # http://localhost:3000
 ```
 
-Four screens: **Documents** (upload, ingest progress), **Facts** (browse with
-source evidence), **Relations** (the verdicts and the reasoning behind each), and
-**Registry** (the vocabulary as it grows).
+Five screens: **Documents** (upload, ingest progress), **Relations** (the verdicts
+and the reasoning behind each), **Facts** (browse with source evidence),
+**Vocabulary** (the registry as it grows), and **Quarantine** (every extraction
+the grounding check rejected, and why).
 
 To add a document, drag a PDF onto the Documents screen. Requires an API key,
 since an unseen document has no cache entries.
@@ -95,7 +96,7 @@ since an unseen document has no cache entries.
 | Command | What it does |
 |---|---|
 | `npm run dev` | Start the web UI and API. |
-| `npm run demo` | Ingest the six starter PDFs and print the four required cases. |
+| `npm run demo` | Replay the cached starter PDFs and print the four required cases. |
 | `npm run ingest <path.pdf>` | Ingest one document from the command line. |
 | `npm run reconcile` | Re-run reasoning over all stored facts. Deterministic, no LLM. |
 | `npm test` | Run the unit tests over the deterministic core. |
@@ -120,8 +121,9 @@ since an unseen document has no cache entries.
 **`npm install` times out.** Retry with the longer-timeout command above; npm
 keeps what it already downloaded.
 
-**Ingest is slow on a 100-page PDF.** Expected on a cold cache: roughly 700
-extraction calls per document. Raise `CROSSCHECK_CONCURRENCY`, or use
+**Ingest is slow on a 100-page PDF.** Expected on a cold cache: one extraction
+call per page, paced by the provider's rate limit (about 510 calls for the whole
+starter corpus). Raise `CROSSCHECK_CONCURRENCY`, or use
 `npm run demo`, which replays from cache in seconds.
 
 **Embeddings unavailable.** Start Ollama (`ollama serve`) or set

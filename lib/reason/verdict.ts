@@ -12,10 +12,10 @@
  *     "in office" (2022 prospectus) vs "resigned" (FY24 report)
  *       -> compareValues returns EXCLUSIVE
  *       -> the vintage axis is misaligned
- *       -> R4 fires: SUPERSEDED, "the state changed between these two documents"
+ *       -> R6 fires: SUPERSEDED, "the state changed between these two documents"
  *
  * while two documents of the SAME vintage making those two claims would fall
- * through to R5 and be reported as a genuine contradiction. Same table, no
+ * through to R8 and be reported as a genuine contradiction. Same table, no
  * special-casing for non-numeric facts anywhere.
  */
 

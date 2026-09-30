@@ -10,7 +10,7 @@
 import { generateObject, NoObjectGeneratedError } from "ai";
 import type { ScopedClaim } from "@/lib/types";
 import { config, loadEnv } from "@/lib/env";
-import { allModels, isExhausted, languageModel, markExhausted, modelChain, providerOptions } from "@/lib/model";
+import { allModels, isExhausted, languageModel, markExhausted, maxOutputTokensFor, modelChain, providerOptions } from "@/lib/model";
 import { estimateTokens, getRateLimiter, retryAfterSeconds, sleep } from "@/lib/rate-limit";
 import { renderUnitForPrompt, type ExtractionUnit } from "@/lib/ingest/segment";
 import { cacheKey, CacheStats, readCache, writeCache } from "./cache";
@@ -59,6 +59,13 @@ const RETRYABLE = /rate.?limit|overloaded|timeout|ECONNRESET|fetch failed|5\d\d/
  * right response is to move down the chain rather than back off.
  */
 const DAILY_QUOTA = /tokens per day|TPD|per day \(|requests per day|RPD|free_tier_requests/i;
+
+/**
+ * The request itself is the wrong shape for this model — it exceeds a per-request
+ * or per-minute output ceiling. Unlike a rate limit, waiting changes nothing, so
+ * the only useful response is to try a different model.
+ */
+const REQUEST_TOO_LARGE = /request too large|too many tokens|context.{0,20}exceed/i;
 
 /**
  * Extract one unit, consulting the cache first.
@@ -118,9 +125,12 @@ export async function extractUnit(
           // default reserved several thousand tokens per call that we never used,
           // roughly halving throughput. This ceiling comfortably fits the fact
           // cap the prompt asks for.
-          maxOutputTokens: 1800,
+          maxOutputTokens: maxOutputTokensFor(candidate),
           providerOptions: providerOptions("extract"),
           abortSignal: opts.signal,
+          // Retries are handled by the loop below, which knows about the model
+          // chain. Letting the SDK retry too triples the cost of every failure.
+          maxRetries: 0,
         });
 
         writeCache(keyFor(candidate), object.facts, { model: candidate, promptVersion: PROMPT_VERSION });
@@ -129,10 +139,10 @@ export async function extractUnit(
         lastError = err;
         const message = err instanceof Error ? err.message : String(err);
 
-        // A spent DAILY budget will not refill within this run. Retrying is pure
-        // waste; the next model in the chain has its own budget, so move on and
-        // remember not to try this one again.
-        if (DAILY_QUOTA.test(message)) {
+        // Errors that describe the REQUEST rather than the moment. A daily budget
+        // will not refill within this run, and a request that exceeds a model's
+        // per-request ceiling will never fit. Both mean: stop asking this model.
+        if (DAILY_QUOTA.test(message) || REQUEST_TOO_LARGE.test(message)) {
           markExhausted(candidate);
           break;
         }

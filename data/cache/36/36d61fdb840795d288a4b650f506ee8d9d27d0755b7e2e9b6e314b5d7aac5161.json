@@ -1,0 +1,218 @@
+{
+  "key": "36d61fdb840795d288a4b650f506ee8d9d27d0755b7e2e9b6e314b5d7aac5161",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T04:43:27.080Z",
+  "value": [
+    {
+      "claim": "Revenue from services for the year ended March 31, 2024 was 8,142.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142.0",
+        "number": 8142,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Revenue  from  services             8,142.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA for the year ended March 31, 2024 was 127.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "127.0",
+        "number": 127,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "EBITDA             127.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Adjusted EBITDA for the year ended March 31, 2024 was 76.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Adjusted EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "76.0",
+        "number": 76,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Adjusted  EBITDA             76.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Profit after tax for the year ended March 31, 2024 was (249.1) crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Profit after tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(249.1)",
+        "number": 249.1,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Profit  after  tax             (249.1)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Revenue from services for the year ended March 31, 2023 was 7,225.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,225.0",
+        "number": 7225,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Revenue  from  services             7,225.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA for the year ended March 31, 2023 was (452.0) crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(452.0)",
+        "number": 452,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "EBITDA             (452.0)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Profit after tax for the year ended March 31, 2023 was (1,008.0) crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Profit after tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(1,008.0)",
+        "number": 1008,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Profit  after  tax             (1,008.0)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Revenue from services for Q4 FY24 was 2,194.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "2,194.0",
+        "number": 2194,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Revenue  from  services,  Q4  FY24             2,194.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Revenue from services for Q4 FY23 was 1,860.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "Revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "1,860.0",
+        "number": 1860,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY23",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "Revenue  from  services,  Q4  FY23             1,860.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA for Q4 FY24 was 129.0 crore.",
+      "subject": "Delhivery Limited",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "129.0",
+        "number": 129,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "Q4 FY24",
+      "basis": [
+        "consolidated",
+        "segment:Delhivery Limited"
+      ],
+      "quote": "EBITDA,  Q4  FY24             129.0",
+      "confidence": 0.95
+    }
+  ]
+}

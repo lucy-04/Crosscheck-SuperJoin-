@@ -404,7 +404,7 @@ ingest a single document.
 2 documents        226 facts        86 quarantined        72% grounding rate
 37 blocks          140 pairs compared                     6 relations
 154 predicates     19 subjects      2 values              413 cached responses
-76 unit tests passing
+78 unit tests passing
 ```
 
 Facts by kind: 159 quantities · 47 states · 13 identities · 7 dates.

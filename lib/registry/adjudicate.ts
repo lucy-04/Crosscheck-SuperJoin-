@@ -2,7 +2,7 @@
  * LLM adjudication of vocabulary candidates.
  *
  * Called only for the shortlist embeddings could not decide. The calibration that
- * forced this design (measured on the real label set, recorded in progress.md):
+ * forced this design (measured on the real label set):
  *
  *     0.6950  revenue from operations <-> number of employees   (different)
  *     0.6871  gurugram                <-> gurgaon               (same)

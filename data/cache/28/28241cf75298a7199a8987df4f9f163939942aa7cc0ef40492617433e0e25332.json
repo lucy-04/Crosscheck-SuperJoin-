@@ -1,0 +1,110 @@
+{
+  "key": "28241cf75298a7199a8987df4f9f163939942aa7cc0ef40492617433e0e25332",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T05:30:32.128Z",
+  "value": [
+    {
+      "claim": "Delhivery Limited reported revenue from services of 8,142.0 crore for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "8,142.0",
+        "number": 8142,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated",
+        "segment:services"
+      ],
+      "quote": "Revenue  from  services             8,142.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported EBITDA of 127.0 crore for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "127.0",
+        "number": 127,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "EBITDA             127.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported adjusted EBITDA of 76.0 crore for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "adjusted EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "76.0",
+        "number": 76,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Adjusted  EBITDA             76.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported a profit after tax of (249.1) crore for the year ended March 31, 2024.",
+      "subject": "Delhivery Limited",
+      "predicate": "profit after tax",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(249.1)",
+        "number": 249.1,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2024",
+      "basis": [
+        "consolidated"
+      ],
+      "quote": "Profit  after  tax             (249.1)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Delhivery Limited reported revenue from services of 7,225.0 crore for the year ended March 31, 2023.",
+      "subject": "Delhivery Limited",
+      "predicate": "revenue from services",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "7,225.0",
+        "number": 7225,
+        "unit": "crore",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "year ended March 31, 2023",
+      "basis": [
+        "consolidated",
+        "segment:services"
+      ],
+      "quote": "Revenue  from  services             7,225.0",
+      "confidence": 0.95
+    }
+  ]
+}

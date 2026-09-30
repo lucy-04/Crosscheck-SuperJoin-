@@ -1,0 +1,140 @@
+{
+  "key": "32621afd22c66b47dd3e95732df6da733378053cce5660d620f1455ddeadc38f",
+  "model": "qwen/qwen3.8-27b",
+  "promptVersion": "v2",
+  "createdAt": "2026-09-09T04:42:33.109Z",
+  "value": [
+    {
+      "claim": "EBITDA",
+      "subject": "Company",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "934.0",
+        "number": 934,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Express Parcel"
+      ],
+      "quote": "Express  Parcel  EBITDA,  FY24             934.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA",
+      "subject": "Company",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "(46.0)",
+        "number": 46,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Part Truckload"
+      ],
+      "quote": "Part  Truckload  EBITDA,  FY24             (46.0)",
+      "confidence": 0.95
+    },
+    {
+      "claim": "EBITDA",
+      "subject": "Company",
+      "predicate": "EBITDA",
+      "factType": "quantity",
+      "value": {
+        "kind": "number",
+        "raw": "53.0",
+        "number": 53,
+        "unit": "Rs.",
+        "scale": "crore",
+        "currency": "INR"
+      },
+      "period": "FY24",
+      "basis": [
+        "segment:Supply Chain Services"
+      ],
+      "quote": "Supply  Chain  Services  EBITDA,  FY24             53.0",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Managing Director and Chief Executive Officer",
+      "subject": "Mr. Sahil Barua",
+      "predicate": "Managing Director and Chief Executive Officer",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Mr. Sahil Barua",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "Mr.  Sahil  Barua  is  Managing  Director  and  Chief  Executive\nOfficer  of  the  Company.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Executive Director and Chief Technology Officer",
+      "subject": "Mr. Kapil Bharati",
+      "predicate": "Executive Director and Chief Technology Officer",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Mr. Kapil Bharati",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "Mr.  Kapil  Bharati  is  Executive  Director  and  Chief  Technology\nOfficer.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Executive Director and Chief Business Officer",
+      "subject": "Mr. Sandeep Kumar Barasia",
+      "predicate": "Executive Director and Chief Business Officer",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "Mr. Sandeep Kumar Barasia",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "Mr.  Sandeep  Kumar  Barasia  serves  as  Executive  Director  and\nChief  Business  Officer.",
+      "confidence": 0.95
+    },
+    {
+      "claim": "Statutory auditors",
+      "subject": "Company",
+      "predicate": "statutory auditors",
+      "factType": "identity",
+      "value": {
+        "kind": "entity",
+        "raw": "S.R. Batliboi and Associates LLP, Chartered Accountants",
+        "number": null,
+        "unit": null,
+        "scale": null,
+        "currency": null
+      },
+      "period": "current",
+      "basis": [],
+      "quote": "The  statutory  auditors  of  the  Company  are  S.R.  Batliboi  and\nAssociates  LLP,  Chartered  Accountants.",
+      "confidence": 0.95
+    }
+  ]
+}
